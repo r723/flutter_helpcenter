@@ -1,0 +1,35 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ZendeskSDKSocketClient
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import CommonCrypto
+import Foundation
+import Network
+import Swift
+import ZendeskSDKLogger
+@_exported import ZendeskSDKSocketClient
+import _Concurrency
+import _StringProcessing
+import zlib
+public protocol SocketClient {
+  var delegate: ZendeskSDKSocketClient.SocketClientDelegate? { get set }
+  func connect(url: Foundation.URL)
+  func disconnect()
+  func sendMessage(text: Swift.String)
+}
+public protocol SocketClientDelegate : AnyObject {
+  func didConnect(headers: [Swift.String : Swift.String])
+  func didDisconnect(reason: Swift.String, code: Swift.UInt16)
+  func didReceiveMessage(message: Swift.String)
+  func didReceiveData(data: Foundation.Data)
+  func didReceiveError(error: Swift.Error?)
+  func didReceiveCancelled()
+  func didReceivePeerClosed()
+}
+public struct SocketClientBuilder {
+  public init()
+  public func build() -> ZendeskSDKSocketClient.SocketClient
+}
+@_hasMissingDesignatedInitializers open class WebSocket {
+  @objc deinit
+}

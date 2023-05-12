@@ -1,0 +1,3187 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKHTTPClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ZendeskSDKLogger",
+        "printedName": "ZendeskSDKLogger",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKHTTPClient"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKHTTPClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HTTPHeader",
+        "printedName": "HTTPHeader",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "userAgent",
+            "printedName": "userAgent",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZendeskSDKHTTPClient.HTTPHeader.Type) -> (Swift.String) -> ZendeskSDKHTTPClient.HTTPHeader",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ZendeskSDKHTTPClient.HTTPHeader",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPHeader",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPHeader",
+                        "usr": "s:20ZendeskSDKHTTPClient10HTTPHeaderO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZendeskSDKHTTPClient.HTTPHeader.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPHeader",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPHeader",
+                        "usr": "s:20ZendeskSDKHTTPClient10HTTPHeaderO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20ZendeskSDKHTTPClient10HTTPHeaderO9userAgentyACSScACmF",
+            "mangledName": "$s20ZendeskSDKHTTPClient10HTTPHeaderO9userAgentyACSScACmF",
+            "moduleName": "ZendeskSDKHTTPClient",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "contentLength",
+            "printedName": "contentLength",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZendeskSDKHTTPClient.HTTPHeader.Type) -> (Swift.String) -> ZendeskSDKHTTPClient.HTTPHeader",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ZendeskSDKHTTPClient.HTTPHeader",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPHeader",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPHeader",
+                        "usr": "s:20ZendeskSDKHTTPClient10HTTPHeaderO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZendeskSDKHTTPClient.HTTPHeader.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPHeader",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPHeader",
+                        "usr": "s:20ZendeskSDKHTTPClient10HTTPHeaderO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20ZendeskSDKHTTPClient10HTTPHeaderO13contentLengthyACSScACmF",
+            "mangledName": "$s20ZendeskSDKHTTPClient10HTTPHeaderO13contentLengthyACSScACmF",
+            "moduleName": "ZendeskSDKHTTPClient",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "contentType",
+            "printedName": "contentType",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZendeskSDKHTTPClient.HTTPHeader.Type) -> (Swift.String) -> ZendeskSDKHTTPClient.HTTPHeader",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ZendeskSDKHTTPClient.HTTPHeader",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPHeader",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPHeader",
+                        "usr": "s:20ZendeskSDKHTTPClient10HTTPHeaderO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZendeskSDKHTTPClient.HTTPHeader.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPHeader",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPHeader",
+                        "usr": "s:20ZendeskSDKHTTPClient10HTTPHeaderO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20ZendeskSDKHTTPClient10HTTPHeaderO11contentTypeyACSScACmF",
+            "mangledName": "$s20ZendeskSDKHTTPClient10HTTPHeaderO11contentTypeyACSScACmF",
+            "moduleName": "ZendeskSDKHTTPClient",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "accept",
+            "printedName": "accept",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZendeskSDKHTTPClient.HTTPHeader.Type) -> (Swift.String) -> ZendeskSDKHTTPClient.HTTPHeader",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ZendeskSDKHTTPClient.HTTPHeader",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPHeader",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPHeader",
+                        "usr": "s:20ZendeskSDKHTTPClient10HTTPHeaderO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZendeskSDKHTTPClient.HTTPHeader.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPHeader",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPHeader",
+                        "usr": "s:20ZendeskSDKHTTPClient10HTTPHeaderO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20ZendeskSDKHTTPClient10HTTPHeaderO6acceptyACSScACmF",
+            "mangledName": "$s20ZendeskSDKHTTPClient10HTTPHeaderO6acceptyACSScACmF",
+            "moduleName": "ZendeskSDKHTTPClient",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "acceptEncoding",
+            "printedName": "acceptEncoding",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZendeskSDKHTTPClient.HTTPHeader.Type) -> (Swift.String) -> ZendeskSDKHTTPClient.HTTPHeader",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ZendeskSDKHTTPClient.HTTPHeader",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPHeader",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPHeader",
+                        "usr": "s:20ZendeskSDKHTTPClient10HTTPHeaderO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZendeskSDKHTTPClient.HTTPHeader.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPHeader",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPHeader",
+                        "usr": "s:20ZendeskSDKHTTPClient10HTTPHeaderO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20ZendeskSDKHTTPClient10HTTPHeaderO14acceptEncodingyACSScACmF",
+            "mangledName": "$s20ZendeskSDKHTTPClient10HTTPHeaderO14acceptEncodingyACSScACmF",
+            "moduleName": "ZendeskSDKHTTPClient",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "authorization",
+            "printedName": "authorization",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZendeskSDKHTTPClient.HTTPHeader.Type) -> (Swift.String) -> ZendeskSDKHTTPClient.HTTPHeader",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ZendeskSDKHTTPClient.HTTPHeader",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPHeader",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPHeader",
+                        "usr": "s:20ZendeskSDKHTTPClient10HTTPHeaderO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZendeskSDKHTTPClient.HTTPHeader.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPHeader",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPHeader",
+                        "usr": "s:20ZendeskSDKHTTPClient10HTTPHeaderO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20ZendeskSDKHTTPClient10HTTPHeaderO13authorizationyACSScACmF",
+            "mangledName": "$s20ZendeskSDKHTTPClient10HTTPHeaderO13authorizationyACSScACmF",
+            "moduleName": "ZendeskSDKHTTPClient",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "other",
+            "printedName": "other",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZendeskSDKHTTPClient.HTTPHeader.Type) -> (Swift.String, Swift.String) -> ZendeskSDKHTTPClient.HTTPHeader",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String, Swift.String) -> ZendeskSDKHTTPClient.HTTPHeader",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPHeader",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPHeader",
+                        "usr": "s:20ZendeskSDKHTTPClient10HTTPHeaderO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(field: Swift.String, value: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZendeskSDKHTTPClient.HTTPHeader.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPHeader",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPHeader",
+                        "usr": "s:20ZendeskSDKHTTPClient10HTTPHeaderO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20ZendeskSDKHTTPClient10HTTPHeaderO5otheryACSS_SStcACmF",
+            "mangledName": "$s20ZendeskSDKHTTPClient10HTTPHeaderO5otheryACSS_SStcACmF",
+            "moduleName": "ZendeskSDKHTTPClient",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20ZendeskSDKHTTPClient10HTTPHeaderO9hashValueSivp",
+            "mangledName": "$s20ZendeskSDKHTTPClient10HTTPHeaderO9hashValueSivp",
+            "moduleName": "ZendeskSDKHTTPClient",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ZendeskSDKHTTPClient10HTTPHeaderO9hashValueSivg",
+                "mangledName": "$s20ZendeskSDKHTTPClient10HTTPHeaderO9hashValueSivg",
+                "moduleName": "ZendeskSDKHTTPClient",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20ZendeskSDKHTTPClient10HTTPHeaderO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s20ZendeskSDKHTTPClient10HTTPHeaderO4hash4intoys6HasherVz_tF",
+            "moduleName": "ZendeskSDKHTTPClient",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPHeader",
+                "printedName": "ZendeskSDKHTTPClient.HTTPHeader",
+                "usr": "s:20ZendeskSDKHTTPClient10HTTPHeaderO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPHeader",
+                "printedName": "ZendeskSDKHTTPClient.HTTPHeader",
+                "usr": "s:20ZendeskSDKHTTPClient10HTTPHeaderO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20ZendeskSDKHTTPClient10HTTPHeaderO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s20ZendeskSDKHTTPClient10HTTPHeaderO2eeoiySbAC_ACtFZ",
+            "moduleName": "ZendeskSDKHTTPClient",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:20ZendeskSDKHTTPClient10HTTPHeaderO",
+        "mangledName": "$s20ZendeskSDKHTTPClient10HTTPHeaderO",
+        "moduleName": "ZendeskSDKHTTPClient",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKHTTPClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HTTPError",
+        "printedName": "HTTPError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "expectedEmptyResponse",
+            "printedName": "expectedEmptyResponse",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZendeskSDKHTTPClient.HTTPError.Type) -> (Foundation.Data) -> ZendeskSDKHTTPClient.HTTPError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.Data) -> ZendeskSDKHTTPClient.HTTPError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPError",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPError",
+                        "usr": "s:20ZendeskSDKHTTPClient9HTTPErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZendeskSDKHTTPClient.HTTPError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPError",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPError",
+                        "usr": "s:20ZendeskSDKHTTPClient9HTTPErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20ZendeskSDKHTTPClient9HTTPErrorO21expectedEmptyResponseyAC10Foundation4DataVcACmF",
+            "mangledName": "$s20ZendeskSDKHTTPClient9HTTPErrorO21expectedEmptyResponseyAC10Foundation4DataVcACmF",
+            "moduleName": "ZendeskSDKHTTPClient",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "noResponse",
+            "printedName": "noResponse",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZendeskSDKHTTPClient.HTTPError.Type) -> ZendeskSDKHTTPClient.HTTPError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPError",
+                    "printedName": "ZendeskSDKHTTPClient.HTTPError",
+                    "usr": "s:20ZendeskSDKHTTPClient9HTTPErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZendeskSDKHTTPClient.HTTPError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPError",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPError",
+                        "usr": "s:20ZendeskSDKHTTPClient9HTTPErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20ZendeskSDKHTTPClient9HTTPErrorO10noResponseyA2CmF",
+            "mangledName": "$s20ZendeskSDKHTTPClient9HTTPErrorO10noResponseyA2CmF",
+            "moduleName": "ZendeskSDKHTTPClient",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "failedToDecode",
+            "printedName": "failedToDecode",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZendeskSDKHTTPClient.HTTPError.Type) -> (Foundation.Data?, Foundation.HTTPURLResponse, Swift.Error) -> ZendeskSDKHTTPClient.HTTPError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.Data?, Foundation.HTTPURLResponse, Swift.Error) -> ZendeskSDKHTTPClient.HTTPError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPError",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPError",
+                        "usr": "s:20ZendeskSDKHTTPClient9HTTPErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(data: Foundation.Data?, response: Foundation.HTTPURLResponse, error: Swift.Error)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Foundation.Data?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Data",
+                                "printedName": "Foundation.Data",
+                                "usr": "s:10Foundation4DataV"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "HTTPURLResponse",
+                            "printedName": "Foundation.HTTPURLResponse",
+                            "usr": "c:objc(cs)NSHTTPURLResponse"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZendeskSDKHTTPClient.HTTPError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPError",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPError",
+                        "usr": "s:20ZendeskSDKHTTPClient9HTTPErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20ZendeskSDKHTTPClient9HTTPErrorO14failedToDecodeyAC10Foundation4DataVSg_So17NSHTTPURLResponseCs5Error_ptcACmF",
+            "mangledName": "$s20ZendeskSDKHTTPClient9HTTPErrorO14failedToDecodeyAC10Foundation4DataVSg_So17NSHTTPURLResponseCs5Error_ptcACmF",
+            "moduleName": "ZendeskSDKHTTPClient",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "unsuccessfulStatusCodeForRequest",
+            "printedName": "unsuccessfulStatusCodeForRequest",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZendeskSDKHTTPClient.HTTPError.Type) -> (Swift.Int, Foundation.Data?, Foundation.HTTPURLResponse) -> ZendeskSDKHTTPClient.HTTPError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int, Foundation.Data?, Foundation.HTTPURLResponse) -> ZendeskSDKHTTPClient.HTTPError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPError",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPError",
+                        "usr": "s:20ZendeskSDKHTTPClient9HTTPErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(statusCode: Swift.Int, data: Foundation.Data?, response: Foundation.HTTPURLResponse)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Foundation.Data?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Data",
+                                "printedName": "Foundation.Data",
+                                "usr": "s:10Foundation4DataV"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "HTTPURLResponse",
+                            "printedName": "Foundation.HTTPURLResponse",
+                            "usr": "c:objc(cs)NSHTTPURLResponse"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZendeskSDKHTTPClient.HTTPError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPError",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPError",
+                        "usr": "s:20ZendeskSDKHTTPClient9HTTPErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20ZendeskSDKHTTPClient9HTTPErrorO32unsuccessfulStatusCodeForRequestyACSi_10Foundation4DataVSgSo17NSHTTPURLResponseCtcACmF",
+            "mangledName": "$s20ZendeskSDKHTTPClient9HTTPErrorO32unsuccessfulStatusCodeForRequestyACSi_10Foundation4DataVSgSo17NSHTTPURLResponseCtcACmF",
+            "moduleName": "ZendeskSDKHTTPClient",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "requestFailed",
+            "printedName": "requestFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZendeskSDKHTTPClient.HTTPError.Type) -> (Swift.Error) -> ZendeskSDKHTTPClient.HTTPError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ZendeskSDKHTTPClient.HTTPError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPError",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPError",
+                        "usr": "s:20ZendeskSDKHTTPClient9HTTPErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(error: Swift.Error)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZendeskSDKHTTPClient.HTTPError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPError",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPError",
+                        "usr": "s:20ZendeskSDKHTTPClient9HTTPErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20ZendeskSDKHTTPClient9HTTPErrorO13requestFailedyACs5Error_p_tcACmF",
+            "mangledName": "$s20ZendeskSDKHTTPClient9HTTPErrorO13requestFailedyACs5Error_p_tcACmF",
+            "moduleName": "ZendeskSDKHTTPClient",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "multiConvoNotEnabled",
+            "printedName": "multiConvoNotEnabled",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZendeskSDKHTTPClient.HTTPError.Type) -> ZendeskSDKHTTPClient.HTTPError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPError",
+                    "printedName": "ZendeskSDKHTTPClient.HTTPError",
+                    "usr": "s:20ZendeskSDKHTTPClient9HTTPErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZendeskSDKHTTPClient.HTTPError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPError",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPError",
+                        "usr": "s:20ZendeskSDKHTTPClient9HTTPErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20ZendeskSDKHTTPClient9HTTPErrorO20multiConvoNotEnabledyA2CmF",
+            "mangledName": "$s20ZendeskSDKHTTPClient9HTTPErrorO20multiConvoNotEnabledyA2CmF",
+            "moduleName": "ZendeskSDKHTTPClient",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userCannotCreateMoreConversations",
+            "printedName": "userCannotCreateMoreConversations",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZendeskSDKHTTPClient.HTTPError.Type) -> ZendeskSDKHTTPClient.HTTPError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPError",
+                    "printedName": "ZendeskSDKHTTPClient.HTTPError",
+                    "usr": "s:20ZendeskSDKHTTPClient9HTTPErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZendeskSDKHTTPClient.HTTPError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPError",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPError",
+                        "usr": "s:20ZendeskSDKHTTPClient9HTTPErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20ZendeskSDKHTTPClient9HTTPErrorO33userCannotCreateMoreConversationsyA2CmF",
+            "mangledName": "$s20ZendeskSDKHTTPClient9HTTPErrorO33userCannotCreateMoreConversationsyA2CmF",
+            "moduleName": "ZendeskSDKHTTPClient",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20ZendeskSDKHTTPClient9HTTPErrorO16errorDescriptionSSSgvp",
+            "mangledName": "$s20ZendeskSDKHTTPClient9HTTPErrorO16errorDescriptionSSSgvp",
+            "moduleName": "ZendeskSDKHTTPClient",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ZendeskSDKHTTPClient9HTTPErrorO16errorDescriptionSSSgvg",
+                "mangledName": "$s20ZendeskSDKHTTPClient9HTTPErrorO16errorDescriptionSSSgvg",
+                "moduleName": "ZendeskSDKHTTPClient",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPError",
+                "printedName": "ZendeskSDKHTTPClient.HTTPError",
+                "usr": "s:20ZendeskSDKHTTPClient9HTTPErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPError",
+                "printedName": "ZendeskSDKHTTPClient.HTTPError",
+                "usr": "s:20ZendeskSDKHTTPClient9HTTPErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20ZendeskSDKHTTPClient9HTTPErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s20ZendeskSDKHTTPClient9HTTPErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "ZendeskSDKHTTPClient",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:20ZendeskSDKHTTPClient9HTTPErrorO",
+        "mangledName": "$s20ZendeskSDKHTTPClient9HTTPErrorO",
+        "moduleName": "ZendeskSDKHTTPClient",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKHTTPClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKHTTPClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKHTTPClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKHTTPClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HTTPClient",
+        "printedName": "HTTPClient",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "baseURL",
+            "printedName": "baseURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20ZendeskSDKHTTPClient10HTTPClientP7baseURL10Foundation0E0Vvp",
+            "mangledName": "$s20ZendeskSDKHTTPClient10HTTPClientP7baseURL10Foundation0E0Vvp",
+            "moduleName": "ZendeskSDKHTTPClient",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ZendeskSDKHTTPClient10HTTPClientP7baseURL10Foundation0E0Vvg",
+                "mangledName": "$s20ZendeskSDKHTTPClient10HTTPClientP7baseURL10Foundation0E0Vvg",
+                "moduleName": "ZendeskSDKHTTPClient",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKHTTPClient.HTTPClient>",
+                "sugared_genericSig": "<Self where Self : ZendeskSDKHTTPClient.HTTPClient>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "defaultHeaders",
+            "printedName": "defaultHeaders",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[ZendeskSDKHTTPClient.HTTPHeader]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPHeader",
+                    "printedName": "ZendeskSDKHTTPClient.HTTPHeader",
+                    "usr": "s:20ZendeskSDKHTTPClient10HTTPHeaderO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20ZendeskSDKHTTPClient10HTTPClientP14defaultHeadersSayAA10HTTPHeaderOGvp",
+            "mangledName": "$s20ZendeskSDKHTTPClient10HTTPClientP14defaultHeadersSayAA10HTTPHeaderOGvp",
+            "moduleName": "ZendeskSDKHTTPClient",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[ZendeskSDKHTTPClient.HTTPHeader]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPHeader",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPHeader",
+                        "usr": "s:20ZendeskSDKHTTPClient10HTTPHeaderO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ZendeskSDKHTTPClient10HTTPClientP14defaultHeadersSayAA10HTTPHeaderOGvg",
+                "mangledName": "$s20ZendeskSDKHTTPClient10HTTPClientP14defaultHeadersSayAA10HTTPHeaderOGvg",
+                "moduleName": "ZendeskSDKHTTPClient",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKHTTPClient.HTTPClient>",
+                "sugared_genericSig": "<Self where Self : ZendeskSDKHTTPClient.HTTPClient>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "urlSession",
+            "printedName": "urlSession",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLSession",
+                "printedName": "Foundation.URLSession",
+                "usr": "c:objc(cs)NSURLSession"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20ZendeskSDKHTTPClient10HTTPClientP10urlSessionSo12NSURLSessionCvp",
+            "mangledName": "$s20ZendeskSDKHTTPClient10HTTPClientP10urlSessionSo12NSURLSessionCvp",
+            "moduleName": "ZendeskSDKHTTPClient",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URLSession",
+                    "printedName": "Foundation.URLSession",
+                    "usr": "c:objc(cs)NSURLSession"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ZendeskSDKHTTPClient10HTTPClientP10urlSessionSo12NSURLSessionCvg",
+                "mangledName": "$s20ZendeskSDKHTTPClient10HTTPClientP10urlSessionSo12NSURLSessionCvg",
+                "moduleName": "ZendeskSDKHTTPClient",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKHTTPClient.HTTPClient>",
+                "sugared_genericSig": "<Self where Self : ZendeskSDKHTTPClient.HTTPClient>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "performRequest",
+            "printedName": "performRequest(withBody:method:responseType:path:query:headers:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLSessionDataTask",
+                "printedName": "Foundation.URLSessionDataTask",
+                "usr": "c:objc(cs)NSURLSessionDataTask"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_1"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPMethodWithBody",
+                "printedName": "ZendeskSDKHTTPClient.HTTPMethodWithBody",
+                "usr": "s:20ZendeskSDKHTTPClient18HTTPMethodWithBodyO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_1_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[ZendeskSDKHTTPClient.HTTPHeader]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[ZendeskSDKHTTPClient.HTTPHeader]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPHeader",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPHeader",
+                        "usr": "s:20ZendeskSDKHTTPClient10HTTPHeaderO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<ZendeskSDKHTTPClient.HTTPClientResponse<τ_1_0>, ZendeskSDKHTTPClient.HTTPError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<ZendeskSDKHTTPClient.HTTPClientResponse<τ_1_0>, ZendeskSDKHTTPClient.HTTPError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPClientResponse",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPClientResponse<τ_1_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_1_0"
+                          }
+                        ],
+                        "usr": "s:20ZendeskSDKHTTPClient18HTTPClientResponseV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPError",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPError",
+                        "usr": "s:20ZendeskSDKHTTPClient9HTTPErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20ZendeskSDKHTTPClient10HTTPClientP14performRequest8withBody6method12responseType4path5query7headers17completionHandlerSo20NSURLSessionDataTaskCqd_0__AA014HTTPMethodWithG0Oqd__mSSSDyS2SGSgSayAA10HTTPHeaderOGSgys6ResultOyAA0C8ResponseVyqd__GAA9HTTPErrorOGctSeRd__SERd_0_r0_lF",
+            "mangledName": "$s20ZendeskSDKHTTPClient10HTTPClientP14performRequest8withBody6method12responseType4path5query7headers17completionHandlerSo20NSURLSessionDataTaskCqd_0__AA014HTTPMethodWithG0Oqd__mSSSDyS2SGSgSayAA10HTTPHeaderOGSgys6ResultOyAA0C8ResponseVyqd__GAA9HTTPErrorOGctSeRd__SERd_0_r0_lF",
+            "moduleName": "ZendeskSDKHTTPClient",
+            "genericSig": "<τ_0_0, τ_1_0, τ_1_1 where τ_0_0 : ZendeskSDKHTTPClient.HTTPClient, τ_1_0 : Swift.Decodable, τ_1_1 : Swift.Encodable>",
+            "sugared_genericSig": "<Self, D, E where Self : ZendeskSDKHTTPClient.HTTPClient, D : Swift.Decodable, E : Swift.Encodable>",
+            "protocolReq": true,
+            "declAttributes": [
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "performRequest",
+            "printedName": "performRequest(method:responseType:path:query:headers:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLSessionDataTask",
+                "printedName": "Foundation.URLSessionDataTask",
+                "usr": "c:objc(cs)NSURLSessionDataTask"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPMethodWithoutBody",
+                "printedName": "ZendeskSDKHTTPClient.HTTPMethodWithoutBody",
+                "usr": "s:20ZendeskSDKHTTPClient21HTTPMethodWithoutBodyO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_1_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[ZendeskSDKHTTPClient.HTTPHeader]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[ZendeskSDKHTTPClient.HTTPHeader]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPHeader",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPHeader",
+                        "usr": "s:20ZendeskSDKHTTPClient10HTTPHeaderO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<ZendeskSDKHTTPClient.HTTPClientResponse<τ_1_0>, ZendeskSDKHTTPClient.HTTPError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<ZendeskSDKHTTPClient.HTTPClientResponse<τ_1_0>, ZendeskSDKHTTPClient.HTTPError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPClientResponse",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPClientResponse<τ_1_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_1_0"
+                          }
+                        ],
+                        "usr": "s:20ZendeskSDKHTTPClient18HTTPClientResponseV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPError",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPError",
+                        "usr": "s:20ZendeskSDKHTTPClient9HTTPErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20ZendeskSDKHTTPClient10HTTPClientP14performRequest6method12responseType4path5query7headers17completionHandlerSo20NSURLSessionDataTaskCAA21HTTPMethodWithoutBodyO_qd__mSSSDyS2SGSgSayAA10HTTPHeaderOGSgys6ResultOyAA0C8ResponseVyqd__GAA9HTTPErrorOGctSeRd__lF",
+            "mangledName": "$s20ZendeskSDKHTTPClient10HTTPClientP14performRequest6method12responseType4path5query7headers17completionHandlerSo20NSURLSessionDataTaskCAA21HTTPMethodWithoutBodyO_qd__mSSSDyS2SGSgSayAA10HTTPHeaderOGSgys6ResultOyAA0C8ResponseVyqd__GAA9HTTPErrorOGctSeRd__lF",
+            "moduleName": "ZendeskSDKHTTPClient",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : ZendeskSDKHTTPClient.HTTPClient, τ_1_0 : Swift.Decodable>",
+            "sugared_genericSig": "<Self, D where Self : ZendeskSDKHTTPClient.HTTPClient, D : Swift.Decodable>",
+            "protocolReq": true,
+            "declAttributes": [
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "performRequest",
+            "printedName": "performRequest(withBodyData:method:responseType:path:query:headers:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLSessionDataTask",
+                "printedName": "Foundation.URLSessionDataTask",
+                "usr": "c:objc(cs)NSURLSessionDataTask"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPMethodWithBody",
+                "printedName": "ZendeskSDKHTTPClient.HTTPMethodWithBody",
+                "usr": "s:20ZendeskSDKHTTPClient18HTTPMethodWithBodyO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_1_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[ZendeskSDKHTTPClient.HTTPHeader]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[ZendeskSDKHTTPClient.HTTPHeader]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPHeader",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPHeader",
+                        "usr": "s:20ZendeskSDKHTTPClient10HTTPHeaderO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<ZendeskSDKHTTPClient.HTTPClientResponse<τ_1_0>, ZendeskSDKHTTPClient.HTTPError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<ZendeskSDKHTTPClient.HTTPClientResponse<τ_1_0>, ZendeskSDKHTTPClient.HTTPError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPClientResponse",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPClientResponse<τ_1_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_1_0"
+                          }
+                        ],
+                        "usr": "s:20ZendeskSDKHTTPClient18HTTPClientResponseV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPError",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPError",
+                        "usr": "s:20ZendeskSDKHTTPClient9HTTPErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20ZendeskSDKHTTPClient10HTTPClientP14performRequest12withBodyData6method12responseType4path5query7headers17completionHandlerSo012NSURLSessionH4TaskC10Foundation0H0V_AA014HTTPMethodWithG0Oqd__mSSSDyS2SGSgSayAA10HTTPHeaderOGSgys6ResultOyAA0C8ResponseVyqd__GAA9HTTPErrorOGctSeRd__lF",
+            "mangledName": "$s20ZendeskSDKHTTPClient10HTTPClientP14performRequest12withBodyData6method12responseType4path5query7headers17completionHandlerSo012NSURLSessionH4TaskC10Foundation0H0V_AA014HTTPMethodWithG0Oqd__mSSSDyS2SGSgSayAA10HTTPHeaderOGSgys6ResultOyAA0C8ResponseVyqd__GAA9HTTPErrorOGctSeRd__lF",
+            "moduleName": "ZendeskSDKHTTPClient",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : ZendeskSDKHTTPClient.HTTPClient, τ_1_0 : Swift.Decodable>",
+            "sugared_genericSig": "<Self, D where Self : ZendeskSDKHTTPClient.HTTPClient, D : Swift.Decodable>",
+            "protocolReq": true,
+            "declAttributes": [
+              "DiscardableResult"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "performRequest",
+            "printedName": "performRequest(withBody:method:path:query:headers:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLSessionDataTask",
+                "printedName": "Foundation.URLSessionDataTask",
+                "usr": "c:objc(cs)NSURLSessionDataTask"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPMethodWithBody",
+                "printedName": "ZendeskSDKHTTPClient.HTTPMethodWithBody",
+                "usr": "s:20ZendeskSDKHTTPClient18HTTPMethodWithBodyO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[ZendeskSDKHTTPClient.HTTPHeader]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[ZendeskSDKHTTPClient.HTTPHeader]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPHeader",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPHeader",
+                        "usr": "s:20ZendeskSDKHTTPClient10HTTPHeaderO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<ZendeskSDKHTTPClient.HTTPClientResponse<ZendeskSDKHTTPClient.Empty>, ZendeskSDKHTTPClient.HTTPError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<ZendeskSDKHTTPClient.HTTPClientResponse<ZendeskSDKHTTPClient.Empty>, ZendeskSDKHTTPClient.HTTPError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPClientResponse",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPClientResponse<ZendeskSDKHTTPClient.Empty>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Empty",
+                            "printedName": "ZendeskSDKHTTPClient.Empty",
+                            "usr": "s:20ZendeskSDKHTTPClient5EmptyV"
+                          }
+                        ],
+                        "usr": "s:20ZendeskSDKHTTPClient18HTTPClientResponseV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPError",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPError",
+                        "usr": "s:20ZendeskSDKHTTPClient9HTTPErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20ZendeskSDKHTTPClient10HTTPClientP14performRequest8withBody6method4path5query7headers17completionHandlerSo20NSURLSessionDataTaskCqd___AA014HTTPMethodWithG0OSSSDyS2SGSgSayAA10HTTPHeaderOGSgys6ResultOyAA0C8ResponseVyAA5EmptyVGAA9HTTPErrorOGctSERd__lF",
+            "mangledName": "$s20ZendeskSDKHTTPClient10HTTPClientP14performRequest8withBody6method4path5query7headers17completionHandlerSo20NSURLSessionDataTaskCqd___AA014HTTPMethodWithG0OSSSDyS2SGSgSayAA10HTTPHeaderOGSgys6ResultOyAA0C8ResponseVyAA5EmptyVGAA9HTTPErrorOGctSERd__lF",
+            "moduleName": "ZendeskSDKHTTPClient",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : ZendeskSDKHTTPClient.HTTPClient, τ_1_0 : Swift.Encodable>",
+            "sugared_genericSig": "<Self, E where Self : ZendeskSDKHTTPClient.HTTPClient, E : Swift.Encodable>",
+            "protocolReq": true,
+            "declAttributes": [
+              "DiscardableResult"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "performUploadRequest",
+            "printedName": "performUploadRequest(withBodyData:method:responseType:path:query:headers:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLSessionDataTask",
+                "printedName": "Foundation.URLSessionDataTask",
+                "usr": "c:objc(cs)NSURLSessionDataTask"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPMethodWithBody",
+                "printedName": "ZendeskSDKHTTPClient.HTTPMethodWithBody",
+                "usr": "s:20ZendeskSDKHTTPClient18HTTPMethodWithBodyO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_1_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[ZendeskSDKHTTPClient.HTTPHeader]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[ZendeskSDKHTTPClient.HTTPHeader]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPHeader",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPHeader",
+                        "usr": "s:20ZendeskSDKHTTPClient10HTTPHeaderO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<ZendeskSDKHTTPClient.HTTPClientResponse<τ_1_0>, ZendeskSDKHTTPClient.HTTPError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<ZendeskSDKHTTPClient.HTTPClientResponse<τ_1_0>, ZendeskSDKHTTPClient.HTTPError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPClientResponse",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPClientResponse<τ_1_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_1_0"
+                          }
+                        ],
+                        "usr": "s:20ZendeskSDKHTTPClient18HTTPClientResponseV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPError",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPError",
+                        "usr": "s:20ZendeskSDKHTTPClient9HTTPErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20ZendeskSDKHTTPClient10HTTPClientP20performUploadRequest12withBodyData6method12responseType4path5query7headers17completionHandlerSo012NSURLSessionI4TaskC10Foundation0I0V_AA014HTTPMethodWithH0Oqd__mSSSDyS2SGSgSayAA10HTTPHeaderOGSgys6ResultOyAA0C8ResponseVyqd__GAA9HTTPErrorOGctSeRd__lF",
+            "mangledName": "$s20ZendeskSDKHTTPClient10HTTPClientP20performUploadRequest12withBodyData6method12responseType4path5query7headers17completionHandlerSo012NSURLSessionI4TaskC10Foundation0I0V_AA014HTTPMethodWithH0Oqd__mSSSDyS2SGSgSayAA10HTTPHeaderOGSgys6ResultOyAA0C8ResponseVyqd__GAA9HTTPErrorOGctSeRd__lF",
+            "moduleName": "ZendeskSDKHTTPClient",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : ZendeskSDKHTTPClient.HTTPClient, τ_1_0 : Swift.Decodable>",
+            "sugared_genericSig": "<Self, D where Self : ZendeskSDKHTTPClient.HTTPClient, D : Swift.Decodable>",
+            "protocolReq": true,
+            "declAttributes": [
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:20ZendeskSDKHTTPClient10HTTPClientP",
+        "mangledName": "$s20ZendeskSDKHTTPClient10HTTPClientP",
+        "moduleName": "ZendeskSDKHTTPClient",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKHTTPClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKHTTPClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKHTTPClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HTTPClientBuilder",
+        "printedName": "HTTPClientBuilder",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(urlSessionConfiguration:defaultHeaders:baseURL:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPClientBuilder",
+                "printedName": "ZendeskSDKHTTPClient.HTTPClientBuilder",
+                "usr": "s:20ZendeskSDKHTTPClient17HTTPClientBuilderV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLSessionConfiguration",
+                "printedName": "Foundation.URLSessionConfiguration",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)NSURLSessionConfiguration"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[ZendeskSDKHTTPClient.HTTPHeader]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPHeader",
+                    "printedName": "ZendeskSDKHTTPClient.HTTPHeader",
+                    "usr": "s:20ZendeskSDKHTTPClient10HTTPHeaderO"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20ZendeskSDKHTTPClient17HTTPClientBuilderV23urlSessionConfiguration14defaultHeaders7baseURLACSo012NSURLSessionG0C_SayAA10HTTPHeaderOGSStcfc",
+            "mangledName": "$s20ZendeskSDKHTTPClient17HTTPClientBuilderV23urlSessionConfiguration14defaultHeaders7baseURLACSo012NSURLSessionG0C_SayAA10HTTPHeaderOGSStcfc",
+            "moduleName": "ZendeskSDKHTTPClient",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "build",
+            "printedName": "build()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPClient",
+                "printedName": "ZendeskSDKHTTPClient.HTTPClient",
+                "usr": "s:20ZendeskSDKHTTPClient10HTTPClientP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20ZendeskSDKHTTPClient17HTTPClientBuilderV5buildAA0C0_pyKF",
+            "mangledName": "$s20ZendeskSDKHTTPClient17HTTPClientBuilderV5buildAA0C0_pyKF",
+            "moduleName": "ZendeskSDKHTTPClient",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:20ZendeskSDKHTTPClient17HTTPClientBuilderV",
+        "mangledName": "$s20ZendeskSDKHTTPClient17HTTPClientBuilderV",
+        "moduleName": "ZendeskSDKHTTPClient",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKHTTPClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKHTTPClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKHTTPClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HTTPClientError",
+        "printedName": "HTTPClientError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "invalidBaseURL",
+            "printedName": "invalidBaseURL",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZendeskSDKHTTPClient.HTTPClientError.Type) -> ZendeskSDKHTTPClient.HTTPClientError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPClientError",
+                    "printedName": "ZendeskSDKHTTPClient.HTTPClientError",
+                    "usr": "s:20ZendeskSDKHTTPClient15HTTPClientErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZendeskSDKHTTPClient.HTTPClientError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPClientError",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPClientError",
+                        "usr": "s:20ZendeskSDKHTTPClient15HTTPClientErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20ZendeskSDKHTTPClient15HTTPClientErrorO14invalidBaseURLyA2CmF",
+            "mangledName": "$s20ZendeskSDKHTTPClient15HTTPClientErrorO14invalidBaseURLyA2CmF",
+            "moduleName": "ZendeskSDKHTTPClient",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPClientError",
+                "printedName": "ZendeskSDKHTTPClient.HTTPClientError",
+                "usr": "s:20ZendeskSDKHTTPClient15HTTPClientErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPClientError",
+                "printedName": "ZendeskSDKHTTPClient.HTTPClientError",
+                "usr": "s:20ZendeskSDKHTTPClient15HTTPClientErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20ZendeskSDKHTTPClient15HTTPClientErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s20ZendeskSDKHTTPClient15HTTPClientErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "ZendeskSDKHTTPClient",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20ZendeskSDKHTTPClient15HTTPClientErrorO9hashValueSivp",
+            "mangledName": "$s20ZendeskSDKHTTPClient15HTTPClientErrorO9hashValueSivp",
+            "moduleName": "ZendeskSDKHTTPClient",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ZendeskSDKHTTPClient15HTTPClientErrorO9hashValueSivg",
+                "mangledName": "$s20ZendeskSDKHTTPClient15HTTPClientErrorO9hashValueSivg",
+                "moduleName": "ZendeskSDKHTTPClient",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20ZendeskSDKHTTPClient15HTTPClientErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s20ZendeskSDKHTTPClient15HTTPClientErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "ZendeskSDKHTTPClient",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:20ZendeskSDKHTTPClient15HTTPClientErrorO",
+        "mangledName": "$s20ZendeskSDKHTTPClient15HTTPClientErrorO",
+        "moduleName": "ZendeskSDKHTTPClient",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKHTTPClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HTTPMethodWithBody",
+        "printedName": "HTTPMethodWithBody",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "POST",
+            "printedName": "POST",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZendeskSDKHTTPClient.HTTPMethodWithBody.Type) -> ZendeskSDKHTTPClient.HTTPMethodWithBody",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethodWithBody",
+                    "printedName": "ZendeskSDKHTTPClient.HTTPMethodWithBody",
+                    "usr": "s:20ZendeskSDKHTTPClient18HTTPMethodWithBodyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZendeskSDKHTTPClient.HTTPMethodWithBody.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethodWithBody",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPMethodWithBody",
+                        "usr": "s:20ZendeskSDKHTTPClient18HTTPMethodWithBodyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20ZendeskSDKHTTPClient18HTTPMethodWithBodyO4POSTyA2CmF",
+            "mangledName": "$s20ZendeskSDKHTTPClient18HTTPMethodWithBodyO4POSTyA2CmF",
+            "moduleName": "ZendeskSDKHTTPClient"
+          },
+          {
+            "kind": "Var",
+            "name": "PUT",
+            "printedName": "PUT",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZendeskSDKHTTPClient.HTTPMethodWithBody.Type) -> ZendeskSDKHTTPClient.HTTPMethodWithBody",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethodWithBody",
+                    "printedName": "ZendeskSDKHTTPClient.HTTPMethodWithBody",
+                    "usr": "s:20ZendeskSDKHTTPClient18HTTPMethodWithBodyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZendeskSDKHTTPClient.HTTPMethodWithBody.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethodWithBody",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPMethodWithBody",
+                        "usr": "s:20ZendeskSDKHTTPClient18HTTPMethodWithBodyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20ZendeskSDKHTTPClient18HTTPMethodWithBodyO3PUTyA2CmF",
+            "mangledName": "$s20ZendeskSDKHTTPClient18HTTPMethodWithBodyO3PUTyA2CmF",
+            "moduleName": "ZendeskSDKHTTPClient"
+          },
+          {
+            "kind": "Var",
+            "name": "DELETE",
+            "printedName": "DELETE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZendeskSDKHTTPClient.HTTPMethodWithBody.Type) -> ZendeskSDKHTTPClient.HTTPMethodWithBody",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethodWithBody",
+                    "printedName": "ZendeskSDKHTTPClient.HTTPMethodWithBody",
+                    "usr": "s:20ZendeskSDKHTTPClient18HTTPMethodWithBodyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZendeskSDKHTTPClient.HTTPMethodWithBody.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethodWithBody",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPMethodWithBody",
+                        "usr": "s:20ZendeskSDKHTTPClient18HTTPMethodWithBodyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20ZendeskSDKHTTPClient18HTTPMethodWithBodyO6DELETEyA2CmF",
+            "mangledName": "$s20ZendeskSDKHTTPClient18HTTPMethodWithBodyO6DELETEyA2CmF",
+            "moduleName": "ZendeskSDKHTTPClient"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ZendeskSDKHTTPClient.HTTPMethodWithBody?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethodWithBody",
+                    "printedName": "ZendeskSDKHTTPClient.HTTPMethodWithBody",
+                    "usr": "s:20ZendeskSDKHTTPClient18HTTPMethodWithBodyO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20ZendeskSDKHTTPClient18HTTPMethodWithBodyO8rawValueACSgSS_tcfc",
+            "mangledName": "$s20ZendeskSDKHTTPClient18HTTPMethodWithBodyO8rawValueACSgSS_tcfc",
+            "moduleName": "ZendeskSDKHTTPClient",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20ZendeskSDKHTTPClient18HTTPMethodWithBodyO8rawValueSSvp",
+            "mangledName": "$s20ZendeskSDKHTTPClient18HTTPMethodWithBodyO8rawValueSSvp",
+            "moduleName": "ZendeskSDKHTTPClient",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ZendeskSDKHTTPClient18HTTPMethodWithBodyO8rawValueSSvg",
+                "mangledName": "$s20ZendeskSDKHTTPClient18HTTPMethodWithBodyO8rawValueSSvg",
+                "moduleName": "ZendeskSDKHTTPClient",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:20ZendeskSDKHTTPClient18HTTPMethodWithBodyO",
+        "mangledName": "$s20ZendeskSDKHTTPClient18HTTPMethodWithBodyO",
+        "moduleName": "ZendeskSDKHTTPClient",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HTTPMethodWithoutBody",
+        "printedName": "HTTPMethodWithoutBody",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "GET",
+            "printedName": "GET",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZendeskSDKHTTPClient.HTTPMethodWithoutBody.Type) -> ZendeskSDKHTTPClient.HTTPMethodWithoutBody",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethodWithoutBody",
+                    "printedName": "ZendeskSDKHTTPClient.HTTPMethodWithoutBody",
+                    "usr": "s:20ZendeskSDKHTTPClient21HTTPMethodWithoutBodyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZendeskSDKHTTPClient.HTTPMethodWithoutBody.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethodWithoutBody",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPMethodWithoutBody",
+                        "usr": "s:20ZendeskSDKHTTPClient21HTTPMethodWithoutBodyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20ZendeskSDKHTTPClient21HTTPMethodWithoutBodyO3GETyA2CmF",
+            "mangledName": "$s20ZendeskSDKHTTPClient21HTTPMethodWithoutBodyO3GETyA2CmF",
+            "moduleName": "ZendeskSDKHTTPClient"
+          },
+          {
+            "kind": "Var",
+            "name": "HEAD",
+            "printedName": "HEAD",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZendeskSDKHTTPClient.HTTPMethodWithoutBody.Type) -> ZendeskSDKHTTPClient.HTTPMethodWithoutBody",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethodWithoutBody",
+                    "printedName": "ZendeskSDKHTTPClient.HTTPMethodWithoutBody",
+                    "usr": "s:20ZendeskSDKHTTPClient21HTTPMethodWithoutBodyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZendeskSDKHTTPClient.HTTPMethodWithoutBody.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethodWithoutBody",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPMethodWithoutBody",
+                        "usr": "s:20ZendeskSDKHTTPClient21HTTPMethodWithoutBodyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20ZendeskSDKHTTPClient21HTTPMethodWithoutBodyO4HEADyA2CmF",
+            "mangledName": "$s20ZendeskSDKHTTPClient21HTTPMethodWithoutBodyO4HEADyA2CmF",
+            "moduleName": "ZendeskSDKHTTPClient"
+          },
+          {
+            "kind": "Var",
+            "name": "OPTIONS",
+            "printedName": "OPTIONS",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZendeskSDKHTTPClient.HTTPMethodWithoutBody.Type) -> ZendeskSDKHTTPClient.HTTPMethodWithoutBody",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethodWithoutBody",
+                    "printedName": "ZendeskSDKHTTPClient.HTTPMethodWithoutBody",
+                    "usr": "s:20ZendeskSDKHTTPClient21HTTPMethodWithoutBodyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZendeskSDKHTTPClient.HTTPMethodWithoutBody.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethodWithoutBody",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPMethodWithoutBody",
+                        "usr": "s:20ZendeskSDKHTTPClient21HTTPMethodWithoutBodyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20ZendeskSDKHTTPClient21HTTPMethodWithoutBodyO7OPTIONSyA2CmF",
+            "mangledName": "$s20ZendeskSDKHTTPClient21HTTPMethodWithoutBodyO7OPTIONSyA2CmF",
+            "moduleName": "ZendeskSDKHTTPClient"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ZendeskSDKHTTPClient.HTTPMethodWithoutBody?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethodWithoutBody",
+                    "printedName": "ZendeskSDKHTTPClient.HTTPMethodWithoutBody",
+                    "usr": "s:20ZendeskSDKHTTPClient21HTTPMethodWithoutBodyO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20ZendeskSDKHTTPClient21HTTPMethodWithoutBodyO8rawValueACSgSS_tcfc",
+            "mangledName": "$s20ZendeskSDKHTTPClient21HTTPMethodWithoutBodyO8rawValueACSgSS_tcfc",
+            "moduleName": "ZendeskSDKHTTPClient",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20ZendeskSDKHTTPClient21HTTPMethodWithoutBodyO8rawValueSSvp",
+            "mangledName": "$s20ZendeskSDKHTTPClient21HTTPMethodWithoutBodyO8rawValueSSvp",
+            "moduleName": "ZendeskSDKHTTPClient",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ZendeskSDKHTTPClient21HTTPMethodWithoutBodyO8rawValueSSvg",
+                "mangledName": "$s20ZendeskSDKHTTPClient21HTTPMethodWithoutBodyO8rawValueSSvg",
+                "moduleName": "ZendeskSDKHTTPClient",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:20ZendeskSDKHTTPClient21HTTPMethodWithoutBodyO",
+        "mangledName": "$s20ZendeskSDKHTTPClient21HTTPMethodWithoutBodyO",
+        "moduleName": "ZendeskSDKHTTPClient",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKHTTPClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Empty",
+        "printedName": "Empty",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Empty",
+                "printedName": "ZendeskSDKHTTPClient.Empty",
+                "usr": "s:20ZendeskSDKHTTPClient5EmptyV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20ZendeskSDKHTTPClient5EmptyV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s20ZendeskSDKHTTPClient5EmptyV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "ZendeskSDKHTTPClient",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:20ZendeskSDKHTTPClient5EmptyV",
+        "mangledName": "$s20ZendeskSDKHTTPClient5EmptyV",
+        "moduleName": "ZendeskSDKHTTPClient",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKHTTPClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HTTPClientResponse",
+        "printedName": "HTTPClientResponse",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "response",
+            "printedName": "response",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPURLResponse",
+                "printedName": "Foundation.HTTPURLResponse",
+                "usr": "c:objc(cs)NSHTTPURLResponse"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20ZendeskSDKHTTPClient18HTTPClientResponseV8responseSo17NSHTTPURLResponseCvp",
+            "mangledName": "$s20ZendeskSDKHTTPClient18HTTPClientResponseV8responseSo17NSHTTPURLResponseCvp",
+            "moduleName": "ZendeskSDKHTTPClient",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPURLResponse",
+                    "printedName": "Foundation.HTTPURLResponse",
+                    "usr": "c:objc(cs)NSHTTPURLResponse"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ZendeskSDKHTTPClient18HTTPClientResponseV8responseSo17NSHTTPURLResponseCvg",
+                "mangledName": "$s20ZendeskSDKHTTPClient18HTTPClientResponseV8responseSo17NSHTTPURLResponseCvg",
+                "moduleName": "ZendeskSDKHTTPClient",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+                "sugared_genericSig": "<D where D : Swift.Decodable>",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "responseObject",
+            "printedName": "responseObject",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20ZendeskSDKHTTPClient18HTTPClientResponseV14responseObjectxvp",
+            "mangledName": "$s20ZendeskSDKHTTPClient18HTTPClientResponseV14responseObjectxvp",
+            "moduleName": "ZendeskSDKHTTPClient",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ZendeskSDKHTTPClient18HTTPClientResponseV14responseObjectxvg",
+                "mangledName": "$s20ZendeskSDKHTTPClient18HTTPClientResponseV14responseObjectxvg",
+                "moduleName": "ZendeskSDKHTTPClient",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+                "sugared_genericSig": "<D where D : Swift.Decodable>",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(response:responseObject:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPClientResponse",
+                "printedName": "ZendeskSDKHTTPClient.HTTPClientResponse<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:20ZendeskSDKHTTPClient18HTTPClientResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPURLResponse",
+                "printedName": "Foundation.HTTPURLResponse",
+                "usr": "c:objc(cs)NSHTTPURLResponse"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20ZendeskSDKHTTPClient18HTTPClientResponseV8response0E6ObjectACyxGSo17NSHTTPURLResponseC_xtcfc",
+            "mangledName": "$s20ZendeskSDKHTTPClient18HTTPClientResponseV8response0E6ObjectACyxGSo17NSHTTPURLResponseC_xtcfc",
+            "moduleName": "ZendeskSDKHTTPClient",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+            "sugared_genericSig": "<D where D : Swift.Decodable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:20ZendeskSDKHTTPClient18HTTPClientResponseV",
+        "mangledName": "$s20ZendeskSDKHTTPClient18HTTPClientResponseV",
+        "moduleName": "ZendeskSDKHTTPClient",
+        "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+        "sugared_genericSig": "<D where D : Swift.Decodable>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKHTTPClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKHTTPClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKHTTPClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "URLSessionTask",
+        "printedName": "URLSessionTask",
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSURLSessionTask",
+        "moduleName": "Foundation",
+        "isOpen": true,
+        "intro_iOS": "7.0",
+        "objc_name": "NSURLSessionTask",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 683,
+      "length": 24,
+      "value": "\"com.zendesk.HTTPClient\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 738,
+      "length": 6,
+      "value": "\"HTTP\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/Extensions\/Data+JSONDecode.swift",
+      "kind": "StringLiteral",
+      "offset": 896,
+      "length": 9,
+      "value": "\"zendesk\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientSessionTaskHandlerManager.swift",
+      "kind": "Array",
+      "offset": 749,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientSessionTaskHandlerManager.swift",
+      "kind": "StringLiteral",
+      "offset": 939,
+      "length": 67,
+      "value": "\"com.zendesk.httpclient.threadsafesynch-queue.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientSessionTaskHandlerManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1005,
+      "length": 27,
+      "value": "\"\""
+    }
+  ]
+}

@@ -1,0 +1,2469 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKFayeClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FayeClientBuilder",
+        "printedName": "FayeClientBuilder",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FayeClientBuilder",
+                "printedName": "ZendeskSDKFayeClient.FayeClientBuilder",
+                "usr": "s:20ZendeskSDKFayeClient04FayeC7BuilderV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20ZendeskSDKFayeClient04FayeC7BuilderV4withACSS_tcfc",
+            "mangledName": "$s20ZendeskSDKFayeClient04FayeC7BuilderV4withACSS_tcfc",
+            "moduleName": "ZendeskSDKFayeClient",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "build",
+            "printedName": "build()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FayeClient",
+                "printedName": "ZendeskSDKFayeClient.FayeClient",
+                "usr": "s:20ZendeskSDKFayeClient04FayeC0P"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20ZendeskSDKFayeClient04FayeC7BuilderV5buildAA0dC0_pyKF",
+            "mangledName": "$s20ZendeskSDKFayeClient04FayeC7BuilderV5buildAA0dC0_pyKF",
+            "moduleName": "ZendeskSDKFayeClient",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:20ZendeskSDKFayeClient04FayeC7BuilderV",
+        "mangledName": "$s20ZendeskSDKFayeClient04FayeC7BuilderV",
+        "moduleName": "ZendeskSDKFayeClient",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKFayeClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKFayeClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ZendeskSDKSocketClient",
+        "printedName": "ZendeskSDKSocketClient",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKFayeClient"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKFayeClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKFayeClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FayeClientDelegate",
+        "printedName": "FayeClientDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didConnect",
+            "printedName": "didConnect(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FayeClient",
+                "printedName": "ZendeskSDKFayeClient.FayeClient",
+                "usr": "s:20ZendeskSDKFayeClient04FayeC0P"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20ZendeskSDKFayeClient04FayeC8DelegateP10didConnect4withyAA0dC0_p_tF",
+            "mangledName": "$s20ZendeskSDKFayeClient04FayeC8DelegateP10didConnect4withyAA0dC0_p_tF",
+            "moduleName": "ZendeskSDKFayeClient",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKFayeClient.FayeClientDelegate>",
+            "sugared_genericSig": "<Self where Self : ZendeskSDKFayeClient.FayeClientDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didDisconnect",
+            "printedName": "didDisconnect(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FayeClient",
+                "printedName": "ZendeskSDKFayeClient.FayeClient",
+                "usr": "s:20ZendeskSDKFayeClient04FayeC0P"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20ZendeskSDKFayeClient04FayeC8DelegateP13didDisconnect4withyAA0dC0_p_tF",
+            "mangledName": "$s20ZendeskSDKFayeClient04FayeC8DelegateP13didDisconnect4withyAA0dC0_p_tF",
+            "moduleName": "ZendeskSDKFayeClient",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKFayeClient.FayeClientDelegate>",
+            "sugared_genericSig": "<Self where Self : ZendeskSDKFayeClient.FayeClientDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didSubscribe",
+            "printedName": "didSubscribe(to:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FayeClient",
+                "printedName": "ZendeskSDKFayeClient.FayeClient",
+                "usr": "s:20ZendeskSDKFayeClient04FayeC0P"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20ZendeskSDKFayeClient04FayeC8DelegateP12didSubscribe2to4withySS_AA0dC0_ptF",
+            "mangledName": "$s20ZendeskSDKFayeClient04FayeC8DelegateP12didSubscribe2to4withySS_AA0dC0_ptF",
+            "moduleName": "ZendeskSDKFayeClient",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKFayeClient.FayeClientDelegate>",
+            "sugared_genericSig": "<Self where Self : ZendeskSDKFayeClient.FayeClientDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didUnsubscribe",
+            "printedName": "didUnsubscribe(from:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FayeClient",
+                "printedName": "ZendeskSDKFayeClient.FayeClient",
+                "usr": "s:20ZendeskSDKFayeClient04FayeC0P"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20ZendeskSDKFayeClient04FayeC8DelegateP14didUnsubscribe4from4withySS_AA0dC0_ptF",
+            "mangledName": "$s20ZendeskSDKFayeClient04FayeC8DelegateP14didUnsubscribe4from4withySS_AA0dC0_ptF",
+            "moduleName": "ZendeskSDKFayeClient",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKFayeClient.FayeClientDelegate>",
+            "sugared_genericSig": "<Self where Self : ZendeskSDKFayeClient.FayeClientDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didPublish",
+            "printedName": "didPublish(to:message:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FayeClient",
+                "printedName": "ZendeskSDKFayeClient.FayeClient",
+                "usr": "s:20ZendeskSDKFayeClient04FayeC0P"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20ZendeskSDKFayeClient04FayeC8DelegateP10didPublish2to7message4withySS_SSAA0dC0_ptF",
+            "mangledName": "$s20ZendeskSDKFayeClient04FayeC8DelegateP10didPublish2to7message4withySS_SSAA0dC0_ptF",
+            "moduleName": "ZendeskSDKFayeClient",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKFayeClient.FayeClientDelegate>",
+            "sugared_genericSig": "<Self where Self : ZendeskSDKFayeClient.FayeClientDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didReceiveMessage",
+            "printedName": "didReceiveMessage(from:messageData:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FayeClient",
+                "printedName": "ZendeskSDKFayeClient.FayeClient",
+                "usr": "s:20ZendeskSDKFayeClient04FayeC0P"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20ZendeskSDKFayeClient04FayeC8DelegateP17didReceiveMessage4from11messageData4withySS_10Foundation0K0VAA0dC0_ptF",
+            "mangledName": "$s20ZendeskSDKFayeClient04FayeC8DelegateP17didReceiveMessage4from11messageData4withySS_10Foundation0K0VAA0dC0_ptF",
+            "moduleName": "ZendeskSDKFayeClient",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKFayeClient.FayeClientDelegate>",
+            "sugared_genericSig": "<Self where Self : ZendeskSDKFayeClient.FayeClientDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didReceiveError",
+            "printedName": "didReceiveError(_:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FayeClientError",
+                "printedName": "ZendeskSDKFayeClient.FayeClientError",
+                "usr": "s:20ZendeskSDKFayeClient04FayeC5ErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FayeClient",
+                "printedName": "ZendeskSDKFayeClient.FayeClient",
+                "usr": "s:20ZendeskSDKFayeClient04FayeC0P"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20ZendeskSDKFayeClient04FayeC8DelegateP15didReceiveError_4withyAA0dcH0O_AA0dC0_ptF",
+            "mangledName": "$s20ZendeskSDKFayeClient04FayeC8DelegateP15didReceiveError_4withyAA0dcH0O_AA0dC0_ptF",
+            "moduleName": "ZendeskSDKFayeClient",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKFayeClient.FayeClientDelegate>",
+            "sugared_genericSig": "<Self where Self : ZendeskSDKFayeClient.FayeClientDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didReceiveCancelled",
+            "printedName": "didReceiveCancelled()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20ZendeskSDKFayeClient04FayeC8DelegateP19didReceiveCancelledyyF",
+            "mangledName": "$s20ZendeskSDKFayeClient04FayeC8DelegateP19didReceiveCancelledyyF",
+            "moduleName": "ZendeskSDKFayeClient",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKFayeClient.FayeClientDelegate>",
+            "sugared_genericSig": "<Self where Self : ZendeskSDKFayeClient.FayeClientDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didReceivePeerClosed",
+            "printedName": "didReceivePeerClosed()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20ZendeskSDKFayeClient04FayeC8DelegateP20didReceivePeerClosedyyF",
+            "mangledName": "$s20ZendeskSDKFayeClient04FayeC8DelegateP20didReceivePeerClosedyyF",
+            "moduleName": "ZendeskSDKFayeClient",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKFayeClient.FayeClientDelegate>",
+            "sugared_genericSig": "<Self where Self : ZendeskSDKFayeClient.FayeClientDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:20ZendeskSDKFayeClient04FayeC8DelegateP",
+        "mangledName": "$s20ZendeskSDKFayeClient04FayeC8DelegateP",
+        "moduleName": "ZendeskSDKFayeClient",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKFayeClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FayeClientInitError",
+        "printedName": "FayeClientInitError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "invalidURL",
+            "printedName": "invalidURL",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZendeskSDKFayeClient.FayeClientInitError.Type) -> ZendeskSDKFayeClient.FayeClientInitError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FayeClientInitError",
+                    "printedName": "ZendeskSDKFayeClient.FayeClientInitError",
+                    "usr": "s:20ZendeskSDKFayeClient04FayeC9InitErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZendeskSDKFayeClient.FayeClientInitError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FayeClientInitError",
+                        "printedName": "ZendeskSDKFayeClient.FayeClientInitError",
+                        "usr": "s:20ZendeskSDKFayeClient04FayeC9InitErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20ZendeskSDKFayeClient04FayeC9InitErrorO10invalidURLyA2CmF",
+            "mangledName": "$s20ZendeskSDKFayeClient04FayeC9InitErrorO10invalidURLyA2CmF",
+            "moduleName": "ZendeskSDKFayeClient",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FayeClientInitError",
+                "printedName": "ZendeskSDKFayeClient.FayeClientInitError",
+                "usr": "s:20ZendeskSDKFayeClient04FayeC9InitErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FayeClientInitError",
+                "printedName": "ZendeskSDKFayeClient.FayeClientInitError",
+                "usr": "s:20ZendeskSDKFayeClient04FayeC9InitErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20ZendeskSDKFayeClient04FayeC9InitErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s20ZendeskSDKFayeClient04FayeC9InitErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "ZendeskSDKFayeClient",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20ZendeskSDKFayeClient04FayeC9InitErrorO9hashValueSivp",
+            "mangledName": "$s20ZendeskSDKFayeClient04FayeC9InitErrorO9hashValueSivp",
+            "moduleName": "ZendeskSDKFayeClient",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ZendeskSDKFayeClient04FayeC9InitErrorO9hashValueSivg",
+                "mangledName": "$s20ZendeskSDKFayeClient04FayeC9InitErrorO9hashValueSivg",
+                "moduleName": "ZendeskSDKFayeClient",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20ZendeskSDKFayeClient04FayeC9InitErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s20ZendeskSDKFayeClient04FayeC9InitErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "ZendeskSDKFayeClient",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:20ZendeskSDKFayeClient04FayeC9InitErrorO",
+        "mangledName": "$s20ZendeskSDKFayeClient04FayeC9InitErrorO",
+        "moduleName": "ZendeskSDKFayeClient",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKFayeClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKFayeClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FayeClientError",
+        "printedName": "FayeClientError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "stringDeserialisationFailed",
+            "printedName": "stringDeserialisationFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZendeskSDKFayeClient.FayeClientError.Type) -> (Swift.String) -> ZendeskSDKFayeClient.FayeClientError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ZendeskSDKFayeClient.FayeClientError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FayeClientError",
+                        "printedName": "ZendeskSDKFayeClient.FayeClientError",
+                        "usr": "s:20ZendeskSDKFayeClient04FayeC5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(message: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZendeskSDKFayeClient.FayeClientError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FayeClientError",
+                        "printedName": "ZendeskSDKFayeClient.FayeClientError",
+                        "usr": "s:20ZendeskSDKFayeClient04FayeC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20ZendeskSDKFayeClient04FayeC5ErrorO27stringDeserialisationFailedyACSS_tcACmF",
+            "mangledName": "$s20ZendeskSDKFayeClient04FayeC5ErrorO27stringDeserialisationFailedyACSS_tcACmF",
+            "moduleName": "ZendeskSDKFayeClient",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dataDecodeError",
+            "printedName": "dataDecodeError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZendeskSDKFayeClient.FayeClientError.Type) -> (Foundation.Data) -> ZendeskSDKFayeClient.FayeClientError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.Data) -> ZendeskSDKFayeClient.FayeClientError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FayeClientError",
+                        "printedName": "ZendeskSDKFayeClient.FayeClientError",
+                        "usr": "s:20ZendeskSDKFayeClient04FayeC5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(data: Foundation.Data)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Data",
+                            "printedName": "Foundation.Data",
+                            "usr": "s:10Foundation4DataV"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZendeskSDKFayeClient.FayeClientError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FayeClientError",
+                        "printedName": "ZendeskSDKFayeClient.FayeClientError",
+                        "usr": "s:20ZendeskSDKFayeClient04FayeC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20ZendeskSDKFayeClient04FayeC5ErrorO010dataDecodeE0yAC10Foundation4DataV_tcACmF",
+            "mangledName": "$s20ZendeskSDKFayeClient04FayeC5ErrorO010dataDecodeE0yAC10Foundation4DataV_tcACmF",
+            "moduleName": "ZendeskSDKFayeClient",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "notConnected",
+            "printedName": "notConnected",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZendeskSDKFayeClient.FayeClientError.Type) -> ZendeskSDKFayeClient.FayeClientError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FayeClientError",
+                    "printedName": "ZendeskSDKFayeClient.FayeClientError",
+                    "usr": "s:20ZendeskSDKFayeClient04FayeC5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZendeskSDKFayeClient.FayeClientError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FayeClientError",
+                        "printedName": "ZendeskSDKFayeClient.FayeClientError",
+                        "usr": "s:20ZendeskSDKFayeClient04FayeC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20ZendeskSDKFayeClient04FayeC5ErrorO12notConnectedyA2CmF",
+            "mangledName": "$s20ZendeskSDKFayeClient04FayeC5ErrorO12notConnectedyA2CmF",
+            "moduleName": "ZendeskSDKFayeClient",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "socketError",
+            "printedName": "socketError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZendeskSDKFayeClient.FayeClientError.Type) -> (Swift.Error?) -> ZendeskSDKFayeClient.FayeClientError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error?) -> ZendeskSDKFayeClient.FayeClientError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FayeClientError",
+                        "printedName": "ZendeskSDKFayeClient.FayeClientError",
+                        "usr": "s:20ZendeskSDKFayeClient04FayeC5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(error: Swift.Error?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.Error?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Error",
+                                "printedName": "Swift.Error",
+                                "usr": "s:s5ErrorP"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZendeskSDKFayeClient.FayeClientError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FayeClientError",
+                        "printedName": "ZendeskSDKFayeClient.FayeClientError",
+                        "usr": "s:20ZendeskSDKFayeClient04FayeC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20ZendeskSDKFayeClient04FayeC5ErrorO06socketE0yACs0E0_pSg_tcACmF",
+            "mangledName": "$s20ZendeskSDKFayeClient04FayeC5ErrorO06socketE0yACs0E0_pSg_tcACmF",
+            "moduleName": "ZendeskSDKFayeClient",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FayeClientError",
+                "printedName": "ZendeskSDKFayeClient.FayeClientError",
+                "usr": "s:20ZendeskSDKFayeClient04FayeC5ErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FayeClientError",
+                "printedName": "ZendeskSDKFayeClient.FayeClientError",
+                "usr": "s:20ZendeskSDKFayeClient04FayeC5ErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20ZendeskSDKFayeClient04FayeC5ErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s20ZendeskSDKFayeClient04FayeC5ErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "ZendeskSDKFayeClient",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:20ZendeskSDKFayeClient04FayeC5ErrorO",
+        "mangledName": "$s20ZendeskSDKFayeClient04FayeC5ErrorO",
+        "moduleName": "ZendeskSDKFayeClient",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKFayeClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKFayeClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FayeClient",
+        "printedName": "FayeClient",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ZendeskSDKFayeClient.FayeClientDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FayeClientDelegate",
+                    "printedName": "ZendeskSDKFayeClient.FayeClientDelegate",
+                    "usr": "s:20ZendeskSDKFayeClient04FayeC8DelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20ZendeskSDKFayeClient04FayeC0P8delegateAA0dC8Delegate_pSgvp",
+            "mangledName": "$s20ZendeskSDKFayeClient04FayeC0P8delegateAA0dC8Delegate_pSgvp",
+            "moduleName": "ZendeskSDKFayeClient",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ZendeskSDKFayeClient.FayeClientDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FayeClientDelegate",
+                        "printedName": "ZendeskSDKFayeClient.FayeClientDelegate",
+                        "usr": "s:20ZendeskSDKFayeClient04FayeC8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ZendeskSDKFayeClient04FayeC0P8delegateAA0dC8Delegate_pSgvg",
+                "mangledName": "$s20ZendeskSDKFayeClient04FayeC0P8delegateAA0dC8Delegate_pSgvg",
+                "moduleName": "ZendeskSDKFayeClient",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKFayeClient.FayeClient>",
+                "sugared_genericSig": "<Self where Self : ZendeskSDKFayeClient.FayeClient>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ZendeskSDKFayeClient.FayeClientDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FayeClientDelegate",
+                        "printedName": "ZendeskSDKFayeClient.FayeClientDelegate",
+                        "usr": "s:20ZendeskSDKFayeClient04FayeC8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ZendeskSDKFayeClient04FayeC0P8delegateAA0dC8Delegate_pSgvs",
+                "mangledName": "$s20ZendeskSDKFayeClient04FayeC0P8delegateAA0dC8Delegate_pSgvs",
+                "moduleName": "ZendeskSDKFayeClient",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKFayeClient.FayeClient>",
+                "sugared_genericSig": "<Self where Self : ZendeskSDKFayeClient.FayeClient>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ZendeskSDKFayeClient04FayeC0P8delegateAA0dC8Delegate_pSgvM",
+                "mangledName": "$s20ZendeskSDKFayeClient04FayeC0P8delegateAA0dC8Delegate_pSgvM",
+                "moduleName": "ZendeskSDKFayeClient",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKFayeClient.FayeClient>",
+                "sugared_genericSig": "<Self where Self : ZendeskSDKFayeClient.FayeClient>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "clientId",
+            "printedName": "clientId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20ZendeskSDKFayeClient04FayeC0P8clientIdSSSgvp",
+            "mangledName": "$s20ZendeskSDKFayeClient04FayeC0P8clientIdSSSgvp",
+            "moduleName": "ZendeskSDKFayeClient",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ZendeskSDKFayeClient04FayeC0P8clientIdSSSgvg",
+                "mangledName": "$s20ZendeskSDKFayeClient04FayeC0P8clientIdSSSgvg",
+                "moduleName": "ZendeskSDKFayeClient",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKFayeClient.FayeClient>",
+                "sugared_genericSig": "<Self where Self : ZendeskSDKFayeClient.FayeClient>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "connectionState",
+            "printedName": "connectionState",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FayeConnectionState",
+                "printedName": "ZendeskSDKFayeClient.FayeConnectionState",
+                "usr": "s:20ZendeskSDKFayeClient19FayeConnectionStateO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20ZendeskSDKFayeClient04FayeC0P15connectionStateAA0d10ConnectionF0Ovp",
+            "mangledName": "$s20ZendeskSDKFayeClient04FayeC0P15connectionStateAA0d10ConnectionF0Ovp",
+            "moduleName": "ZendeskSDKFayeClient",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FayeConnectionState",
+                    "printedName": "ZendeskSDKFayeClient.FayeConnectionState",
+                    "usr": "s:20ZendeskSDKFayeClient19FayeConnectionStateO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ZendeskSDKFayeClient04FayeC0P15connectionStateAA0d10ConnectionF0Ovg",
+                "mangledName": "$s20ZendeskSDKFayeClient04FayeC0P15connectionStateAA0d10ConnectionF0Ovg",
+                "moduleName": "ZendeskSDKFayeClient",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKFayeClient.FayeClient>",
+                "sugared_genericSig": "<Self where Self : ZendeskSDKFayeClient.FayeClient>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "keepConnectionAlive",
+            "printedName": "keepConnectionAlive",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20ZendeskSDKFayeClient04FayeC0P19keepConnectionAliveSbvp",
+            "mangledName": "$s20ZendeskSDKFayeClient04FayeC0P19keepConnectionAliveSbvp",
+            "moduleName": "ZendeskSDKFayeClient",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ZendeskSDKFayeClient04FayeC0P19keepConnectionAliveSbvg",
+                "mangledName": "$s20ZendeskSDKFayeClient04FayeC0P19keepConnectionAliveSbvg",
+                "moduleName": "ZendeskSDKFayeClient",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKFayeClient.FayeClient>",
+                "sugared_genericSig": "<Self where Self : ZendeskSDKFayeClient.FayeClient>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ZendeskSDKFayeClient04FayeC0P19keepConnectionAliveSbvs",
+                "mangledName": "$s20ZendeskSDKFayeClient04FayeC0P19keepConnectionAliveSbvs",
+                "moduleName": "ZendeskSDKFayeClient",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKFayeClient.FayeClient>",
+                "sugared_genericSig": "<Self where Self : ZendeskSDKFayeClient.FayeClient>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ZendeskSDKFayeClient04FayeC0P19keepConnectionAliveSbvM",
+                "mangledName": "$s20ZendeskSDKFayeClient04FayeC0P19keepConnectionAliveSbvM",
+                "moduleName": "ZendeskSDKFayeClient",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKFayeClient.FayeClient>",
+                "sugared_genericSig": "<Self where Self : ZendeskSDKFayeClient.FayeClient>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "connect",
+            "printedName": "connect(supportedConnectionTypes:handshakeId:connectId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20ZendeskSDKFayeClient04FayeC0P7connect24supportedConnectionTypes11handshakeId0eJ0ySaySSGSg_SSSgAJtF",
+            "mangledName": "$s20ZendeskSDKFayeClient04FayeC0P7connect24supportedConnectionTypes11handshakeId0eJ0ySaySSGSg_SSSgAJtF",
+            "moduleName": "ZendeskSDKFayeClient",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKFayeClient.FayeClient>",
+            "sugared_genericSig": "<Self where Self : ZendeskSDKFayeClient.FayeClient>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "connect",
+            "printedName": "connect(supportedConnectionTypes:handshakeExt:handshakeId:connectId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20ZendeskSDKFayeClient04FayeC0P7connect24supportedConnectionTypes12handshakeExt0I2Id0eK0ySaySSGSg_qd__SSSgAKtSERd__lF",
+            "mangledName": "$s20ZendeskSDKFayeClient04FayeC0P7connect24supportedConnectionTypes12handshakeExt0I2Id0eK0ySaySSGSg_qd__SSSgAKtSERd__lF",
+            "moduleName": "ZendeskSDKFayeClient",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : ZendeskSDKFayeClient.FayeClient, τ_1_0 : Swift.Encodable>",
+            "sugared_genericSig": "<Self, T where Self : ZendeskSDKFayeClient.FayeClient, T : Swift.Encodable>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "connect",
+            "printedName": "connect(supportedConnectionTypes:handshakeId:connectExt:connectId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20ZendeskSDKFayeClient04FayeC0P7connect24supportedConnectionTypes11handshakeId0E3Ext0eJ0ySaySSGSg_SSSgqd__AKtSERd__lF",
+            "mangledName": "$s20ZendeskSDKFayeClient04FayeC0P7connect24supportedConnectionTypes11handshakeId0E3Ext0eJ0ySaySSGSg_SSSgqd__AKtSERd__lF",
+            "moduleName": "ZendeskSDKFayeClient",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : ZendeskSDKFayeClient.FayeClient, τ_1_0 : Swift.Encodable>",
+            "sugared_genericSig": "<Self, T where Self : ZendeskSDKFayeClient.FayeClient, T : Swift.Encodable>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "connect",
+            "printedName": "connect(supportedConnectionTypes:handshakeExt:handshakeId:connectExt:connectId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_1"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20ZendeskSDKFayeClient04FayeC0P7connect24supportedConnectionTypes12handshakeExt0I2Id0eJ00eK0ySaySSGSg_qd__SSSgqd_0_ALtSERd__SERd_0_r0_lF",
+            "mangledName": "$s20ZendeskSDKFayeClient04FayeC0P7connect24supportedConnectionTypes12handshakeExt0I2Id0eJ00eK0ySaySSGSg_qd__SSSgqd_0_ALtSERd__SERd_0_r0_lF",
+            "moduleName": "ZendeskSDKFayeClient",
+            "genericSig": "<τ_0_0, τ_1_0, τ_1_1 where τ_0_0 : ZendeskSDKFayeClient.FayeClient, τ_1_0 : Swift.Encodable, τ_1_1 : Swift.Encodable>",
+            "sugared_genericSig": "<Self, T, S where Self : ZendeskSDKFayeClient.FayeClient, T : Swift.Encodable, S : Swift.Encodable>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disconnect",
+            "printedName": "disconnect(id:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20ZendeskSDKFayeClient04FayeC0P10disconnect2idySSSg_tF",
+            "mangledName": "$s20ZendeskSDKFayeClient04FayeC0P10disconnect2idySSSg_tF",
+            "moduleName": "ZendeskSDKFayeClient",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKFayeClient.FayeClient>",
+            "sugared_genericSig": "<Self where Self : ZendeskSDKFayeClient.FayeClient>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disconnect",
+            "printedName": "disconnect(id:ext:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20ZendeskSDKFayeClient04FayeC0P10disconnect2id3extySSSg_qd__tSERd__lF",
+            "mangledName": "$s20ZendeskSDKFayeClient04FayeC0P10disconnect2id3extySSSg_qd__tSERd__lF",
+            "moduleName": "ZendeskSDKFayeClient",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : ZendeskSDKFayeClient.FayeClient, τ_1_0 : Swift.Encodable>",
+            "sugared_genericSig": "<Self, T where Self : ZendeskSDKFayeClient.FayeClient, T : Swift.Encodable>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "subscribe",
+            "printedName": "subscribe(to:id:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20ZendeskSDKFayeClient04FayeC0P9subscribe2to2idySS_SSSgtF",
+            "mangledName": "$s20ZendeskSDKFayeClient04FayeC0P9subscribe2to2idySS_SSSgtF",
+            "moduleName": "ZendeskSDKFayeClient",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKFayeClient.FayeClient>",
+            "sugared_genericSig": "<Self where Self : ZendeskSDKFayeClient.FayeClient>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "subscribe",
+            "printedName": "subscribe(to:id:ext:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20ZendeskSDKFayeClient04FayeC0P9subscribe2to2id3extySS_SSSgqd__tSERd__lF",
+            "mangledName": "$s20ZendeskSDKFayeClient04FayeC0P9subscribe2to2id3extySS_SSSgqd__tSERd__lF",
+            "moduleName": "ZendeskSDKFayeClient",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : ZendeskSDKFayeClient.FayeClient, τ_1_0 : Swift.Encodable>",
+            "sugared_genericSig": "<Self, T where Self : ZendeskSDKFayeClient.FayeClient, T : Swift.Encodable>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unsubscribe",
+            "printedName": "unsubscribe(from:id:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20ZendeskSDKFayeClient04FayeC0P11unsubscribe4from2idySS_SSSgtF",
+            "mangledName": "$s20ZendeskSDKFayeClient04FayeC0P11unsubscribe4from2idySS_SSSgtF",
+            "moduleName": "ZendeskSDKFayeClient",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKFayeClient.FayeClient>",
+            "sugared_genericSig": "<Self where Self : ZendeskSDKFayeClient.FayeClient>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unsubscribe",
+            "printedName": "unsubscribe(from:id:ext:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20ZendeskSDKFayeClient04FayeC0P11unsubscribe4from2id3extySS_SSSgqd__tSERd__lF",
+            "mangledName": "$s20ZendeskSDKFayeClient04FayeC0P11unsubscribe4from2id3extySS_SSSgqd__tSERd__lF",
+            "moduleName": "ZendeskSDKFayeClient",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : ZendeskSDKFayeClient.FayeClient, τ_1_0 : Swift.Encodable>",
+            "sugared_genericSig": "<Self, T where Self : ZendeskSDKFayeClient.FayeClient, T : Swift.Encodable>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "publish",
+            "printedName": "publish(to:data:id:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20ZendeskSDKFayeClient04FayeC0P7publish2to4data2idySS_qd__SSSgtSERd__lF",
+            "mangledName": "$s20ZendeskSDKFayeClient04FayeC0P7publish2to4data2idySS_qd__SSSgtSERd__lF",
+            "moduleName": "ZendeskSDKFayeClient",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : ZendeskSDKFayeClient.FayeClient, τ_1_0 : Swift.Encodable>",
+            "sugared_genericSig": "<Self, E where Self : ZendeskSDKFayeClient.FayeClient, E : Swift.Encodable>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "publish",
+            "printedName": "publish(to:data:id:ext:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_1"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20ZendeskSDKFayeClient04FayeC0P7publish2to4data2id3extySS_qd__SSSgqd_0_tSERd__SERd_0_r0_lF",
+            "mangledName": "$s20ZendeskSDKFayeClient04FayeC0P7publish2to4data2id3extySS_qd__SSSgqd_0_tSERd__SERd_0_r0_lF",
+            "moduleName": "ZendeskSDKFayeClient",
+            "genericSig": "<τ_0_0, τ_1_0, τ_1_1 where τ_0_0 : ZendeskSDKFayeClient.FayeClient, τ_1_0 : Swift.Encodable, τ_1_1 : Swift.Encodable>",
+            "sugared_genericSig": "<Self, E, T where Self : ZendeskSDKFayeClient.FayeClient, E : Swift.Encodable, T : Swift.Encodable>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:20ZendeskSDKFayeClient04FayeC0P",
+        "mangledName": "$s20ZendeskSDKFayeClient04FayeC0P",
+        "moduleName": "ZendeskSDKFayeClient",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKFayeClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKFayeClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FayeConnectionState",
+        "printedName": "FayeConnectionState",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "disconnected",
+            "printedName": "disconnected",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZendeskSDKFayeClient.FayeConnectionState.Type) -> ZendeskSDKFayeClient.FayeConnectionState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FayeConnectionState",
+                    "printedName": "ZendeskSDKFayeClient.FayeConnectionState",
+                    "usr": "s:20ZendeskSDKFayeClient19FayeConnectionStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZendeskSDKFayeClient.FayeConnectionState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FayeConnectionState",
+                        "printedName": "ZendeskSDKFayeClient.FayeConnectionState",
+                        "usr": "s:20ZendeskSDKFayeClient19FayeConnectionStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20ZendeskSDKFayeClient19FayeConnectionStateO12disconnectedyA2CmF",
+            "mangledName": "$s20ZendeskSDKFayeClient19FayeConnectionStateO12disconnectedyA2CmF",
+            "moduleName": "ZendeskSDKFayeClient",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "connected",
+            "printedName": "connected",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZendeskSDKFayeClient.FayeConnectionState.Type) -> ZendeskSDKFayeClient.FayeConnectionState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FayeConnectionState",
+                    "printedName": "ZendeskSDKFayeClient.FayeConnectionState",
+                    "usr": "s:20ZendeskSDKFayeClient19FayeConnectionStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZendeskSDKFayeClient.FayeConnectionState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FayeConnectionState",
+                        "printedName": "ZendeskSDKFayeClient.FayeConnectionState",
+                        "usr": "s:20ZendeskSDKFayeClient19FayeConnectionStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20ZendeskSDKFayeClient19FayeConnectionStateO9connectedyA2CmF",
+            "mangledName": "$s20ZendeskSDKFayeClient19FayeConnectionStateO9connectedyA2CmF",
+            "moduleName": "ZendeskSDKFayeClient",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20ZendeskSDKFayeClient19FayeConnectionStateO9hashValueSivp",
+            "mangledName": "$s20ZendeskSDKFayeClient19FayeConnectionStateO9hashValueSivp",
+            "moduleName": "ZendeskSDKFayeClient",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ZendeskSDKFayeClient19FayeConnectionStateO9hashValueSivg",
+                "mangledName": "$s20ZendeskSDKFayeClient19FayeConnectionStateO9hashValueSivg",
+                "moduleName": "ZendeskSDKFayeClient",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20ZendeskSDKFayeClient19FayeConnectionStateO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s20ZendeskSDKFayeClient19FayeConnectionStateO4hash4intoys6HasherVz_tF",
+            "moduleName": "ZendeskSDKFayeClient",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FayeConnectionState",
+                "printedName": "ZendeskSDKFayeClient.FayeConnectionState",
+                "usr": "s:20ZendeskSDKFayeClient19FayeConnectionStateO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FayeConnectionState",
+                "printedName": "ZendeskSDKFayeClient.FayeConnectionState",
+                "usr": "s:20ZendeskSDKFayeClient19FayeConnectionStateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20ZendeskSDKFayeClient19FayeConnectionStateO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s20ZendeskSDKFayeClient19FayeConnectionStateO2eeoiySbAC_ACtFZ",
+            "moduleName": "ZendeskSDKFayeClient",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:20ZendeskSDKFayeClient19FayeConnectionStateO",
+        "mangledName": "$s20ZendeskSDKFayeClient19FayeConnectionStateO",
+        "moduleName": "ZendeskSDKFayeClient",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKFayeClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ZendeskSDKLogger",
+        "printedName": "ZendeskSDKLogger",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKFayeClient"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/State\/FayeState.swift",
+      "kind": "Array",
+      "offset": 732,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Bayeux\/Bayeux.swift",
+      "kind": "StringLiteral",
+      "offset": 691,
+      "length": 17,
+      "value": "\"\/meta\/handshake\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Bayeux\/Bayeux.swift",
+      "kind": "StringLiteral",
+      "offset": 732,
+      "length": 15,
+      "value": "\"\/meta\/connect\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Bayeux\/Bayeux.swift",
+      "kind": "StringLiteral",
+      "offset": 774,
+      "length": 18,
+      "value": "\"\/meta\/disconnect\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Bayeux\/Bayeux.swift",
+      "kind": "StringLiteral",
+      "offset": 818,
+      "length": 17,
+      "value": "\"\/meta\/subscribe\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Bayeux\/Bayeux.swift",
+      "kind": "StringLiteral",
+      "offset": 863,
+      "length": 19,
+      "value": "\"\/meta\/unsubscribe\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Bayeux\/Bayeux.swift",
+      "kind": "StringLiteral",
+      "offset": 691,
+      "length": 17,
+      "value": "\"\/meta\/handshake\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Bayeux\/Bayeux.swift",
+      "kind": "StringLiteral",
+      "offset": 732,
+      "length": 15,
+      "value": "\"\/meta\/connect\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Bayeux\/Bayeux.swift",
+      "kind": "StringLiteral",
+      "offset": 774,
+      "length": 18,
+      "value": "\"\/meta\/disconnect\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Bayeux\/Bayeux.swift",
+      "kind": "StringLiteral",
+      "offset": 818,
+      "length": 17,
+      "value": "\"\/meta\/subscribe\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Bayeux\/Bayeux.swift",
+      "kind": "StringLiteral",
+      "offset": 863,
+      "length": 19,
+      "value": "\"\/meta\/unsubscribe\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Bayeux\/Bayeux.swift",
+      "kind": "StringLiteral",
+      "offset": 1143,
+      "length": 14,
+      "value": "\"long-polling\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Bayeux\/Bayeux.swift",
+      "kind": "StringLiteral",
+      "offset": 1191,
+      "length": 18,
+      "value": "\"callback-polling\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Bayeux\/Bayeux.swift",
+      "kind": "StringLiteral",
+      "offset": 1234,
+      "length": 8,
+      "value": "\"iframe\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Bayeux\/Bayeux.swift",
+      "kind": "StringLiteral",
+      "offset": 1270,
+      "length": 11,
+      "value": "\"websocket\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Bayeux\/Bayeux.swift",
+      "kind": "StringLiteral",
+      "offset": 1344,
+      "length": 9,
+      "value": "\"channel\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Bayeux\/Bayeux.swift",
+      "kind": "StringLiteral",
+      "offset": 1379,
+      "length": 9,
+      "value": "\"version\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Bayeux\/Bayeux.swift",
+      "kind": "StringLiteral",
+      "offset": 1431,
+      "length": 26,
+      "value": "\"supportedConnectionTypes\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Bayeux\/Bayeux.swift",
+      "kind": "StringLiteral",
+      "offset": 1490,
+      "length": 16,
+      "value": "\"minimumVersion\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Bayeux\/Bayeux.swift",
+      "kind": "StringLiteral",
+      "offset": 1527,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Bayeux\/Bayeux.swift",
+      "kind": "StringLiteral",
+      "offset": 1553,
+      "length": 5,
+      "value": "\"ext\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Bayeux\/Bayeux.swift",
+      "kind": "StringLiteral",
+      "offset": 1581,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Bayeux\/Bayeux.swift",
+      "kind": "StringLiteral",
+      "offset": 1614,
+      "length": 10,
+      "value": "\"clientId\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Bayeux\/Bayeux.swift",
+      "kind": "StringLiteral",
+      "offset": 1657,
+      "length": 16,
+      "value": "\"connectionType\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Bayeux\/Bayeux.swift",
+      "kind": "StringLiteral",
+      "offset": 1704,
+      "length": 14,
+      "value": "\"subscription\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Bayeux\/Bayeux.swift",
+      "kind": "StringLiteral",
+      "offset": 1778,
+      "length": 5,
+      "value": "\"1.0\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Bayeux\/Bayeux.swift",
+      "kind": "StringLiteral",
+      "offset": 1807,
+      "length": 9,
+      "value": "\"1.0beta\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Bayeux\/Bayeux.swift",
+      "kind": "StringLiteral",
+      "offset": 1778,
+      "length": 5,
+      "value": "\"1.0\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Bayeux\/Bayeux.swift",
+      "kind": "StringLiteral",
+      "offset": 1807,
+      "length": 9,
+      "value": "\"1.0beta\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 703,
+      "length": 24,
+      "value": "\"com.zendesk.FayeClient\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 766,
+      "length": 6,
+      "value": "\"FAYE\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 914,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}

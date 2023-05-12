@@ -1,0 +1,11 @@
+framework module ZendeskSDKStorage {
+  umbrella header "ZendeskSDKStorage.h"
+
+  export *
+  module * { export * }
+}
+
+module ZendeskSDKStorage.Swift {
+  header "ZendeskSDKStorage-Swift.h"
+  requires objc
+}

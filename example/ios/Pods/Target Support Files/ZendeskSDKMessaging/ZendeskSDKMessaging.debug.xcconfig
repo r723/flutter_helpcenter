@@ -1,0 +1,15 @@
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
+CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/ZendeskSDKMessaging
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Zendesk" "${PODS_ROOT}/ZendeskSDKConversationKit" "${PODS_ROOT}/ZendeskSDKCoreUtilities" "${PODS_ROOT}/ZendeskSDKFayeClient" "${PODS_ROOT}/ZendeskSDKHTTPClient" "${PODS_ROOT}/ZendeskSDKLogger" "${PODS_ROOT}/ZendeskSDKMessaging" "${PODS_ROOT}/ZendeskSDKSocketClient" "${PODS_ROOT}/ZendeskSDKStorage" "${PODS_ROOT}/ZendeskSDKUIComponents" "${PODS_XCFRAMEWORKS_BUILD_DIR}/Zendesk" "${PODS_XCFRAMEWORKS_BUILD_DIR}/ZendeskSDKConversationKit" "${PODS_XCFRAMEWORKS_BUILD_DIR}/ZendeskSDKCoreUtilities" "${PODS_XCFRAMEWORKS_BUILD_DIR}/ZendeskSDKFayeClient" "${PODS_XCFRAMEWORKS_BUILD_DIR}/ZendeskSDKHTTPClient" "${PODS_XCFRAMEWORKS_BUILD_DIR}/ZendeskSDKLogger" "${PODS_XCFRAMEWORKS_BUILD_DIR}/ZendeskSDKMessaging" "${PODS_XCFRAMEWORKS_BUILD_DIR}/ZendeskSDKSocketClient" "${PODS_XCFRAMEWORKS_BUILD_DIR}/ZendeskSDKStorage" "${PODS_XCFRAMEWORKS_BUILD_DIR}/ZendeskSDKUIComponents"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LIBRARY_SEARCH_PATHS = $(inherited) "${DT_TOOLCHAIN_DIR}/usr/lib/swift/${PLATFORM_NAME}" /usr/lib/swift
+OTHER_LDFLAGS = $(inherited) -framework "ZendeskSDK" -framework "ZendeskSDKConversationKit" -framework "ZendeskSDKCoreUtilities" -framework "ZendeskSDKFayeClient" -framework "ZendeskSDKHTTPClient" -framework "ZendeskSDKLogger" -framework "ZendeskSDKSocketClient" -framework "ZendeskSDKStorage" -framework "ZendeskSDKUIComponents"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}
+PODS_TARGET_SRCROOT = ${PODS_ROOT}/ZendeskSDKMessaging
+PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates
+PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
+SKIP_INSTALL = YES
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

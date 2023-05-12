@@ -1,0 +1,993 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKStorage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKStorage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKStorage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKStorage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ZendeskSDKLogger",
+        "printedName": "ZendeskSDKLogger",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKStorage"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKStorage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKStorage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StorageBuilder",
+        "printedName": "StorageBuilder",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(namespace:type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "StorageBuilder",
+                "printedName": "ZendeskSDKStorage.StorageBuilder",
+                "usr": "s:17ZendeskSDKStorage14StorageBuilderV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StorageType",
+                "printedName": "ZendeskSDKStorage.StorageType",
+                "usr": "s:17ZendeskSDKStorage11StorageTypeO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17ZendeskSDKStorage14StorageBuilderV9namespace4typeACSS_AA0C4TypeOtcfc",
+            "mangledName": "$s17ZendeskSDKStorage14StorageBuilderV9namespace4typeACSS_AA0C4TypeOtcfc",
+            "moduleName": "ZendeskSDKStorage",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "build",
+            "printedName": "build()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Storage",
+                "printedName": "ZendeskSDKStorage.Storage",
+                "usr": "s:17ZendeskSDKStorage7StorageP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17ZendeskSDKStorage14StorageBuilderV5buildAA0C0_pyKF",
+            "mangledName": "$s17ZendeskSDKStorage14StorageBuilderV5buildAA0C0_pyKF",
+            "moduleName": "ZendeskSDKStorage",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17ZendeskSDKStorage14StorageBuilderV",
+        "mangledName": "$s17ZendeskSDKStorage14StorageBuilderV",
+        "moduleName": "ZendeskSDKStorage",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKStorage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StorableValue",
+        "printedName": "StorableValue",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(namespace:type:key:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "StorableValue",
+                "printedName": "ZendeskSDKStorage.StorableValue<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:17ZendeskSDKStorage13StorableValueC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StorageType",
+                "printedName": "ZendeskSDKStorage.StorageType",
+                "usr": "s:17ZendeskSDKStorage11StorageTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17ZendeskSDKStorage13StorableValueC9namespace4type3keyACyxGSS_AA11StorageTypeOSStcfc",
+            "mangledName": "$s17ZendeskSDKStorage13StorableValueC9namespace4type3keyACyxGSS_AA11StorageTypeOSStcfc",
+            "moduleName": "ZendeskSDKStorage",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "wrappedValue",
+            "printedName": "wrappedValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ZendeskSDKStorage13StorableValueC07wrappedD0xSgvp",
+            "mangledName": "$s17ZendeskSDKStorage13StorableValueC07wrappedD0xSgvp",
+            "moduleName": "ZendeskSDKStorage",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_0_0?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ZendeskSDKStorage13StorableValueC07wrappedD0xSgvg",
+                "mangledName": "$s17ZendeskSDKStorage13StorableValueC07wrappedD0xSgvg",
+                "moduleName": "ZendeskSDKStorage",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_0_0?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ZendeskSDKStorage13StorableValueC07wrappedD0xSgvs",
+                "mangledName": "$s17ZendeskSDKStorage13StorableValueC07wrappedD0xSgvs",
+                "moduleName": "ZendeskSDKStorage",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ZendeskSDKStorage13StorableValueC07wrappedD0xSgvM",
+                "mangledName": "$s17ZendeskSDKStorage13StorableValueC07wrappedD0xSgvM",
+                "moduleName": "ZendeskSDKStorage",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17ZendeskSDKStorage13StorableValueC",
+        "mangledName": "$s17ZendeskSDKStorage13StorableValueC",
+        "moduleName": "ZendeskSDKStorage",
+        "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+        "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+        "declAttributes": [
+          "AccessControl",
+          "PropertyWrapper",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKStorage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StorageType",
+        "printedName": "StorageType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "basic",
+            "printedName": "basic",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZendeskSDKStorage.StorageType.Type) -> ZendeskSDKStorage.StorageType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StorageType",
+                    "printedName": "ZendeskSDKStorage.StorageType",
+                    "usr": "s:17ZendeskSDKStorage11StorageTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZendeskSDKStorage.StorageType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StorageType",
+                        "printedName": "ZendeskSDKStorage.StorageType",
+                        "usr": "s:17ZendeskSDKStorage11StorageTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17ZendeskSDKStorage11StorageTypeO5basicyA2CmF",
+            "mangledName": "$s17ZendeskSDKStorage11StorageTypeO5basicyA2CmF",
+            "moduleName": "ZendeskSDKStorage",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "complex",
+            "printedName": "complex",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZendeskSDKStorage.StorageType.Type) -> ZendeskSDKStorage.StorageType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StorageType",
+                    "printedName": "ZendeskSDKStorage.StorageType",
+                    "usr": "s:17ZendeskSDKStorage11StorageTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZendeskSDKStorage.StorageType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StorageType",
+                        "printedName": "ZendeskSDKStorage.StorageType",
+                        "usr": "s:17ZendeskSDKStorage11StorageTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17ZendeskSDKStorage11StorageTypeO7complexyA2CmF",
+            "mangledName": "$s17ZendeskSDKStorage11StorageTypeO7complexyA2CmF",
+            "moduleName": "ZendeskSDKStorage",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ZendeskSDKStorage.StorageType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StorageType",
+                    "printedName": "ZendeskSDKStorage.StorageType",
+                    "usr": "s:17ZendeskSDKStorage11StorageTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17ZendeskSDKStorage11StorageTypeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s17ZendeskSDKStorage11StorageTypeO8rawValueACSgSS_tcfc",
+            "moduleName": "ZendeskSDKStorage",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ZendeskSDKStorage11StorageTypeO8rawValueSSvp",
+            "mangledName": "$s17ZendeskSDKStorage11StorageTypeO8rawValueSSvp",
+            "moduleName": "ZendeskSDKStorage",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ZendeskSDKStorage11StorageTypeO8rawValueSSvg",
+                "mangledName": "$s17ZendeskSDKStorage11StorageTypeO8rawValueSSvg",
+                "moduleName": "ZendeskSDKStorage",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:17ZendeskSDKStorage11StorageTypeO",
+        "mangledName": "$s17ZendeskSDKStorage11StorageTypeO",
+        "moduleName": "ZendeskSDKStorage",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StorageError",
+        "printedName": "StorageError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "cannotInitialize",
+            "printedName": "cannotInitialize",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZendeskSDKStorage.StorageError.Type) -> ZendeskSDKStorage.StorageError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StorageError",
+                    "printedName": "ZendeskSDKStorage.StorageError",
+                    "usr": "s:17ZendeskSDKStorage12StorageErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZendeskSDKStorage.StorageError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StorageError",
+                        "printedName": "ZendeskSDKStorage.StorageError",
+                        "usr": "s:17ZendeskSDKStorage12StorageErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17ZendeskSDKStorage12StorageErrorO16cannotInitializeyA2CmF",
+            "mangledName": "$s17ZendeskSDKStorage12StorageErrorO16cannotInitializeyA2CmF",
+            "moduleName": "ZendeskSDKStorage",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StorageError",
+                "printedName": "ZendeskSDKStorage.StorageError",
+                "usr": "s:17ZendeskSDKStorage12StorageErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StorageError",
+                "printedName": "ZendeskSDKStorage.StorageError",
+                "usr": "s:17ZendeskSDKStorage12StorageErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17ZendeskSDKStorage12StorageErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s17ZendeskSDKStorage12StorageErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "ZendeskSDKStorage",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ZendeskSDKStorage12StorageErrorO9hashValueSivp",
+            "mangledName": "$s17ZendeskSDKStorage12StorageErrorO9hashValueSivp",
+            "moduleName": "ZendeskSDKStorage",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ZendeskSDKStorage12StorageErrorO9hashValueSivg",
+                "mangledName": "$s17ZendeskSDKStorage12StorageErrorO9hashValueSivg",
+                "moduleName": "ZendeskSDKStorage",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17ZendeskSDKStorage12StorageErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s17ZendeskSDKStorage12StorageErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "ZendeskSDKStorage",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:17ZendeskSDKStorage12StorageErrorO",
+        "mangledName": "$s17ZendeskSDKStorage12StorageErrorO",
+        "moduleName": "ZendeskSDKStorage",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Storage",
+        "printedName": "Storage",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "namespace",
+            "printedName": "namespace",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ZendeskSDKStorage7StorageP9namespaceSSvp",
+            "mangledName": "$s17ZendeskSDKStorage7StorageP9namespaceSSvp",
+            "moduleName": "ZendeskSDKStorage",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ZendeskSDKStorage7StorageP9namespaceSSvg",
+                "mangledName": "$s17ZendeskSDKStorage7StorageP9namespaceSSvg",
+                "moduleName": "ZendeskSDKStorage",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKStorage.Storage>",
+                "sugared_genericSig": "<Self where Self : ZendeskSDKStorage.Storage>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ZendeskSDKStorage7StorageP9namespaceSSvs",
+                "mangledName": "$s17ZendeskSDKStorage7StorageP9namespaceSSvs",
+                "moduleName": "ZendeskSDKStorage",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKStorage.Storage>",
+                "sugared_genericSig": "<Self where Self : ZendeskSDKStorage.Storage>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ZendeskSDKStorage7StorageP9namespaceSSvM",
+                "mangledName": "$s17ZendeskSDKStorage7StorageP9namespaceSSvM",
+                "moduleName": "ZendeskSDKStorage",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKStorage.Storage>",
+                "sugared_genericSig": "<Self where Self : ZendeskSDKStorage.Storage>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "get",
+            "printedName": "get(forKey:ofType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_1_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_1_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17ZendeskSDKStorage7StorageP3get6forKey6ofTypeqd__SgSS_qd__mtSeRd__SERd__lF",
+            "mangledName": "$s17ZendeskSDKStorage7StorageP3get6forKey6ofTypeqd__SgSS_qd__mtSeRd__SERd__lF",
+            "moduleName": "ZendeskSDKStorage",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : ZendeskSDKStorage.Storage, τ_1_0 : Swift.Decodable, τ_1_0 : Swift.Encodable>",
+            "sugared_genericSig": "<Self, D where Self : ZendeskSDKStorage.Storage, D : Swift.Decodable, D : Swift.Encodable>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "set",
+            "printedName": "set(_:forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17ZendeskSDKStorage7StorageP3set_6forKeyyqd___SStSeRd__SERd__lF",
+            "mangledName": "$s17ZendeskSDKStorage7StorageP3set_6forKeyyqd___SStSeRd__SERd__lF",
+            "moduleName": "ZendeskSDKStorage",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : ZendeskSDKStorage.Storage, τ_1_0 : Swift.Decodable, τ_1_0 : Swift.Encodable>",
+            "sugared_genericSig": "<Self, E where Self : ZendeskSDKStorage.Storage, E : Swift.Decodable, E : Swift.Encodable>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "remove",
+            "printedName": "remove(forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17ZendeskSDKStorage7StorageP6remove6forKeyySS_tF",
+            "mangledName": "$s17ZendeskSDKStorage7StorageP6remove6forKeyySS_tF",
+            "moduleName": "ZendeskSDKStorage",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKStorage.Storage>",
+            "sugared_genericSig": "<Self where Self : ZendeskSDKStorage.Storage>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clear",
+            "printedName": "clear()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17ZendeskSDKStorage7StorageP5clearyyF",
+            "mangledName": "$s17ZendeskSDKStorage7StorageP5clearyyF",
+            "moduleName": "ZendeskSDKStorage",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKStorage.Storage>",
+            "sugared_genericSig": "<Self where Self : ZendeskSDKStorage.Storage>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:17ZendeskSDKStorage7StorageP",
+        "mangledName": "$s17ZendeskSDKStorage7StorageP",
+        "moduleName": "ZendeskSDKStorage",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/Storage\/Storage\/Source\/StorageLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 673,
+      "length": 21,
+      "value": "\"com.zendesk.Storage\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/Storage\/Storage\/Source\/StorageLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 725,
+      "length": 9,
+      "value": "\"STORAGE\""
+    }
+  ]
+}

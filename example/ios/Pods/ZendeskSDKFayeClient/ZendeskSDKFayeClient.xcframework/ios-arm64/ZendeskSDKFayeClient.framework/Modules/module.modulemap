@@ -1,0 +1,11 @@
+framework module ZendeskSDKFayeClient {
+  umbrella header "ZendeskSDKFayeClient.h"
+
+  export *
+  module * { export * }
+}
+
+module ZendeskSDKFayeClient.Swift {
+  header "ZendeskSDKFayeClient-Swift.h"
+  requires objc
+}

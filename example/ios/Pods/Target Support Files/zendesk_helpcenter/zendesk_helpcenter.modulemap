@@ -1,0 +1,6 @@
+framework module zendesk_helpcenter {
+  umbrella header "zendesk_helpcenter-umbrella.h"
+
+  export *
+  module * { export * }
+}

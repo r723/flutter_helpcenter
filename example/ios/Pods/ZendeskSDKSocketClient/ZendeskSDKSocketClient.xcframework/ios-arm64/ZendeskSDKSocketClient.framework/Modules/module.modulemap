@@ -1,0 +1,11 @@
+framework module ZendeskSDKSocketClient {
+  umbrella header "ZendeskSDKSocketClient.h"
+
+  export *
+  module * { export * }
+}
+
+module ZendeskSDKSocketClient.Swift {
+  header "ZendeskSDKSocketClient-Swift.h"
+  requires objc
+}

@@ -1,0 +1,2005 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKSocketClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKSocketClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SocketClient",
+        "printedName": "SocketClient",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ZendeskSDKSocketClient.SocketClientDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SocketClientDelegate",
+                    "printedName": "ZendeskSDKSocketClient.SocketClientDelegate",
+                    "usr": "s:22ZendeskSDKSocketClient06SocketC8DelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22ZendeskSDKSocketClient06SocketC0P8delegateAA0dC8Delegate_pSgvp",
+            "mangledName": "$s22ZendeskSDKSocketClient06SocketC0P8delegateAA0dC8Delegate_pSgvp",
+            "moduleName": "ZendeskSDKSocketClient",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ZendeskSDKSocketClient.SocketClientDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SocketClientDelegate",
+                        "printedName": "ZendeskSDKSocketClient.SocketClientDelegate",
+                        "usr": "s:22ZendeskSDKSocketClient06SocketC8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZendeskSDKSocketClient06SocketC0P8delegateAA0dC8Delegate_pSgvg",
+                "mangledName": "$s22ZendeskSDKSocketClient06SocketC0P8delegateAA0dC8Delegate_pSgvg",
+                "moduleName": "ZendeskSDKSocketClient",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKSocketClient.SocketClient>",
+                "sugared_genericSig": "<Self where Self : ZendeskSDKSocketClient.SocketClient>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ZendeskSDKSocketClient.SocketClientDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SocketClientDelegate",
+                        "printedName": "ZendeskSDKSocketClient.SocketClientDelegate",
+                        "usr": "s:22ZendeskSDKSocketClient06SocketC8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZendeskSDKSocketClient06SocketC0P8delegateAA0dC8Delegate_pSgvs",
+                "mangledName": "$s22ZendeskSDKSocketClient06SocketC0P8delegateAA0dC8Delegate_pSgvs",
+                "moduleName": "ZendeskSDKSocketClient",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKSocketClient.SocketClient>",
+                "sugared_genericSig": "<Self where Self : ZendeskSDKSocketClient.SocketClient>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZendeskSDKSocketClient06SocketC0P8delegateAA0dC8Delegate_pSgvM",
+                "mangledName": "$s22ZendeskSDKSocketClient06SocketC0P8delegateAA0dC8Delegate_pSgvM",
+                "moduleName": "ZendeskSDKSocketClient",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKSocketClient.SocketClient>",
+                "sugared_genericSig": "<Self where Self : ZendeskSDKSocketClient.SocketClient>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "connect",
+            "printedName": "connect(url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22ZendeskSDKSocketClient06SocketC0P7connect3urly10Foundation3URLV_tF",
+            "mangledName": "$s22ZendeskSDKSocketClient06SocketC0P7connect3urly10Foundation3URLV_tF",
+            "moduleName": "ZendeskSDKSocketClient",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKSocketClient.SocketClient>",
+            "sugared_genericSig": "<Self where Self : ZendeskSDKSocketClient.SocketClient>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disconnect",
+            "printedName": "disconnect()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22ZendeskSDKSocketClient06SocketC0P10disconnectyyF",
+            "mangledName": "$s22ZendeskSDKSocketClient06SocketC0P10disconnectyyF",
+            "moduleName": "ZendeskSDKSocketClient",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKSocketClient.SocketClient>",
+            "sugared_genericSig": "<Self where Self : ZendeskSDKSocketClient.SocketClient>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendMessage",
+            "printedName": "sendMessage(text:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22ZendeskSDKSocketClient06SocketC0P11sendMessage4textySS_tF",
+            "mangledName": "$s22ZendeskSDKSocketClient06SocketC0P11sendMessage4textySS_tF",
+            "moduleName": "ZendeskSDKSocketClient",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKSocketClient.SocketClient>",
+            "sugared_genericSig": "<Self where Self : ZendeskSDKSocketClient.SocketClient>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:22ZendeskSDKSocketClient06SocketC0P",
+        "mangledName": "$s22ZendeskSDKSocketClient06SocketC0P",
+        "moduleName": "ZendeskSDKSocketClient",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SocketClientDelegate",
+        "printedName": "SocketClientDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didConnect",
+            "printedName": "didConnect(headers:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22ZendeskSDKSocketClient06SocketC8DelegateP10didConnect7headersySDyS2SG_tF",
+            "mangledName": "$s22ZendeskSDKSocketClient06SocketC8DelegateP10didConnect7headersySDyS2SG_tF",
+            "moduleName": "ZendeskSDKSocketClient",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKSocketClient.SocketClientDelegate>",
+            "sugared_genericSig": "<Self where Self : ZendeskSDKSocketClient.SocketClientDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didDisconnect",
+            "printedName": "didDisconnect(reason:code:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt16",
+                "printedName": "Swift.UInt16",
+                "usr": "s:s6UInt16V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22ZendeskSDKSocketClient06SocketC8DelegateP13didDisconnect6reason4codeySS_s6UInt16VtF",
+            "mangledName": "$s22ZendeskSDKSocketClient06SocketC8DelegateP13didDisconnect6reason4codeySS_s6UInt16VtF",
+            "moduleName": "ZendeskSDKSocketClient",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKSocketClient.SocketClientDelegate>",
+            "sugared_genericSig": "<Self where Self : ZendeskSDKSocketClient.SocketClientDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didReceiveMessage",
+            "printedName": "didReceiveMessage(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22ZendeskSDKSocketClient06SocketC8DelegateP17didReceiveMessage7messageySS_tF",
+            "mangledName": "$s22ZendeskSDKSocketClient06SocketC8DelegateP17didReceiveMessage7messageySS_tF",
+            "moduleName": "ZendeskSDKSocketClient",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKSocketClient.SocketClientDelegate>",
+            "sugared_genericSig": "<Self where Self : ZendeskSDKSocketClient.SocketClientDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didReceiveData",
+            "printedName": "didReceiveData(data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22ZendeskSDKSocketClient06SocketC8DelegateP14didReceiveData4datay10Foundation0H0V_tF",
+            "mangledName": "$s22ZendeskSDKSocketClient06SocketC8DelegateP14didReceiveData4datay10Foundation0H0V_tF",
+            "moduleName": "ZendeskSDKSocketClient",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKSocketClient.SocketClientDelegate>",
+            "sugared_genericSig": "<Self where Self : ZendeskSDKSocketClient.SocketClientDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didReceiveError",
+            "printedName": "didReceiveError(error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Error?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22ZendeskSDKSocketClient06SocketC8DelegateP15didReceiveError5errorys0H0_pSg_tF",
+            "mangledName": "$s22ZendeskSDKSocketClient06SocketC8DelegateP15didReceiveError5errorys0H0_pSg_tF",
+            "moduleName": "ZendeskSDKSocketClient",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKSocketClient.SocketClientDelegate>",
+            "sugared_genericSig": "<Self where Self : ZendeskSDKSocketClient.SocketClientDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didReceiveCancelled",
+            "printedName": "didReceiveCancelled()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22ZendeskSDKSocketClient06SocketC8DelegateP19didReceiveCancelledyyF",
+            "mangledName": "$s22ZendeskSDKSocketClient06SocketC8DelegateP19didReceiveCancelledyyF",
+            "moduleName": "ZendeskSDKSocketClient",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKSocketClient.SocketClientDelegate>",
+            "sugared_genericSig": "<Self where Self : ZendeskSDKSocketClient.SocketClientDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didReceivePeerClosed",
+            "printedName": "didReceivePeerClosed()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22ZendeskSDKSocketClient06SocketC8DelegateP20didReceivePeerClosedyyF",
+            "mangledName": "$s22ZendeskSDKSocketClient06SocketC8DelegateP20didReceivePeerClosedyyF",
+            "moduleName": "ZendeskSDKSocketClient",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKSocketClient.SocketClientDelegate>",
+            "sugared_genericSig": "<Self where Self : ZendeskSDKSocketClient.SocketClientDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:22ZendeskSDKSocketClient06SocketC8DelegateP",
+        "mangledName": "$s22ZendeskSDKSocketClient06SocketC8DelegateP",
+        "moduleName": "ZendeskSDKSocketClient",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKSocketClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKSocketClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKSocketClient"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKSocketClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKSocketClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKSocketClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKSocketClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKSocketClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKSocketClient"
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKSocketClient"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKSocketClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKSocketClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SocketClientBuilder",
+        "printedName": "SocketClientBuilder",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SocketClientBuilder",
+                "printedName": "ZendeskSDKSocketClient.SocketClientBuilder",
+                "usr": "s:22ZendeskSDKSocketClient06SocketC7BuilderV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22ZendeskSDKSocketClient06SocketC7BuilderVACycfc",
+            "mangledName": "$s22ZendeskSDKSocketClient06SocketC7BuilderVACycfc",
+            "moduleName": "ZendeskSDKSocketClient",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "build",
+            "printedName": "build()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SocketClient",
+                "printedName": "ZendeskSDKSocketClient.SocketClient",
+                "usr": "s:22ZendeskSDKSocketClient06SocketC0P"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22ZendeskSDKSocketClient06SocketC7BuilderV5buildAA0dC0_pyF",
+            "mangledName": "$s22ZendeskSDKSocketClient06SocketC7BuilderV5buildAA0dC0_pyF",
+            "moduleName": "ZendeskSDKSocketClient",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:22ZendeskSDKSocketClient06SocketC7BuilderV",
+        "mangledName": "$s22ZendeskSDKSocketClient06SocketC7BuilderV",
+        "moduleName": "ZendeskSDKSocketClient",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKSocketClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKSocketClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKSocketClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKSocketClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKSocketClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKSocketClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "zlib",
+        "printedName": "zlib",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKSocketClient"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKSocketClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WebSocket",
+        "printedName": "WebSocket",
+        "declKind": "Class",
+        "usr": "s:22ZendeskSDKSocketClient9WebSocketC",
+        "mangledName": "$s22ZendeskSDKSocketClient9WebSocketC",
+        "moduleName": "ZendeskSDKSocketClient",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKSocketClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ZendeskSDKLogger",
+        "printedName": "ZendeskSDKLogger",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKSocketClient"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKSocketClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKSocketClient"
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKSocketClient"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKSocketClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKSocketClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UInt8",
+        "printedName": "UInt8",
+        "declKind": "Struct",
+        "usr": "s:s5UInt8V",
+        "mangledName": "$ss5UInt8V",
+        "moduleName": "Swift",
+        "declAttributes": [
+          "Frozen"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "FixedWidthInteger",
+            "printedName": "FixedWidthInteger",
+            "usr": "s:s17FixedWidthIntegerP",
+            "mangledName": "$ss17FixedWidthIntegerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UnsignedInteger",
+            "printedName": "UnsignedInteger",
+            "usr": "s:SU",
+            "mangledName": "$sSU"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinIntegerLiteral",
+            "printedName": "_ExpressibleByBuiltinIntegerLiteral",
+            "usr": "s:s35_ExpressibleByBuiltinIntegerLiteralP",
+            "mangledName": "$ss35_ExpressibleByBuiltinIntegerLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BinaryInteger",
+            "printedName": "BinaryInteger",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Words",
+                "printedName": "Words",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Words",
+                    "printedName": "Swift.UInt8.Words",
+                    "usr": "s:s5UInt8V5WordsV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sz",
+            "mangledName": "$sSz"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LosslessStringConvertible",
+            "printedName": "LosslessStringConvertible",
+            "usr": "s:s25LosslessStringConvertibleP",
+            "mangledName": "$ss25LosslessStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Numeric",
+            "printedName": "Numeric",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Magnitude",
+                "printedName": "Magnitude",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sj",
+            "mangledName": "$sSj"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Strideable",
+            "printedName": "Strideable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Stride",
+                "printedName": "Stride",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sx",
+            "mangledName": "$sSx"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AdditiveArithmetic",
+            "printedName": "AdditiveArithmetic",
+            "usr": "s:s18AdditiveArithmeticP",
+            "mangledName": "$ss18AdditiveArithmeticP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByIntegerLiteral",
+            "printedName": "ExpressibleByIntegerLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "IntegerLiteralType",
+                "printedName": "IntegerLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s27ExpressibleByIntegerLiteralP",
+            "mangledName": "$ss27ExpressibleByIntegerLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_StringElement",
+            "printedName": "_StringElement",
+            "usr": "s:s14_StringElementP",
+            "mangledName": "$ss14_StringElementP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasCustomAnyHashableRepresentation",
+            "printedName": "_HasCustomAnyHashableRepresentation",
+            "usr": "s:s35_HasCustomAnyHashableRepresentationP",
+            "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SIMDScalar",
+            "printedName": "SIMDScalar",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SIMDMaskScalar",
+                "printedName": "SIMDMaskScalar",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int8",
+                    "printedName": "Swift.Int8",
+                    "usr": "s:s4Int8V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD2Storage",
+                "printedName": "SIMD2Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD2Storage",
+                    "printedName": "Swift.UInt8.SIMD2Storage",
+                    "usr": "s:s5UInt8V12SIMD2StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD4Storage",
+                "printedName": "SIMD4Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD4Storage",
+                    "printedName": "Swift.UInt8.SIMD4Storage",
+                    "usr": "s:s5UInt8V12SIMD4StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD8Storage",
+                "printedName": "SIMD8Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD8Storage",
+                    "printedName": "Swift.UInt8.SIMD8Storage",
+                    "usr": "s:s5UInt8V12SIMD8StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD16Storage",
+                "printedName": "SIMD16Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD16Storage",
+                    "printedName": "Swift.UInt8.SIMD16Storage",
+                    "usr": "s:s5UInt8V13SIMD16StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD32Storage",
+                "printedName": "SIMD32Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD32Storage",
+                    "printedName": "Swift.UInt8.SIMD32Storage",
+                    "usr": "s:s5UInt8V13SIMD32StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD64Storage",
+                "printedName": "SIMD64Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD64Storage",
+                    "printedName": "Swift.UInt8.SIMD64Storage",
+                    "usr": "s:s5UInt8V13SIMD64StorageV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s10SIMDScalarP",
+            "mangledName": "$ss10SIMDScalarP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_FormatSpecifiable",
+            "printedName": "_FormatSpecifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Arg",
+                "printedName": "_Arg",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt32",
+                    "printedName": "Swift.UInt32",
+                    "usr": "s:s6UInt32V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation18_FormatSpecifiableP",
+            "mangledName": "$s10Foundation18_FormatSpecifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/HTTPHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1058,
+      "length": 9,
+      "value": "\"Upgrade\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/HTTPHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1104,
+      "length": 11,
+      "value": "\"websocket\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/HTTPHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1152,
+      "length": 6,
+      "value": "\"Host\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/HTTPHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1195,
+      "length": 12,
+      "value": "\"Connection\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/HTTPHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1244,
+      "length": 9,
+      "value": "\"Upgrade\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/HTTPHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1290,
+      "length": 24,
+      "value": "\"Sec-WebSocket-Protocol\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/HTTPHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1351,
+      "length": 23,
+      "value": "\"Sec-WebSocket-Version\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/HTTPHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1411,
+      "length": 4,
+      "value": "\"13\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/HTTPHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1452,
+      "length": 26,
+      "value": "\"Sec-WebSocket-Extensions\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/HTTPHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1515,
+      "length": 19,
+      "value": "\"Sec-WebSocket-Key\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/HTTPHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1571,
+      "length": 8,
+      "value": "\"Origin\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/HTTPHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1616,
+      "length": 22,
+      "value": "\"Sec-WebSocket-Accept\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/HTTPHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1675,
+      "length": 3,
+      "value": "101"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/HTTPHandler.swift",
+      "kind": "Array",
+      "offset": 1715,
+      "length": 16,
+      "value": "[\"wss\", \"https\"]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Security\/FoundationSecurity.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1064,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Security\/FoundationSecurity.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1108,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 943,
+      "length": 4,
+      "value": "0x80"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 978,
+      "length": 4,
+      "value": "0x0F"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1013,
+      "length": 4,
+      "value": "0x70"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1048,
+      "length": 4,
+      "value": "0x40"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1083,
+      "length": 4,
+      "value": "0x80"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1118,
+      "length": 4,
+      "value": "0x7F"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1153,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1250,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1289,
+      "length": 4,
+      "value": "1001"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1328,
+      "length": 4,
+      "value": "1002"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1367,
+      "length": 4,
+      "value": "1003"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1428,
+      "length": 4,
+      "value": "1005"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1488,
+      "length": 4,
+      "value": "1007"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1527,
+      "length": 4,
+      "value": "1008"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1566,
+      "length": 4,
+      "value": "1009"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1250,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1289,
+      "length": 4,
+      "value": "1001"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1328,
+      "length": 4,
+      "value": "1002"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1367,
+      "length": 4,
+      "value": "1003"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1428,
+      "length": 4,
+      "value": "1005"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1488,
+      "length": 4,
+      "value": "1007"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1527,
+      "length": 4,
+      "value": "1008"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1566,
+      "length": 4,
+      "value": "1009"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1250,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1289,
+      "length": 4,
+      "value": "1001"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1328,
+      "length": 4,
+      "value": "1002"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1367,
+      "length": 4,
+      "value": "1003"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1428,
+      "length": 4,
+      "value": "1005"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1488,
+      "length": 4,
+      "value": "1007"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1527,
+      "length": 4,
+      "value": "1008"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1566,
+      "length": 4,
+      "value": "1009"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1625,
+      "length": 3,
+      "value": "0x0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1650,
+      "length": 3,
+      "value": "0x1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1677,
+      "length": 3,
+      "value": "0x2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1733,
+      "length": 3,
+      "value": "0x8"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1753,
+      "length": 3,
+      "value": "0x9"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1773,
+      "length": 3,
+      "value": "0xA"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1817,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1625,
+      "length": 3,
+      "value": "0x0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1650,
+      "length": 3,
+      "value": "0x1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1677,
+      "length": 3,
+      "value": "0x2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1733,
+      "length": 3,
+      "value": "0x8"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1753,
+      "length": 3,
+      "value": "0x9"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1773,
+      "length": 3,
+      "value": "0xA"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1817,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1625,
+      "length": 3,
+      "value": "0x0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1650,
+      "length": 3,
+      "value": "0x1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1677,
+      "length": 3,
+      "value": "0x2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1733,
+      "length": 3,
+      "value": "0x8"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1753,
+      "length": 3,
+      "value": "0x9"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1773,
+      "length": 3,
+      "value": "0xA"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1817,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "StringLiteral",
+      "offset": 2548,
+      "length": 31,
+      "value": "\"com.vluxe.starscream.wsframer\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "Array",
+      "offset": 2593,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2708,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/Framer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2776,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Engine\/WSEngine.swift",
+      "kind": "BooleanLiteral",
+      "offset": 644,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Engine\/WSEngine.swift",
+      "kind": "StringLiteral",
+      "offset": 680,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Engine\/WSEngine.swift",
+      "kind": "StringLiteral",
+      "offset": 733,
+      "length": 33,
+      "value": "\"com.vluxe.starscream.writequeue\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Engine\/WSEngine.swift",
+      "kind": "IntegerLiteral",
+      "offset": 817,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Engine\/WSEngine.swift",
+      "kind": "BooleanLiteral",
+      "offset": 846,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Engine\/WSEngine.swift",
+      "kind": "BooleanLiteral",
+      "offset": 934,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/FoundationHTTPServerHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1077,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Transport\/TCPTransport.swift",
+      "kind": "StringLiteral",
+      "offset": 1197,
+      "length": 36,
+      "value": "\"com.vluxe.starscream.networkstream\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Transport\/TCPTransport.swift",
+      "kind": "Array",
+      "offset": 1247,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Transport\/TCPTransport.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1332,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Transport\/TCPTransport.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1362,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Transport\/TCPTransport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1670,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Transport\/FoundationTransport.swift",
+      "kind": "StringLiteral",
+      "offset": 1205,
+      "length": 32,
+      "value": "\"com.vluxe.starscream.websocket\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Transport\/FoundationTransport.swift",
+      "kind": "Array",
+      "offset": 1251,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Transport\/FoundationTransport.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1366,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Transport\/FoundationTransport.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1462,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Transport\/FoundationTransport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1927,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Transport\/FoundationTransport.swift",
+      "kind": "StringLiteral",
+      "offset": 1044,
+      "length": 19,
+      "value": "\"ZendeskSDKSocketClient.FoundationTransport\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Security\/Security.swift",
+      "kind": "IntegerLiteral",
+      "offset": 972,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Security\/Security.swift",
+      "kind": "IntegerLiteral",
+      "offset": 999,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Security\/Security.swift",
+      "kind": "IntegerLiteral",
+      "offset": 972,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Security\/Security.swift",
+      "kind": "IntegerLiteral",
+      "offset": 999,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Security\/Security.swift",
+      "kind": "IntegerLiteral",
+      "offset": 972,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Security\/Security.swift",
+      "kind": "IntegerLiteral",
+      "offset": 999,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Compression\/WSCompression.swift",
+      "kind": "StringLiteral",
+      "offset": 1361,
+      "length": 26,
+      "value": "\"Sec-WebSocket-Extensions\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Compression\/WSCompression.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1487,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Compression\/WSCompression.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1522,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Compression\/WSCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3728,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Compression\/WSCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3738,
+      "length": 6,
+      "value": "0x2000"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Compression\/WSCompression.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3783,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Compression\/WSCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6301,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Compression\/WSCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6311,
+      "length": 6,
+      "value": "0x2000"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Compression\/WSCompression.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6356,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Starscream\/WebSocket.swift",
+      "kind": "StringLiteral",
+      "offset": 3367,
+      "length": 33,
+      "value": "\"com.vluxe.starscream.writequeue\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Starscream\/WebSocket.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3428,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Starscream\/WebSocket.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3483,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Starscream\/WebSocket.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3779,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/Source\/SocketClientLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 689,
+      "length": 26,
+      "value": "\"com.zendesk.SocketClient\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/Source\/SocketClientLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 746,
+      "length": 4,
+      "value": "\"WS\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Server\/WebSocketServer.swift",
+      "kind": "StringLiteral",
+      "offset": 1369,
+      "length": 43,
+      "value": "\"com.vluxe.starscream.server.networkstream\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Server\/WebSocketServer.swift",
+      "kind": "Array",
+      "offset": 1426,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Server\/WebSocketServer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3634,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Server\/WebSocketServer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3717,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/FrameCollector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1373,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/FrameCollector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1392,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/SocketClient\/SocketClient\/ThirdParty\/Starscream\/Framer\/FrameCollector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1481,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}
