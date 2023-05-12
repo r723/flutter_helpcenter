@@ -33,8 +33,8 @@ class _MyAppState extends State<MyApp> {
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(6), // <-- Radius
                 ),
-                backgroundColor: Colors.pink,
-                elevation: 0,
+                backgroundColor: Colors.red,
+                elevation: 10,
                 minimumSize: const Size.fromHeight(
                     40), // fromHeight use double.infinity as width and 40 is the height
               ),
@@ -54,8 +54,8 @@ class _MyAppState extends State<MyApp> {
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(6),
                 ),
-                backgroundColor: Colors.pink,
-                elevation: 0,
+                backgroundColor: Colors.blue,
+                elevation: 10,
                 minimumSize: const Size.fromHeight(40),
               ),
               onPressed: () {
