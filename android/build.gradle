@@ -1,4 +1,4 @@
-group 'com.loop.zendesk_plugin'
+group 'com.zendesk_helpcenter_plugin'
 version '1.0-SNAPSHOT'
 
 buildscript {
