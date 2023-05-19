@@ -1,0 +1,11 @@
+framework module zendesk_helpcenter {
+  umbrella header "zendesk_helpcenter-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module zendesk_helpcenter.Swift {
+  header "zendesk_helpcenter-Swift.h"
+  requires objc
+}

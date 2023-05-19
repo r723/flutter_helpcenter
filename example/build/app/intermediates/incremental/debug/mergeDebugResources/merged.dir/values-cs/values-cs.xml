@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d nové oznámení</item>
+    <item quantity="few">%d nová oznámení</item>
+    <item quantity="many">%d nového oznámení</item>
+    <item quantity="other">%d nových oznámení</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Přejít na plochu"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Přejít nahoru"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Další možnosti"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Hotovo"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Zobrazit vše"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Vybrat aplikaci"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"VYP"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ZAP"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Fn+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"mezerník"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Vyhledat…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Smazat dotaz"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Dotaz pro vyhledávání"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Hledat"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Odeslat dotaz"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Hlasové vyhledávání"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Sdílet s"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Sdílet s aplikací <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Sbalit"</string>
+    <string name="articles_list_fragment_error_message">Nepovedlo se načíst články</string>
+    <string name="articles_list_fragment_no_articles_found">Nebyly nalezeny žádné články</string>
+    <string name="ask_request_list_failed_request_message">Zpráva byla neúspěšná</string>
+    <string name="belvedere_dialog_camera">Fotoaparát</string>
+    <string name="belvedere_dialog_gallery">Galerie</string>
+    <string name="belvedere_fam_desc_collapse_fam">Sbalit plovoucí nabídku akcí</string>
+    <string name="belvedere_fam_desc_expand_fam">Rozbalit plovoucí nabídku akcí</string>
+    <string name="belvedere_fam_desc_open_gallery">Importovat soubor z galerie</string>
+    <string name="belvedere_fam_desc_open_google_photos">Importovat obrázek z Fotky Google</string>
+    <string name="belvedere_image_stream_file_too_large">Soubor je příliš velký</string>
+    <string name="belvedere_image_stream_title">Knihovna fotek</string>
+    <string name="belvedere_image_stream_unknown_app">Neznámá</string>
+    <string name="belvedere_navigate_to_settings">Nastavení</string>
+    <string name="belvedere_permissions_denied">Oprávnění odepřena</string>
+    <string name="belvedere_permissions_rationale">Chcete-li odesílat přílohy, musíte v nastavení povolit oprávnění</string>
+    <string name="belvedere_stream_item_camera_tile_desc">Importovat obrázek z fotoaparátu</string>
+    <string name="belvedere_stream_item_select_file_desc">Vybrat soubor %s</string>
+    <string name="belvedere_stream_item_select_image_desc">Vybrat obrázek %s</string>
+    <string name="belvedere_stream_item_unselect_file_desc">Zrušit výběr souboru %s</string>
+    <string name="belvedere_stream_item_unselect_image_desc">Zrušit výběr obrázku %s</string>
+    <string name="belvedere_toolbar_desc_collapse">Zavřít výběr obrázků</string>
+    <string name="bottomsheet_action_expand_halfway">Rozbalit napůl</string>
+    <string name="categories_list_fragment_error_message">Nepovedlo se načíst kategorie</string>
+    <string name="character_counter_content_description">Zadané znaky: %1$d z %2$d</string>
+    <string name="character_counter_overflowed_content_description">Byl překročen povolený počet znaků (%1$d z %2$d)</string>
+    <string name="clear_text_end_icon_content_description">Vymazat text</string>
+    <string name="contact_fragment_title">Kontaktujte nás</string>
+    <string name="error_icon_content_description">Chyba</string>
+    <string name="error_msg_invalid_email">Zadejte platnou e-mailovou adresu</string>
+    <string name="error_msg_invalid_message">Zadejte svou zprávu</string>
+    <string name="error_msg_invalid_name">Zadejte svoje celé jméno</string>
+    <string name="exposed_dropdown_menu_content_description">Zobrazit rozbalovací nabídku</string>
+    <string name="help_search_no_results_label">Nejsou žádné výsledky pro</string>
+    <string name="help_see_all_articles_label">Zobrazit všechny články</string>
+    <string name="help_see_all_n_articles_label">Zobrazit všech %d článků</string>
+    <string name="icon_content_description">Ikona dialogového okna</string>
+    <string name="item_view_role_description">Karta</string>
+    <string name="material_clock_toggle_content_description">Vyberte AM nebo PM</string>
+    <string name="material_hour_selection">Vyberte hodinu</string>
+    <string name="material_hour_suffix">%1$s</string>
+    <string name="material_minute_selection">Zvolte minuty</string>
+    <string name="material_minute_suffix">%1$s min</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Chcete-li zadat čas, přepněte na režim hodin.</string>
+    <string name="material_timepicker_hour">Hodina</string>
+    <string name="material_timepicker_minute">Minuta</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Vyberte čas</string>
+    <string name="material_timepicker_text_input_mode_description">Chcete-li zadat čas, přepněte na režim textu.</string>
+    <string name="mtrl_badge_numberless_content_description">Nové oznámení</string>
+    <string name="mtrl_chip_close_icon_content_description">Odstranit položku %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Více než %1$d nových oznámení</string>
+    <string name="mtrl_picker_a11y_next_month">Přejít na další měsíc</string>
+    <string name="mtrl_picker_a11y_prev_month">Přejít na předchozí měsíc</string>
+    <string name="mtrl_picker_announce_current_selection">Aktuální výběr: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Vyberte datum</string>
+    <string name="mtrl_picker_date_header_unselected">Vybrané datum</string>
+    <string name="mtrl_picker_day_of_week_column_header">Sloupec dnů: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Neplatný formát.</string>
+    <string name="mtrl_picker_invalid_format_example">Příklad: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Použijte: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Neplatný rozsah.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Přejít na rok %1$s</string>
+    <string name="mtrl_picker_out_of_range">Mimo rozsah: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Datum zahájení – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – datum ukončení</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Vyberte rozsah</string>
+    <string name="mtrl_picker_range_header_unselected">Datum zahájení – datum ukončení</string>
+    <string name="mtrl_picker_save">Uložit</string>
+    <string name="mtrl_picker_text_input_date_hint">Datum</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Datum ukončení</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Datum zahájení</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">r</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Přepnout na režim zadávání do kalendáře</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Klepnutím přepnete na výběr dne</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Přepnout na režim zadávání textu</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Klepnutím přepnete na výběr roku</string>
+    <string name="network_activity_no_connectivity">Není připojení</string>
+    <string name="password_toggle_content_description">Zobrazit heslo</string>
+    <string name="request_attachment_generic_unknown_app">Neznámá</string>
+    <string name="request_dialog_body_unsaved_changes">Když přejdete zpět, vaše zpráva se smaže. Opravdu ji chcete smazat?</string>
+    <string name="request_dialog_button_label_cancel">Zrušit</string>
+    <string name="request_dialog_button_label_delete">Smazat</string>
+    <string name="request_dialog_title_unsaved_changes">Zpráva nebyla odeslána</string>
+    <string name="request_email_entry_hint">E-mail</string>
+    <string name="request_error_create_request">Nepovedlo se vytvořit požadavek</string>
+    <string name="request_error_load_comments">Nepovedlo se načíst komentáře</string>
+    <string name="request_file_attachment_download_in_progress">Probíhá stahování souboru</string>
+    <string name="request_list_activity_title">Moje tikety</string>
+    <string name="request_list_empty_start_conversation">DEJTE SE DO KONVERZACE</string>
+    <string name="request_list_empty_text">Tady budou zobrazeny konverzace zahájené z této aplikace.</string>
+    <string name="request_list_fragment_error_message">Nepovedlo se načíst tikety</string>
+    <string name="request_list_me">Já</string>
+    <string name="request_list_re">Re: %s</string>
+    <string name="request_list_ticket_closed">Uzavřený tiket</string>
+    <string name="request_menu_button_label_add_attachments">Přidat přílohy</string>
+    <string name="request_menu_button_label_send">Odeslat</string>
+    <string name="request_message_date_today">DNES</string>
+    <string name="request_message_date_yesterday">VČERA</string>
+    <string name="request_message_entry_hint">Zpráva</string>
+    <string name="request_message_status_delivered">Doručená</string>
+    <string name="request_messages_status_error">Zpráva byla neúspěšná. Klepnutím zkuste znovu</string>
+    <string name="request_name_entry_hint">Jméno</string>
+    <string name="request_retry_dialog_delete_message">Vymazat zprávu</string>
+    <string name="request_retry_dialog_retry">Zkusit poslat znovu</string>
+    <string name="request_system_message_closed_ticket">Tato konverzace byla uzavřena.</string>
+    <string name="request_toolbar_last_reply">Poslední odpověď %s</string>
+    <string name="request_write_a_message">Zanechte nám zprávu</string>
+    <string name="retry_view_button_label">Zkusit znovu</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Hledat"</string>
+    <string name="sections_list_fragment_error_message">Nepovedlo se načíst oddíly</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="support_activity_title">Podpora</string>
+    <string name="support_conversations_menu">Konverzace</string>
+    <string name="view_article_attachments_error">Nepovedlo se načíst přílohy</string>
+    <string name="view_article_vote_prompt">Byl pro vás tento článek užitečný?</string>
+    <string name="zg_general_contact_us_button_label_accessibility">Kontaktujte nás</string>
+    <string name="zg_general_no_connection_message">Žádné připojení</string>
+    <string name="zs_engine_greeting_message">Napište zprávu a já najdu někoho, kdo vám může pomoci.</string>
+    <string name="zs_engine_message_retry_button">Zkusit znovu</string>
+    <string name="zs_engine_message_send_error_message">Něco se nepovedlo a vaše zpráva nebyla odeslána. Zkuste to prosím znovu později.</string>
+    <string name="zs_engine_request_created_conversations_enabled_message">Děkujeme. Zpráva byla odeslána týmu. Zde si můžete tuto zprávu prohlédnout a přidat další podrobnosti:</string>
+    <string name="zs_engine_request_created_conversations_off_message">Děkujeme. Zpráva byla odeslána týmu. Pokud je potřeba odpověď, budou vás kontaktovat e-mailem.</string>
+    <string name="zs_engine_request_created_request_list_button">Zobrazit zprávy</string>
+    <string name="zs_engine_request_creation_email_prompt_hint">Zadejte svou e-mailovou adresu…</string>
+    <string name="zs_engine_request_creation_email_prompt_message">Pokud je potřeba odpověď, někdo vás bude kontaktovat e-mailem. Jakou máte e-mailovou adresu?</string>
+    <string name="zs_engine_request_creation_email_validation_failed_message">Zadaná e-mailová adresa je nesprávná. Zadejte prosím platnou e-mailovou adresu.</string>
+    <string name="zs_general_contact_us_button_label_accessibility">Kontaktujte nás</string>
+    <string name="zs_general_referrer_logo_label_accessibility">Zendesk</string>
+    <string name="zs_help_center_content_loaded_accessibility">Centrum nápovědy je načtené</string>
+    <string name="zs_help_center_search_loaded_accessibility">Výsledky hledání jsou načtené</string>
+    <string name="zs_request_announce_comment_created_accessibility">Byl odeslán komentář s textem %s.</string>
+    <string name="zs_request_announce_comment_failed_accessibility">Nelze vytvořit komentář s textem %s.</string>
+    <string name="zs_request_announce_comments_loaded_accessibility">Komentáře jsou načtené</string>
+    <string name="zs_request_attachment_carousel_attachment_accessibility">Byl přiložen soubor s názvem %s.</string>
+    <string name="zs_request_attachment_carousel_remove_attachment_accessibility">Odstranit přílohu s názvem %s.</string>
+    <string name="zs_request_attachment_indicator_accessibility">Vybrat přílohu.</string>
+    <string name="zs_request_attachment_indicator_n_attachments_selected_accessibility">Jsou vybrané přílohy (%d).</string>
+    <string name="zs_request_attachment_indicator_no_attachments_selected_accessibility">Nejsou vybrané žádné přílohy.</string>
+    <string name="zs_request_attachment_indicator_one_attachments_selected_accessibility">Je vybraná jedna příloha.</string>
+    <string name="zs_request_contact_option_leave_a_message">Zanechte nám zprávu</string>
+    <string name="zs_request_list_content_load_failed_accessibility">Nepovedlo se načíst tikety podpory</string>
+    <string name="zs_request_list_content_loaded_accessibility">Tikety podpory jsou načtené</string>
+    <string name="zs_request_list_content_loaded_empty_accessibility">Nejsou žádné tikety podpory</string>
+    <string name="zs_request_list_content_loading_accessibility">Načítání tiketů podpory</string>
+    <string name="zs_request_message_agent_file_accessibility">Agentem přiložený soubor s názvem %s.</string>
+    <string name="zs_request_message_agent_image_accessibility">Agentem přiložený obrázek s názvem %s.</string>
+    <string name="zs_request_message_agent_sent_accessibility">Odeslal %1$s v čase %2$s.</string>
+    <string name="zs_request_message_agent_text_accessibility">Zpráva agenta %s.</string>
+    <string name="zs_request_message_user_error_accessibility">Odeslání se nepovedlo. Klepnutím zobrazíte možnosti.</string>
+    <string name="zs_request_message_user_file_accessibility">Soubor s názvem %s.</string>
+    <string name="zs_request_message_user_image_accessibility">Obrázek s názvem %s.</string>
+    <string name="zs_request_message_user_sent_accessibility">Odeslali jste vy v čase %s</string>
+    <string name="zs_request_message_user_text_accessibility">Zpráva %s.</string>
+    <string name="zs_request_toolbar_accessibility">Poslední odpověď od uživatele %1$s v čase %2$s.</string>
+    <string name="zs_view_article_error">Článek se nepovedlo načíst</string>
+    <string name="zs_view_article_loaded_accessibility">Článek %s je načten</string>
+    <string name="zs_view_article_vote_no_accessibility">Žádný hlas</string>
+    <string name="zs_view_article_vote_no_remove_accessibility">Odebrat hlas pro</string>
+    <string name="zs_view_article_vote_yes_accessibility">Hlas pro</string>
+    <string name="zs_view_article_vote_yes_remove_accessibility">Odebrat hlas proti</string>
+    <string name="zs_view_article_voted_failed_accessibility_announce">Hlasování se nepovedlo</string>
+    <string name="zs_view_article_voted_no_accessibility_announce">Hlasovali jste proti</string>
+    <string name="zs_view_article_voted_yes_accessibility_announce">Hlasovali jste pro</string>
+    <string name="zui_attachment_indicator_accessibility">Vybrat přílohu</string>
+    <string name="zui_attachment_indicator_n_attachments_selected_accessibility">Jsou vybrané přílohy (%d)</string>
+    <string name="zui_attachment_indicator_no_attachments_selected_accessibility">Nejsou vybrané žádné přílohy</string>
+    <string name="zui_attachment_indicator_one_attachments_selected_accessibility">Je vybraná jedna příloha</string>
+    <string name="zui_bot_label">ROBOT</string>
+    <string name="zui_button_label_no">Ne</string>
+    <string name="zui_button_label_yes">Ano</string>
+    <string name="zui_cell_text_suggested_article_header">Tady je článek, který by mohl pomoci:</string>
+    <string name="zui_cell_text_suggested_articles_header">Tady jsou články, které by mohly pomoci:</string>
+    <string name="zui_default_bot_name">Answer Bot</string>
+    <string name="zui_dialog_email_error">Neplatný e-mail</string>
+    <string name="zui_dialog_email_hint">E-mailová adresa</string>
+    <string name="zui_failed_message_copy">Kopírovat</string>
+    <string name="zui_failed_message_delete">Smazat</string>
+    <string name="zui_failed_message_retry">Zkusit znovu</string>
+    <string name="zui_hint_type_message">Napište zprávu…</string>
+    <string name="zui_label_connecting">Připojování...</string>
+    <string name="zui_label_dialog_delete_btn">Smazat zprávu</string>
+    <string name="zui_label_dialog_retry_btn">Zkusit poslat znovu</string>
+    <string name="zui_label_failed">Došlo k chybě</string>
+    <string name="zui_label_reconnecting">Probíhá obnova připojení...</string>
+    <string name="zui_label_reconnecting_failed">Chyba připojení.</string>
+    <string name="zui_label_send">Odeslat</string>
+    <string name="zui_label_sent">Odesláno</string>
+    <string name="zui_label_tap_retry">Klepnutím zkuste znovu</string>
+    <string name="zui_message_log_article_opened_formatter">Uživatel %1$s otevřel článek \„%2$s\“</string>
+    <string name="zui_message_log_article_suggestion_message">Našel jsem tyto články:</string>
+    <string name="zui_message_log_attachment_sending_failed">Přílohu nebylo možné odeslat</string>
+    <string name="zui_message_log_default_visitor_name">Návštěvník</string>
+    <string name="zui_message_log_message_attachment_type_not_supported">Nepodporovaný typ přílohy</string>
+    <string name="zui_message_log_message_attachments_not_supported">Přílohy nejsou podporované</string>
+    <string name="zui_message_log_message_failed_to_send">[Odeslání se nepovedlo]</string>
+    <string name="zui_message_log_message_file_exceeds_max_size">Přesahuje maximální velikost souboru (%1$s)</string>
+    <string name="zui_message_log_transfer_option_selection_formatter">%1$s vybral %2$s</string>
+    <string name="zui_retry_button_label">Zkusit znovu</string>
+    <string name="zui_toolbar_title">Kontaktujte nás</string>
+    <string name="zui_unable_open_file">Soubor nelze otevřít.</string>
+</resources>

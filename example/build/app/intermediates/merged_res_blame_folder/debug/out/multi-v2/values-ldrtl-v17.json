@@ -1,0 +1,53 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.zendesk_example.app-mergeDebugResources-39:/values-ldrtl-v17/values-ldrtl-v17.xml",
+            "map": [
+                {
+                    "source": "/Users/rahul-variya-us/.gradle/caches/transforms-3/b8cb9c9f213d7efb88818dcfc509f1df/transformed/jetified-common-ui-4.0.5/res/values-ldrtl-v17/values-ldrtl-v17.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "56",
+                        "endOffsets": "107"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "396",
+                        "endColumns": "56",
+                        "endOffsets": "448"
+                    }
+                },
+                {
+                    "source": "/Users/rahul-variya-us/.gradle/caches/transforms-3/46f652abd2dd5a4a1fe1961ccab3ea31/transformed/material-1.6.0/res/values-ldrtl-v17/values-ldrtl-v17.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,191",
+                        "endColumns": "135,140",
+                        "endOffsets": "186,327"
+                    }
+                },
+                {
+                    "source": "/Users/rahul-variya-us/.gradle/caches/transforms-3/5952d2edadb7cf31949bfbf965199691/transformed/jetified-support-5.1.2/res/values-ldrtl-v17/values-ldrtl-v17.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "63",
+                        "endOffsets": "114"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "332",
+                        "endColumns": "63",
+                        "endOffsets": "391"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+framework module ZendeskSDKHTTPClient {
+  umbrella header "ZendeskSDKHTTPClient.h"
+
+  export *
+  module * { export * }
+}
+
+module ZendeskSDKHTTPClient.Swift {
+  header "ZendeskSDKHTTPClient-Swift.h"
+  requires objc
+}

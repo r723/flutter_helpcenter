@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.zendesk_example.app-mergeDebugResources-39:/values-h420dp-v13/values-h420dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/rahul-variya-us/.gradle/caches/transforms-3/5952d2edadb7cf31949bfbf965199691/transformed/jetified-support-5.1.2/res/values-h420dp-v13/values-h420dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}

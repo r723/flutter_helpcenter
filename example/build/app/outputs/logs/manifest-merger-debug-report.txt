@@ -1,0 +1,562 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml:1:1-42:12
+INJECTED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml:1:1-42:12
+INJECTED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml:1:1-42:12
+INJECTED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml:1:1-42:12
+MERGED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml:1:1-42:12
+MERGED from [:zendesk_helpcenter] /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/build/zendesk_helpcenter/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [com.zendesk:support:5.1.2] /Users/rahul-variya-us/.gradle/caches/transforms-3/5952d2edadb7cf31949bfbf965199691/transformed/jetified-support-5.1.2/AndroidManifest.xml:2:1-56:12
+MERGED from [com.zendesk:support-providers:5.1.2] /Users/rahul-variya-us/.gradle/caches/transforms-3/09aa5aafd11281494249aff974daf632/transformed/jetified-support-providers-5.1.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.zendesk:guide:1.1.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/2e197acef56d7d0d1cfa14201ff98135/transformed/jetified-guide-1.1.1/AndroidManifest.xml:2:1-29:12
+MERGED from [com.zendesk:messaging:5.3.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/ad60e67a8de2f61980f8afd8c2f05a1c/transformed/jetified-messaging-5.3.0/AndroidManifest.xml:2:1-16:12
+MERGED from [com.zendesk:messaging-api:5.3.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/bf05f7cf0bb40e01f04bb2378518e596/transformed/jetified-messaging-api-5.3.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.zendesk:sdk-configurations:2.0.3] /Users/rahul-variya-us/.gradle/caches/transforms-3/275087182b0083dbce94ecb92996fec6/transformed/jetified-sdk-configurations-2.0.3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.zendesk:guide-providers:1.1.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/4fd7a1ecb1a31ebc388c6d5487305225/transformed/jetified-guide-providers-1.1.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.zendesk:core:4.0.9] /Users/rahul-variya-us/.gradle/caches/transforms-3/561e219f29102fa379a08a8654af58e9/transformed/jetified-core-4.0.9/AndroidManifest.xml:2:1-13:12
+MERGED from [com.zendesk:common-ui:4.0.5] /Users/rahul-variya-us/.gradle/caches/transforms-3/b8cb9c9f213d7efb88818dcfc509f1df/transformed/jetified-common-ui-4.0.5/AndroidManifest.xml:2:1-29:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/rahul-variya-us/.gradle/caches/transforms-3/59d59b9a52b9ca44e44fd284cc57663d/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/rahul-variya-us/.gradle/caches/transforms-3/ad9f1de67fe7a18361321f51e59b5d79/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
+MERGED from [com.zendesk.belvedere2:belvedere:3.0.5] /Users/rahul-variya-us/.gradle/caches/transforms-3/a222ae9c37c291cb1c2ba5d753f83678/transformed/jetified-belvedere-3.0.5/AndroidManifest.xml:2:1-20:12
+MERGED from [com.google.android.material:material:1.6.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/46f652abd2dd5a4a1fe1961ccab3ea31/transformed/material-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/8c3db83d9335b04d5f52ab5f28434184/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/45c65e3f5b631932c7aeefbb2457c6b3/transformed/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/a91295e0b80c25977a3daec54a1fcc27/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/a56b8ee78a242ffa93a85fb755f6c014/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/e2dc531c1f2077027ffd8955a4d0d28f/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.zendesk.belvedere2:belvedere-core:3.0.5] /Users/rahul-variya-us/.gradle/caches/transforms-3/655a85b7c0aedc8ae20379fee6e38842/transformed/jetified-belvedere-core-3.0.5/AndroidManifest.xml:2:1-45:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/rahul-variya-us/.gradle/caches/transforms-3/66e7d792286af0ea7960e863c81f96ce/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.6.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/2debf9cf81cbe2aba775bc26aac53707/transformed/jetified-activity-1.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/2ab28b7aa5c5e124c4dda4feb9b281c5/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/888a5c647edd7bb63bea6a0a0d3e4715/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/b0d31658a72dd778912a161087958342/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/42feb9c7f504e3c5556a6f68c5f859e7/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/a0c021e2845ac5dfaff3f18c0901c5f6/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/938f7ab28a1335140fd8e947ba424a0f/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/2145662e4b93501bf7c2137ae18e85d8/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.squareup.picasso:picasso:2.8] /Users/rahul-variya-us/.gradle/caches/transforms-3/1cc76ec9f987afcd740815efbce1cac2/transformed/jetified-picasso-2.8/AndroidManifest.xml:2:1-14:12
+MERGED from [com.google.android.flexbox:flexbox:3.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/62a472b03f5bd808c9c69c863cc70c56/transformed/jetified-flexbox-3.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/3a97e284f683fed0e5d0d22d301b557e/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/bf25ee15b5ce13b03dad429c4800e03b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/737a9b853f8949001531f3701ed7bb73/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/3f2fd26ee079470a6563212c875abbe1/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/e4c2c0bead238247522f7dc1436af514/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/62030d11769e6472372fd5257706a1bc/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/f7e3624e607c39c3675a140e2f13d435/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/97555d3e0c844c118423cf2aeea81da4/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/af7533c2c2ba063d77f1d5a0f02340d4/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/7f58200445f21b8ba87e78135c8d8d6c/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/102fe2d444eca9ed068e524be71103a4/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/7447785fe0bde2cfee41f80ca9c29c72/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/1b87b9d2fbf47c98afaecf36aa347357/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/c7cba29dfbbf43c9c2074d3865d18f83/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/e8e451dc44a67ddd4ae0a0f69053cb28/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.9.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/c61c422c6319fa422cec7aa8783c08f6/transformed/core-1.9.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/db26465eb18da689f66dea68e81074ac/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/9cc1a102f0c5a762af32fcf1386e9ed8/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/776bd30a183a38bbeead7026ee38037f/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/2b1b481f21369b409a2032edfcbb51f7/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/f718a728def7abfdb90c4a0d0d3b7dd3/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/867922309925fd15fb23fafcdbc62d18/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/9c8cc19d4fc0b64eb2fd6f778b1a69b5/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.dagger:dagger-android:2.42] /Users/rahul-variya-us/.gradle/caches/transforms-3/14e14f1b6a489ed303c9f691d366d8bf/transformed/jetified-dagger-android-2.42/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/3f4693ab1203137cc670465255ca04ac/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/03b099bf89b259e16e29693ead74aa76/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/a217b21ada8fbb227ca0c89046ae86a1/transformed/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/7afce4d5337703831db178cf7e1b7452/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/fc6046a042207a12723256c78ea06381/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/43599857f2eaa3321fcef88683570adc/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/45dc9b87d6a958af768ebcc9511541f0/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/c297a50b2837923375d491542fffaf33/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/a96c660014690ca622f0c257f11ebc9a/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/4e1224689144b327f9a76d7de7912b08/transformed/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.dagger:dagger-lint-aar:2.42] /Users/rahul-variya-us/.gradle/caches/transforms-3/6b7d1cdaacc1dae1d20bb80ab2d3459b/transformed/jetified-dagger-lint-aar-2.42/AndroidManifest.xml:16:1-19:12
+INJECTED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/debug/AndroidManifest.xml:1:1-8:12
+INJECTED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/debug/AndroidManifest.xml:1:1-8:12
+INJECTED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/debug/AndroidManifest.xml:1:1-8:12
+	package
+		ADDED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml:2:5-34
+		INJECTED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml:1:1-42:12
+		INJECTED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/debug/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml:1:1-42:12
+		INJECTED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [:zendesk_helpcenter] /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/build/zendesk_helpcenter/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-67
+MERGED from [:zendesk_helpcenter] /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/build/zendesk_helpcenter/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-67
+MERGED from [com.zendesk:core:4.0.9] /Users/rahul-variya-us/.gradle/caches/transforms-3/561e219f29102fa379a08a8654af58e9/transformed/jetified-core-4.0.9/AndroidManifest.xml:10:5-67
+MERGED from [com.zendesk:core:4.0.9] /Users/rahul-variya-us/.gradle/caches/transforms-3/561e219f29102fa379a08a8654af58e9/transformed/jetified-core-4.0.9/AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml:5:5-79
+MERGED from [:zendesk_helpcenter] /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/build/zendesk_helpcenter/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-79
+MERGED from [:zendesk_helpcenter] /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/build/zendesk_helpcenter/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-79
+MERGED from [com.zendesk:core:4.0.9] /Users/rahul-variya-us/.gradle/caches/transforms-3/561e219f29102fa379a08a8654af58e9/transformed/jetified-core-4.0.9/AndroidManifest.xml:11:5-79
+MERGED from [com.zendesk:core:4.0.9] /Users/rahul-variya-us/.gradle/caches/transforms-3/561e219f29102fa379a08a8654af58e9/transformed/jetified-core-4.0.9/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml:5:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml:6:5-76
+MERGED from [:zendesk_helpcenter] /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/build/zendesk_helpcenter/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-76
+MERGED from [:zendesk_helpcenter] /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/build/zendesk_helpcenter/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-76
+	android:name
+		ADDED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml:6:22-73
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml:7:5-80
+MERGED from [:zendesk_helpcenter] /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/build/zendesk_helpcenter/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-80
+MERGED from [:zendesk_helpcenter] /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/build/zendesk_helpcenter/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-80
+MERGED from [com.zendesk.belvedere2:belvedere:3.0.5] /Users/rahul-variya-us/.gradle/caches/transforms-3/a222ae9c37c291cb1c2ba5d753f83678/transformed/jetified-belvedere-3.0.5/AndroidManifest.xml:16:5-18:38
+MERGED from [com.zendesk.belvedere2:belvedere:3.0.5] /Users/rahul-variya-us/.gradle/caches/transforms-3/a222ae9c37c291cb1c2ba5d753f83678/transformed/jetified-belvedere-3.0.5/AndroidManifest.xml:16:5-18:38
+	android:maxSdkVersion
+		ADDED from [com.zendesk.belvedere2:belvedere:3.0.5] /Users/rahul-variya-us/.gradle/caches/transforms-3/a222ae9c37c291cb1c2ba5d753f83678/transformed/jetified-belvedere-3.0.5/AndroidManifest.xml:18:9-35
+	android:name
+		ADDED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml:8:5-81
+MERGED from [:zendesk_helpcenter] /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/build/zendesk_helpcenter/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-81
+MERGED from [:zendesk_helpcenter] /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/build/zendesk_helpcenter/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml:8:22-78
+application
+ADDED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml:10:4-41:19
+MERGED from [com.zendesk:support:5.1.2] /Users/rahul-variya-us/.gradle/caches/transforms-3/5952d2edadb7cf31949bfbf965199691/transformed/jetified-support-5.1.2/AndroidManifest.xml:31:5-54:19
+MERGED from [com.zendesk:support:5.1.2] /Users/rahul-variya-us/.gradle/caches/transforms-3/5952d2edadb7cf31949bfbf965199691/transformed/jetified-support-5.1.2/AndroidManifest.xml:31:5-54:19
+MERGED from [com.zendesk:guide:1.1.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/2e197acef56d7d0d1cfa14201ff98135/transformed/jetified-guide-1.1.1/AndroidManifest.xml:10:5-27:19
+MERGED from [com.zendesk:guide:1.1.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/2e197acef56d7d0d1cfa14201ff98135/transformed/jetified-guide-1.1.1/AndroidManifest.xml:10:5-27:19
+MERGED from [com.zendesk:messaging:5.3.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/ad60e67a8de2f61980f8afd8c2f05a1c/transformed/jetified-messaging-5.3.0/AndroidManifest.xml:9:5-14:19
+MERGED from [com.zendesk:messaging:5.3.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/ad60e67a8de2f61980f8afd8c2f05a1c/transformed/jetified-messaging-5.3.0/AndroidManifest.xml:9:5-14:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/rahul-variya-us/.gradle/caches/transforms-3/ad9f1de67fe7a18361321f51e59b5d79/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/rahul-variya-us/.gradle/caches/transforms-3/ad9f1de67fe7a18361321f51e59b5d79/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [com.google.android.material:material:1.6.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/46f652abd2dd5a4a1fe1961ccab3ea31/transformed/material-1.6.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.6.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/46f652abd2dd5a4a1fe1961ccab3ea31/transformed/material-1.6.0/AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/45c65e3f5b631932c7aeefbb2457c6b3/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/45c65e3f5b631932c7aeefbb2457c6b3/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [com.zendesk.belvedere2:belvedere-core:3.0.5] /Users/rahul-variya-us/.gradle/caches/transforms-3/655a85b7c0aedc8ae20379fee6e38842/transformed/jetified-belvedere-core-3.0.5/AndroidManifest.xml:32:5-43:19
+MERGED from [com.zendesk.belvedere2:belvedere-core:3.0.5] /Users/rahul-variya-us/.gradle/caches/transforms-3/655a85b7c0aedc8ae20379fee6e38842/transformed/jetified-belvedere-core-3.0.5/AndroidManifest.xml:32:5-43:19
+MERGED from [com.squareup.picasso:picasso:2.8] /Users/rahul-variya-us/.gradle/caches/transforms-3/1cc76ec9f987afcd740815efbce1cac2/transformed/jetified-picasso-2.8/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.8] /Users/rahul-variya-us/.gradle/caches/transforms-3/1cc76ec9f987afcd740815efbce1cac2/transformed/jetified-picasso-2.8/AndroidManifest.xml:7:5-12:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/bf25ee15b5ce13b03dad429c4800e03b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/bf25ee15b5ce13b03dad429c4800e03b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.9.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/c61c422c6319fa422cec7aa8783c08f6/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/c61c422c6319fa422cec7aa8783c08f6/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/9cc1a102f0c5a762af32fcf1386e9ed8/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/9cc1a102f0c5a762af32fcf1386e9ed8/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/867922309925fd15fb23fafcdbc62d18/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/867922309925fd15fb23fafcdbc62d18/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/7afce4d5337703831db178cf7e1b7452/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/7afce4d5337703831db178cf7e1b7452/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:requestLegacyExternalStorage
+		ADDED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml:14:9-52
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/c61c422c6319fa422cec7aa8783c08f6/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from [com.zendesk:messaging:5.3.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/ad60e67a8de2f61980f8afd8c2f05a1c/transformed/jetified-messaging-5.3.0/AndroidManifest.xml:9:18-44
+	android:label
+		ADDED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml:11:9-48
+	tools:ignore
+		ADDED from [com.zendesk:support:5.1.2] /Users/rahul-variya-us/.gradle/caches/transforms-3/5952d2edadb7cf31949bfbf965199691/transformed/jetified-support-5.1.2/AndroidManifest.xml:31:18-48
+	android:icon
+		ADDED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml:12:9-43
+	android:theme
+		ADDED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml:13:9-43
+activity#com.zendesk_example.MainActivity
+ADDED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml:15:9-35:20
+	android:launchMode
+		ADDED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml:18:13-43
+	android:hardwareAccelerated
+		ADDED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml:21:13-47
+	android:windowSoftInputMode
+		ADDED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml:22:13-55
+	android:exported
+		ADDED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml:17:13-36
+	android:configChanges
+		ADDED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml:20:13-163
+	android:theme
+		ADDED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml:19:13-47
+	android:name
+		ADDED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml:16:13-60
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml:27:13-30:17
+	android:resource
+		ADDED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml:29:15-52
+	android:name
+		ADDED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml:28:15-70
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml:31:13-34:29
+action#android.intent.action.MAIN
+ADDED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml:32:17-68
+	android:name
+		ADDED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml:32:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml:33:17-76
+	android:name
+		ADDED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml:33:27-74
+meta-data#flutterEmbedding
+ADDED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml:38:9-40:33
+	android:value
+		ADDED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml:40:13-30
+	android:name
+		ADDED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml:39:13-44
+uses-sdk
+INJECTED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml
+MERGED from [:zendesk_helpcenter] /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/build/zendesk_helpcenter/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:zendesk_helpcenter] /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/build/zendesk_helpcenter/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [com.zendesk:support:5.1.2] /Users/rahul-variya-us/.gradle/caches/transforms-3/5952d2edadb7cf31949bfbf965199691/transformed/jetified-support-5.1.2/AndroidManifest.xml:6:5-8:41
+MERGED from [com.zendesk:support:5.1.2] /Users/rahul-variya-us/.gradle/caches/transforms-3/5952d2edadb7cf31949bfbf965199691/transformed/jetified-support-5.1.2/AndroidManifest.xml:6:5-8:41
+MERGED from [com.zendesk:support-providers:5.1.2] /Users/rahul-variya-us/.gradle/caches/transforms-3/09aa5aafd11281494249aff974daf632/transformed/jetified-support-providers-5.1.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.zendesk:support-providers:5.1.2] /Users/rahul-variya-us/.gradle/caches/transforms-3/09aa5aafd11281494249aff974daf632/transformed/jetified-support-providers-5.1.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.zendesk:guide:1.1.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/2e197acef56d7d0d1cfa14201ff98135/transformed/jetified-guide-1.1.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.zendesk:guide:1.1.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/2e197acef56d7d0d1cfa14201ff98135/transformed/jetified-guide-1.1.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.zendesk:messaging:5.3.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/ad60e67a8de2f61980f8afd8c2f05a1c/transformed/jetified-messaging-5.3.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.zendesk:messaging:5.3.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/ad60e67a8de2f61980f8afd8c2f05a1c/transformed/jetified-messaging-5.3.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.zendesk:messaging-api:5.3.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/bf05f7cf0bb40e01f04bb2378518e596/transformed/jetified-messaging-api-5.3.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.zendesk:messaging-api:5.3.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/bf05f7cf0bb40e01f04bb2378518e596/transformed/jetified-messaging-api-5.3.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.zendesk:sdk-configurations:2.0.3] /Users/rahul-variya-us/.gradle/caches/transforms-3/275087182b0083dbce94ecb92996fec6/transformed/jetified-sdk-configurations-2.0.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.zendesk:sdk-configurations:2.0.3] /Users/rahul-variya-us/.gradle/caches/transforms-3/275087182b0083dbce94ecb92996fec6/transformed/jetified-sdk-configurations-2.0.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.zendesk:guide-providers:1.1.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/4fd7a1ecb1a31ebc388c6d5487305225/transformed/jetified-guide-providers-1.1.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.zendesk:guide-providers:1.1.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/4fd7a1ecb1a31ebc388c6d5487305225/transformed/jetified-guide-providers-1.1.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.zendesk:core:4.0.9] /Users/rahul-variya-us/.gradle/caches/transforms-3/561e219f29102fa379a08a8654af58e9/transformed/jetified-core-4.0.9/AndroidManifest.xml:5:5-7:41
+MERGED from [com.zendesk:core:4.0.9] /Users/rahul-variya-us/.gradle/caches/transforms-3/561e219f29102fa379a08a8654af58e9/transformed/jetified-core-4.0.9/AndroidManifest.xml:5:5-7:41
+MERGED from [com.zendesk:common-ui:4.0.5] /Users/rahul-variya-us/.gradle/caches/transforms-3/b8cb9c9f213d7efb88818dcfc509f1df/transformed/jetified-common-ui-4.0.5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.zendesk:common-ui:4.0.5] /Users/rahul-variya-us/.gradle/caches/transforms-3/b8cb9c9f213d7efb88818dcfc509f1df/transformed/jetified-common-ui-4.0.5/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/rahul-variya-us/.gradle/caches/transforms-3/59d59b9a52b9ca44e44fd284cc57663d/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/rahul-variya-us/.gradle/caches/transforms-3/59d59b9a52b9ca44e44fd284cc57663d/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/rahul-variya-us/.gradle/caches/transforms-3/ad9f1de67fe7a18361321f51e59b5d79/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/rahul-variya-us/.gradle/caches/transforms-3/ad9f1de67fe7a18361321f51e59b5d79/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [com.zendesk.belvedere2:belvedere:3.0.5] /Users/rahul-variya-us/.gradle/caches/transforms-3/a222ae9c37c291cb1c2ba5d753f83678/transformed/jetified-belvedere-3.0.5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.zendesk.belvedere2:belvedere:3.0.5] /Users/rahul-variya-us/.gradle/caches/transforms-3/a222ae9c37c291cb1c2ba5d753f83678/transformed/jetified-belvedere-3.0.5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.6.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/46f652abd2dd5a4a1fe1961ccab3ea31/transformed/material-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.6.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/46f652abd2dd5a4a1fe1961ccab3ea31/transformed/material-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/8c3db83d9335b04d5f52ab5f28434184/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/8c3db83d9335b04d5f52ab5f28434184/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/45c65e3f5b631932c7aeefbb2457c6b3/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/45c65e3f5b631932c7aeefbb2457c6b3/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/a91295e0b80c25977a3daec54a1fcc27/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/a91295e0b80c25977a3daec54a1fcc27/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/a56b8ee78a242ffa93a85fb755f6c014/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/a56b8ee78a242ffa93a85fb755f6c014/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/e2dc531c1f2077027ffd8955a4d0d28f/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/e2dc531c1f2077027ffd8955a4d0d28f/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.zendesk.belvedere2:belvedere-core:3.0.5] /Users/rahul-variya-us/.gradle/caches/transforms-3/655a85b7c0aedc8ae20379fee6e38842/transformed/jetified-belvedere-core-3.0.5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.zendesk.belvedere2:belvedere-core:3.0.5] /Users/rahul-variya-us/.gradle/caches/transforms-3/655a85b7c0aedc8ae20379fee6e38842/transformed/jetified-belvedere-core-3.0.5/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/rahul-variya-us/.gradle/caches/transforms-3/66e7d792286af0ea7960e863c81f96ce/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/rahul-variya-us/.gradle/caches/transforms-3/66e7d792286af0ea7960e863c81f96ce/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.6.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/2debf9cf81cbe2aba775bc26aac53707/transformed/jetified-activity-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.6.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/2debf9cf81cbe2aba775bc26aac53707/transformed/jetified-activity-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/2ab28b7aa5c5e124c4dda4feb9b281c5/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/2ab28b7aa5c5e124c4dda4feb9b281c5/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/888a5c647edd7bb63bea6a0a0d3e4715/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/888a5c647edd7bb63bea6a0a0d3e4715/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/b0d31658a72dd778912a161087958342/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/b0d31658a72dd778912a161087958342/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/42feb9c7f504e3c5556a6f68c5f859e7/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/42feb9c7f504e3c5556a6f68c5f859e7/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/a0c021e2845ac5dfaff3f18c0901c5f6/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/a0c021e2845ac5dfaff3f18c0901c5f6/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/938f7ab28a1335140fd8e947ba424a0f/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/938f7ab28a1335140fd8e947ba424a0f/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/2145662e4b93501bf7c2137ae18e85d8/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/2145662e4b93501bf7c2137ae18e85d8/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.squareup.picasso:picasso:2.8] /Users/rahul-variya-us/.gradle/caches/transforms-3/1cc76ec9f987afcd740815efbce1cac2/transformed/jetified-picasso-2.8/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.8] /Users/rahul-variya-us/.gradle/caches/transforms-3/1cc76ec9f987afcd740815efbce1cac2/transformed/jetified-picasso-2.8/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.flexbox:flexbox:3.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/62a472b03f5bd808c9c69c863cc70c56/transformed/jetified-flexbox-3.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.flexbox:flexbox:3.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/62a472b03f5bd808c9c69c863cc70c56/transformed/jetified-flexbox-3.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/3a97e284f683fed0e5d0d22d301b557e/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/3a97e284f683fed0e5d0d22d301b557e/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/bf25ee15b5ce13b03dad429c4800e03b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/bf25ee15b5ce13b03dad429c4800e03b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/737a9b853f8949001531f3701ed7bb73/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/737a9b853f8949001531f3701ed7bb73/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/3f2fd26ee079470a6563212c875abbe1/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/3f2fd26ee079470a6563212c875abbe1/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/e4c2c0bead238247522f7dc1436af514/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/e4c2c0bead238247522f7dc1436af514/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/62030d11769e6472372fd5257706a1bc/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/62030d11769e6472372fd5257706a1bc/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/f7e3624e607c39c3675a140e2f13d435/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/f7e3624e607c39c3675a140e2f13d435/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/97555d3e0c844c118423cf2aeea81da4/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/97555d3e0c844c118423cf2aeea81da4/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/af7533c2c2ba063d77f1d5a0f02340d4/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/af7533c2c2ba063d77f1d5a0f02340d4/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/7f58200445f21b8ba87e78135c8d8d6c/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/7f58200445f21b8ba87e78135c8d8d6c/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/102fe2d444eca9ed068e524be71103a4/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/102fe2d444eca9ed068e524be71103a4/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/7447785fe0bde2cfee41f80ca9c29c72/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/7447785fe0bde2cfee41f80ca9c29c72/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/1b87b9d2fbf47c98afaecf36aa347357/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/1b87b9d2fbf47c98afaecf36aa347357/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/c7cba29dfbbf43c9c2074d3865d18f83/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/c7cba29dfbbf43c9c2074d3865d18f83/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/e8e451dc44a67ddd4ae0a0f69053cb28/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/e8e451dc44a67ddd4ae0a0f69053cb28/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/c61c422c6319fa422cec7aa8783c08f6/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/c61c422c6319fa422cec7aa8783c08f6/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/db26465eb18da689f66dea68e81074ac/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/db26465eb18da689f66dea68e81074ac/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/9cc1a102f0c5a762af32fcf1386e9ed8/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/9cc1a102f0c5a762af32fcf1386e9ed8/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/776bd30a183a38bbeead7026ee38037f/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/776bd30a183a38bbeead7026ee38037f/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/2b1b481f21369b409a2032edfcbb51f7/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/2b1b481f21369b409a2032edfcbb51f7/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/f718a728def7abfdb90c4a0d0d3b7dd3/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/f718a728def7abfdb90c4a0d0d3b7dd3/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/867922309925fd15fb23fafcdbc62d18/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/867922309925fd15fb23fafcdbc62d18/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/9c8cc19d4fc0b64eb2fd6f778b1a69b5/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/9c8cc19d4fc0b64eb2fd6f778b1a69b5/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.dagger:dagger-android:2.42] /Users/rahul-variya-us/.gradle/caches/transforms-3/14e14f1b6a489ed303c9f691d366d8bf/transformed/jetified-dagger-android-2.42/AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-android:2.42] /Users/rahul-variya-us/.gradle/caches/transforms-3/14e14f1b6a489ed303c9f691d366d8bf/transformed/jetified-dagger-android-2.42/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/3f4693ab1203137cc670465255ca04ac/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/3f4693ab1203137cc670465255ca04ac/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/03b099bf89b259e16e29693ead74aa76/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/03b099bf89b259e16e29693ead74aa76/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/a217b21ada8fbb227ca0c89046ae86a1/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/a217b21ada8fbb227ca0c89046ae86a1/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/7afce4d5337703831db178cf7e1b7452/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/7afce4d5337703831db178cf7e1b7452/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/fc6046a042207a12723256c78ea06381/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/fc6046a042207a12723256c78ea06381/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/43599857f2eaa3321fcef88683570adc/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/43599857f2eaa3321fcef88683570adc/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/45dc9b87d6a958af768ebcc9511541f0/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/45dc9b87d6a958af768ebcc9511541f0/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/c297a50b2837923375d491542fffaf33/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/c297a50b2837923375d491542fffaf33/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/a96c660014690ca622f0c257f11ebc9a/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/a96c660014690ca622f0c257f11ebc9a/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/4e1224689144b327f9a76d7de7912b08/transformed/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/4e1224689144b327f9a76d7de7912b08/transformed/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.dagger:dagger-lint-aar:2.42] /Users/rahul-variya-us/.gradle/caches/transforms-3/6b7d1cdaacc1dae1d20bb80ab2d3459b/transformed/jetified-dagger-lint-aar-2.42/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-lint-aar:2.42] /Users/rahul-variya-us/.gradle/caches/transforms-3/6b7d1cdaacc1dae1d20bb80ab2d3459b/transformed/jetified-dagger-lint-aar-2.42/AndroidManifest.xml:18:3-42
+INJECTED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/android/app/src/debug/AndroidManifest.xml
+queries
+ADDED from [com.zendesk:support:5.1.2] /Users/rahul-variya-us/.gradle/caches/transforms-3/5952d2edadb7cf31949bfbf965199691/transformed/jetified-support-5.1.2/AndroidManifest.xml:11:5-29:15
+MERGED from [com.zendesk:common-ui:4.0.5] /Users/rahul-variya-us/.gradle/caches/transforms-3/b8cb9c9f213d7efb88818dcfc509f1df/transformed/jetified-common-ui-4.0.5/AndroidManifest.xml:9:5-27:15
+MERGED from [com.zendesk:common-ui:4.0.5] /Users/rahul-variya-us/.gradle/caches/transforms-3/b8cb9c9f213d7efb88818dcfc509f1df/transformed/jetified-common-ui-4.0.5/AndroidManifest.xml:9:5-27:15
+MERGED from [com.zendesk.belvedere2:belvedere-core:3.0.5] /Users/rahul-variya-us/.gradle/caches/transforms-3/655a85b7c0aedc8ae20379fee6e38842/transformed/jetified-belvedere-core-3.0.5/AndroidManifest.xml:12:5-30:15
+MERGED from [com.zendesk.belvedere2:belvedere-core:3.0.5] /Users/rahul-variya-us/.gradle/caches/transforms-3/655a85b7c0aedc8ae20379fee6e38842/transformed/jetified-belvedere-core-3.0.5/AndroidManifest.xml:12:5-30:15
+intent#action:name:android.media.action.IMAGE_CAPTURE
+ADDED from [com.zendesk:support:5.1.2] /Users/rahul-variya-us/.gradle/caches/transforms-3/5952d2edadb7cf31949bfbf965199691/transformed/jetified-support-5.1.2/AndroidManifest.xml:14:9-16:18
+action#android.media.action.IMAGE_CAPTURE
+ADDED from [com.zendesk:support:5.1.2] /Users/rahul-variya-us/.gradle/caches/transforms-3/5952d2edadb7cf31949bfbf965199691/transformed/jetified-support-5.1.2/AndroidManifest.xml:15:13-73
+	android:name
+		ADDED from [com.zendesk:support:5.1.2] /Users/rahul-variya-us/.gradle/caches/transforms-3/5952d2edadb7cf31949bfbf965199691/transformed/jetified-support-5.1.2/AndroidManifest.xml:15:21-70
+intent#action:name:android.intent.action.OPEN_DOCUMENT+data:mimeType:*/*
+ADDED from [com.zendesk:support:5.1.2] /Users/rahul-variya-us/.gradle/caches/transforms-3/5952d2edadb7cf31949bfbf965199691/transformed/jetified-support-5.1.2/AndroidManifest.xml:18:9-22:18
+action#android.intent.action.OPEN_DOCUMENT
+ADDED from [com.zendesk:support:5.1.2] /Users/rahul-variya-us/.gradle/caches/transforms-3/5952d2edadb7cf31949bfbf965199691/transformed/jetified-support-5.1.2/AndroidManifest.xml:19:13-74
+	android:name
+		ADDED from [com.zendesk:support:5.1.2] /Users/rahul-variya-us/.gradle/caches/transforms-3/5952d2edadb7cf31949bfbf965199691/transformed/jetified-support-5.1.2/AndroidManifest.xml:19:21-71
+data
+ADDED from [com.zendesk:support:5.1.2] /Users/rahul-variya-us/.gradle/caches/transforms-3/5952d2edadb7cf31949bfbf965199691/transformed/jetified-support-5.1.2/AndroidManifest.xml:21:13-44
+	android:mimeType
+		ADDED from [com.zendesk:support:5.1.2] /Users/rahul-variya-us/.gradle/caches/transforms-3/5952d2edadb7cf31949bfbf965199691/transformed/jetified-support-5.1.2/AndroidManifest.xml:21:19-41
+intent#action:name:android.intent.action.GET_CONTENT+data:mimeType:*/*
+ADDED from [com.zendesk:support:5.1.2] /Users/rahul-variya-us/.gradle/caches/transforms-3/5952d2edadb7cf31949bfbf965199691/transformed/jetified-support-5.1.2/AndroidManifest.xml:24:9-28:18
+action#android.intent.action.GET_CONTENT
+ADDED from [com.zendesk:support:5.1.2] /Users/rahul-variya-us/.gradle/caches/transforms-3/5952d2edadb7cf31949bfbf965199691/transformed/jetified-support-5.1.2/AndroidManifest.xml:25:13-72
+	android:name
+		ADDED from [com.zendesk:support:5.1.2] /Users/rahul-variya-us/.gradle/caches/transforms-3/5952d2edadb7cf31949bfbf965199691/transformed/jetified-support-5.1.2/AndroidManifest.xml:25:21-69
+activity#zendesk.support.request.RequestActivity
+ADDED from [com.zendesk:support:5.1.2] /Users/rahul-variya-us/.gradle/caches/transforms-3/5952d2edadb7cf31949bfbf965199691/transformed/jetified-support-5.1.2/AndroidManifest.xml:32:9-35:58
+	android:windowSoftInputMode
+		ADDED from [com.zendesk:support:5.1.2] /Users/rahul-variya-us/.gradle/caches/transforms-3/5952d2edadb7cf31949bfbf965199691/transformed/jetified-support-5.1.2/AndroidManifest.xml:35:13-55
+	android:exported
+		ADDED from [com.zendesk:support:5.1.2] /Users/rahul-variya-us/.gradle/caches/transforms-3/5952d2edadb7cf31949bfbf965199691/transformed/jetified-support-5.1.2/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.zendesk:support:5.1.2] /Users/rahul-variya-us/.gradle/caches/transforms-3/5952d2edadb7cf31949bfbf965199691/transformed/jetified-support-5.1.2/AndroidManifest.xml:33:13-67
+activity#zendesk.support.requestlist.RequestListActivity
+ADDED from [com.zendesk:support:5.1.2] /Users/rahul-variya-us/.gradle/caches/transforms-3/5952d2edadb7cf31949bfbf965199691/transformed/jetified-support-5.1.2/AndroidManifest.xml:36:9-39:67
+	android:label
+		ADDED from [com.zendesk:support:5.1.2] /Users/rahul-variya-us/.gradle/caches/transforms-3/5952d2edadb7cf31949bfbf965199691/transformed/jetified-support-5.1.2/AndroidManifest.xml:39:13-64
+	android:exported
+		ADDED from [com.zendesk:support:5.1.2] /Users/rahul-variya-us/.gradle/caches/transforms-3/5952d2edadb7cf31949bfbf965199691/transformed/jetified-support-5.1.2/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.zendesk:support:5.1.2] /Users/rahul-variya-us/.gradle/caches/transforms-3/5952d2edadb7cf31949bfbf965199691/transformed/jetified-support-5.1.2/AndroidManifest.xml:37:13-75
+receiver#zendesk.support.DeepLinkingBroadcastReceiver
+ADDED from [com.zendesk:support:5.1.2] /Users/rahul-variya-us/.gradle/caches/transforms-3/5952d2edadb7cf31949bfbf965199691/transformed/jetified-support-5.1.2/AndroidManifest.xml:41:9-47:20
+	android:exported
+		ADDED from [com.zendesk:support:5.1.2] /Users/rahul-variya-us/.gradle/caches/transforms-3/5952d2edadb7cf31949bfbf965199691/transformed/jetified-support-5.1.2/AndroidManifest.xml:43:13-37
+	android:name
+		ADDED from [com.zendesk:support:5.1.2] /Users/rahul-variya-us/.gradle/caches/transforms-3/5952d2edadb7cf31949bfbf965199691/transformed/jetified-support-5.1.2/AndroidManifest.xml:42:13-72
+intent-filter#action:name:zendesk.support
+ADDED from [com.zendesk:support:5.1.2] /Users/rahul-variya-us/.gradle/caches/transforms-3/5952d2edadb7cf31949bfbf965199691/transformed/jetified-support-5.1.2/AndroidManifest.xml:44:13-46:29
+action#zendesk.support
+ADDED from [com.zendesk:support:5.1.2] /Users/rahul-variya-us/.gradle/caches/transforms-3/5952d2edadb7cf31949bfbf965199691/transformed/jetified-support-5.1.2/AndroidManifest.xml:45:17-58
+	android:name
+		ADDED from [com.zendesk:support:5.1.2] /Users/rahul-variya-us/.gradle/caches/transforms-3/5952d2edadb7cf31949bfbf965199691/transformed/jetified-support-5.1.2/AndroidManifest.xml:45:25-55
+provider#zendesk.support.SupportSdkStartupProvider
+ADDED from [com.zendesk:support:5.1.2] /Users/rahul-variya-us/.gradle/caches/transforms-3/5952d2edadb7cf31949bfbf965199691/transformed/jetified-support-5.1.2/AndroidManifest.xml:49:9-53:40
+	android:enabled
+		ADDED from [com.zendesk:support:5.1.2] /Users/rahul-variya-us/.gradle/caches/transforms-3/5952d2edadb7cf31949bfbf965199691/transformed/jetified-support-5.1.2/AndroidManifest.xml:52:13-35
+	android:authorities
+		ADDED from [com.zendesk:support:5.1.2] /Users/rahul-variya-us/.gradle/caches/transforms-3/5952d2edadb7cf31949bfbf965199691/transformed/jetified-support-5.1.2/AndroidManifest.xml:51:13-93
+	android:exported
+		ADDED from [com.zendesk:support:5.1.2] /Users/rahul-variya-us/.gradle/caches/transforms-3/5952d2edadb7cf31949bfbf965199691/transformed/jetified-support-5.1.2/AndroidManifest.xml:53:13-37
+	android:name
+		ADDED from [com.zendesk:support:5.1.2] /Users/rahul-variya-us/.gradle/caches/transforms-3/5952d2edadb7cf31949bfbf965199691/transformed/jetified-support-5.1.2/AndroidManifest.xml:50:13-69
+activity#zendesk.support.guide.ViewArticleActivity
+ADDED from [com.zendesk:guide:1.1.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/2e197acef56d7d0d1cfa14201ff98135/transformed/jetified-guide-1.1.1/AndroidManifest.xml:11:9-15:69
+	android:label
+		ADDED from [com.zendesk:guide:1.1.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/2e197acef56d7d0d1cfa14201ff98135/transformed/jetified-guide-1.1.1/AndroidManifest.xml:15:13-66
+	android:exported
+		ADDED from [com.zendesk:guide:1.1.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/2e197acef56d7d0d1cfa14201ff98135/transformed/jetified-guide-1.1.1/AndroidManifest.xml:14:13-37
+	android:configChanges
+		ADDED from [com.zendesk:guide:1.1.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/2e197acef56d7d0d1cfa14201ff98135/transformed/jetified-guide-1.1.1/AndroidManifest.xml:13:13-59
+	android:name
+		ADDED from [com.zendesk:guide:1.1.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/2e197acef56d7d0d1cfa14201ff98135/transformed/jetified-guide-1.1.1/AndroidManifest.xml:12:13-69
+activity#zendesk.support.guide.HelpCenterActivity
+ADDED from [com.zendesk:guide:1.1.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/2e197acef56d7d0d1cfa14201ff98135/transformed/jetified-guide-1.1.1/AndroidManifest.xml:16:9-20:58
+	android:label
+		ADDED from [com.zendesk:guide:1.1.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/2e197acef56d7d0d1cfa14201ff98135/transformed/jetified-guide-1.1.1/AndroidManifest.xml:19:13-59
+	android:windowSoftInputMode
+		ADDED from [com.zendesk:guide:1.1.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/2e197acef56d7d0d1cfa14201ff98135/transformed/jetified-guide-1.1.1/AndroidManifest.xml:20:13-55
+	android:exported
+		ADDED from [com.zendesk:guide:1.1.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/2e197acef56d7d0d1cfa14201ff98135/transformed/jetified-guide-1.1.1/AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [com.zendesk:guide:1.1.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/2e197acef56d7d0d1cfa14201ff98135/transformed/jetified-guide-1.1.1/AndroidManifest.xml:17:13-68
+provider#zendesk.support.guide.GuideSdkStartupProvider
+ADDED from [com.zendesk:guide:1.1.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/2e197acef56d7d0d1cfa14201ff98135/transformed/jetified-guide-1.1.1/AndroidManifest.xml:22:9-26:40
+	android:enabled
+		ADDED from [com.zendesk:guide:1.1.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/2e197acef56d7d0d1cfa14201ff98135/transformed/jetified-guide-1.1.1/AndroidManifest.xml:25:13-35
+	android:authorities
+		ADDED from [com.zendesk:guide:1.1.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/2e197acef56d7d0d1cfa14201ff98135/transformed/jetified-guide-1.1.1/AndroidManifest.xml:24:13-91
+	android:exported
+		ADDED from [com.zendesk:guide:1.1.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/2e197acef56d7d0d1cfa14201ff98135/transformed/jetified-guide-1.1.1/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [com.zendesk:guide:1.1.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/2e197acef56d7d0d1cfa14201ff98135/transformed/jetified-guide-1.1.1/AndroidManifest.xml:23:13-73
+activity#zendesk.classic.messaging.MessagingActivity
+ADDED from [com.zendesk:messaging:5.3.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/ad60e67a8de2f61980f8afd8c2f05a1c/transformed/jetified-messaging-5.3.0/AndroidManifest.xml:10:9-13:58
+	android:windowSoftInputMode
+		ADDED from [com.zendesk:messaging:5.3.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/ad60e67a8de2f61980f8afd8c2f05a1c/transformed/jetified-messaging-5.3.0/AndroidManifest.xml:13:13-55
+	android:exported
+		ADDED from [com.zendesk:messaging:5.3.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/ad60e67a8de2f61980f8afd8c2f05a1c/transformed/jetified-messaging-5.3.0/AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [com.zendesk:messaging:5.3.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/ad60e67a8de2f61980f8afd8c2f05a1c/transformed/jetified-messaging-5.3.0/AndroidManifest.xml:11:13-71
+intent#action:name:android.intent.action.VIEW+data:scheme:http
+ADDED from [com.zendesk:common-ui:4.0.5] /Users/rahul-variya-us/.gradle/caches/transforms-3/b8cb9c9f213d7efb88818dcfc509f1df/transformed/jetified-common-ui-4.0.5/AndroidManifest.xml:12:9-16:18
+action#android.intent.action.VIEW
+ADDED from [com.zendesk:common-ui:4.0.5] /Users/rahul-variya-us/.gradle/caches/transforms-3/b8cb9c9f213d7efb88818dcfc509f1df/transformed/jetified-common-ui-4.0.5/AndroidManifest.xml:13:13-65
+	android:name
+		ADDED from [com.zendesk:common-ui:4.0.5] /Users/rahul-variya-us/.gradle/caches/transforms-3/b8cb9c9f213d7efb88818dcfc509f1df/transformed/jetified-common-ui-4.0.5/AndroidManifest.xml:13:21-62
+intent#action:name:android.intent.action.GET_CONTENT
+ADDED from [com.zendesk:common-ui:4.0.5] /Users/rahul-variya-us/.gradle/caches/transforms-3/b8cb9c9f213d7efb88818dcfc509f1df/transformed/jetified-common-ui-4.0.5/AndroidManifest.xml:24:9-26:18
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/rahul-variya-us/.gradle/caches/transforms-3/ad9f1de67fe7a18361321f51e59b5d79/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/rahul-variya-us/.gradle/caches/transforms-3/ad9f1de67fe7a18361321f51e59b5d79/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/rahul-variya-us/.gradle/caches/transforms-3/ad9f1de67fe7a18361321f51e59b5d79/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/rahul-variya-us/.gradle/caches/transforms-3/ad9f1de67fe7a18361321f51e59b5d79/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/rahul-variya-us/.gradle/caches/transforms-3/ad9f1de67fe7a18361321f51e59b5d79/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/rahul-variya-us/.gradle/caches/transforms-3/ad9f1de67fe7a18361321f51e59b5d79/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+uses-permission#android.permission.READ_MEDIA_IMAGES
+ADDED from [com.zendesk.belvedere2:belvedere:3.0.5] /Users/rahul-variya-us/.gradle/caches/transforms-3/a222ae9c37c291cb1c2ba5d753f83678/transformed/jetified-belvedere-3.0.5/AndroidManifest.xml:11:5-76
+	android:name
+		ADDED from [com.zendesk.belvedere2:belvedere:3.0.5] /Users/rahul-variya-us/.gradle/caches/transforms-3/a222ae9c37c291cb1c2ba5d753f83678/transformed/jetified-belvedere-3.0.5/AndroidManifest.xml:11:22-73
+uses-permission#android.permission.READ_MEDIA_VIDEO
+ADDED from [com.zendesk.belvedere2:belvedere:3.0.5] /Users/rahul-variya-us/.gradle/caches/transforms-3/a222ae9c37c291cb1c2ba5d753f83678/transformed/jetified-belvedere-3.0.5/AndroidManifest.xml:12:5-75
+	android:name
+		ADDED from [com.zendesk.belvedere2:belvedere:3.0.5] /Users/rahul-variya-us/.gradle/caches/transforms-3/a222ae9c37c291cb1c2ba5d753f83678/transformed/jetified-belvedere-3.0.5/AndroidManifest.xml:12:22-72
+uses-permission#android.permission.READ_MEDIA_AUDIO
+ADDED from [com.zendesk.belvedere2:belvedere:3.0.5] /Users/rahul-variya-us/.gradle/caches/transforms-3/a222ae9c37c291cb1c2ba5d753f83678/transformed/jetified-belvedere-3.0.5/AndroidManifest.xml:13:5-75
+	android:name
+		ADDED from [com.zendesk.belvedere2:belvedere:3.0.5] /Users/rahul-variya-us/.gradle/caches/transforms-3/a222ae9c37c291cb1c2ba5d753f83678/transformed/jetified-belvedere-3.0.5/AndroidManifest.xml:13:22-72
+provider#zendesk.belvedere.BelvedereFileProvider
+ADDED from [com.zendesk.belvedere2:belvedere-core:3.0.5] /Users/rahul-variya-us/.gradle/caches/transforms-3/655a85b7c0aedc8ae20379fee6e38842/transformed/jetified-belvedere-core-3.0.5/AndroidManifest.xml:33:9-42:20
+	android:readPermission
+		ADDED from [com.zendesk.belvedere2:belvedere-core:3.0.5] /Users/rahul-variya-us/.gradle/caches/transforms-3/655a85b7c0aedc8ae20379fee6e38842/transformed/jetified-belvedere-core-3.0.5/AndroidManifest.xml:38:13-42
+	android:grantUriPermissions
+		ADDED from [com.zendesk.belvedere2:belvedere-core:3.0.5] /Users/rahul-variya-us/.gradle/caches/transforms-3/655a85b7c0aedc8ae20379fee6e38842/transformed/jetified-belvedere-core-3.0.5/AndroidManifest.xml:37:13-47
+	android:authorities
+		ADDED from [com.zendesk.belvedere2:belvedere-core:3.0.5] /Users/rahul-variya-us/.gradle/caches/transforms-3/655a85b7c0aedc8ae20379fee6e38842/transformed/jetified-belvedere-core-3.0.5/AndroidManifest.xml:35:13-74
+	android:exported
+		ADDED from [com.zendesk.belvedere2:belvedere-core:3.0.5] /Users/rahul-variya-us/.gradle/caches/transforms-3/655a85b7c0aedc8ae20379fee6e38842/transformed/jetified-belvedere-core-3.0.5/AndroidManifest.xml:36:13-37
+	android:name
+		ADDED from [com.zendesk.belvedere2:belvedere-core:3.0.5] /Users/rahul-variya-us/.gradle/caches/transforms-3/655a85b7c0aedc8ae20379fee6e38842/transformed/jetified-belvedere-core-3.0.5/AndroidManifest.xml:34:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [com.zendesk.belvedere2:belvedere-core:3.0.5] /Users/rahul-variya-us/.gradle/caches/transforms-3/655a85b7c0aedc8ae20379fee6e38842/transformed/jetified-belvedere-core-3.0.5/AndroidManifest.xml:39:13-41:75
+	android:resource
+		ADDED from [com.zendesk.belvedere2:belvedere-core:3.0.5] /Users/rahul-variya-us/.gradle/caches/transforms-3/655a85b7c0aedc8ae20379fee6e38842/transformed/jetified-belvedere-core-3.0.5/AndroidManifest.xml:41:17-72
+	android:name
+		ADDED from [com.zendesk.belvedere2:belvedere-core:3.0.5] /Users/rahul-variya-us/.gradle/caches/transforms-3/655a85b7c0aedc8ae20379fee6e38842/transformed/jetified-belvedere-core-3.0.5/AndroidManifest.xml:40:17-67
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.8] /Users/rahul-variya-us/.gradle/caches/transforms-3/1cc76ec9f987afcd740815efbce1cac2/transformed/jetified-picasso-2.8/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.8] /Users/rahul-variya-us/.gradle/caches/transforms-3/1cc76ec9f987afcd740815efbce1cac2/transformed/jetified-picasso-2.8/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.8] /Users/rahul-variya-us/.gradle/caches/transforms-3/1cc76ec9f987afcd740815efbce1cac2/transformed/jetified-picasso-2.8/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.8] /Users/rahul-variya-us/.gradle/caches/transforms-3/1cc76ec9f987afcd740815efbce1cac2/transformed/jetified-picasso-2.8/AndroidManifest.xml:9:13-64
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/bf25ee15b5ce13b03dad429c4800e03b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/9cc1a102f0c5a762af32fcf1386e9ed8/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/9cc1a102f0c5a762af32fcf1386e9ed8/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/867922309925fd15fb23fafcdbc62d18/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/867922309925fd15fb23fafcdbc62d18/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/bf25ee15b5ce13b03dad429c4800e03b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/bf25ee15b5ce13b03dad429c4800e03b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/bf25ee15b5ce13b03dad429c4800e03b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/bf25ee15b5ce13b03dad429c4800e03b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/bf25ee15b5ce13b03dad429c4800e03b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/bf25ee15b5ce13b03dad429c4800e03b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/bf25ee15b5ce13b03dad429c4800e03b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/c61c422c6319fa422cec7aa8783c08f6/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/c61c422c6319fa422cec7aa8783c08f6/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/c61c422c6319fa422cec7aa8783c08f6/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+permission#com.zendesk_example.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/c61c422c6319fa422cec7aa8783c08f6/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/c61c422c6319fa422cec7aa8783c08f6/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/c61c422c6319fa422cec7aa8783c08f6/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/c61c422c6319fa422cec7aa8783c08f6/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/c61c422c6319fa422cec7aa8783c08f6/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+uses-permission#com.zendesk_example.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/c61c422c6319fa422cec7aa8783c08f6/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/rahul-variya-us/.gradle/caches/transforms-3/c61c422c6319fa422cec7aa8783c08f6/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/9cc1a102f0c5a762af32fcf1386e9ed8/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/9cc1a102f0c5a762af32fcf1386e9ed8/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/rahul-variya-us/.gradle/caches/transforms-3/9cc1a102f0c5a762af32fcf1386e9ed8/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d ny notifikation</item>
+    <item quantity="other">%d nye notifikationer</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Find hjem"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Gå op"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Flere valgmuligheder"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Udfør"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Se alle"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Vælg en app"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"FRA"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"TIL"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"slet"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Fn+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"mellemrum"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Søg…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Ryd forespørgsel"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Søgeforespørgsel"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Søg"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Indsend forespørgsel"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Talesøgning"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Del med"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Del med <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Skjul"</string>
+    <string name="articles_list_fragment_error_message">Kunne ikke hente artikler</string>
+    <string name="articles_list_fragment_no_articles_found">Der blev ikke fundet nogen artikler</string>
+    <string name="ask_request_list_failed_request_message">Meddelelse mislykkedes</string>
+    <string name="belvedere_dialog_camera">Kamera</string>
+    <string name="belvedere_dialog_gallery">Galleri</string>
+    <string name="belvedere_fam_desc_collapse_fam">Skjul flydende handlingsmenu</string>
+    <string name="belvedere_fam_desc_expand_fam">Vis flydende handlingsmenu</string>
+    <string name="belvedere_fam_desc_open_gallery">Importér fil fra galleri</string>
+    <string name="belvedere_fam_desc_open_google_photos">Importér billede fra Google Photos</string>
+    <string name="belvedere_image_stream_file_too_large">Filen er for stor</string>
+    <string name="belvedere_image_stream_title">Fotobibliotek</string>
+    <string name="belvedere_image_stream_unknown_app">Ukendt</string>
+    <string name="belvedere_navigate_to_settings">Indstillinger</string>
+    <string name="belvedere_permissions_denied">Tilladelser nægtet</string>
+    <string name="belvedere_permissions_rationale">Hvis du vil sende vedhæftede filer, skal du acceptere tilladelser i dine indstillinger</string>
+    <string name="belvedere_stream_item_camera_tile_desc">Importér billede fra kamera</string>
+    <string name="belvedere_stream_item_select_file_desc">Vælg filen %s</string>
+    <string name="belvedere_stream_item_select_image_desc">Vælg billedet %s</string>
+    <string name="belvedere_stream_item_unselect_file_desc">Fravælg filen %s</string>
+    <string name="belvedere_stream_item_unselect_image_desc">Fravælg billedet %s</string>
+    <string name="belvedere_toolbar_desc_collapse">Luk billedvælger</string>
+    <string name="bottomsheet_action_expand_halfway">Udvid halvdelen</string>
+    <string name="categories_list_fragment_error_message">Kunne ikke hente kategorier</string>
+    <string name="character_counter_content_description">Du har brugt %1$d ud af %2$d tegn</string>
+    <string name="character_counter_overflowed_content_description">Du har brugt %1$d tegn og dermed overskredet tegnbegrænsningen på %2$d.</string>
+    <string name="clear_text_end_icon_content_description">Ryd tekst</string>
+    <string name="contact_fragment_title">Kontakt os</string>
+    <string name="error_icon_content_description">Fejl</string>
+    <string name="error_msg_invalid_email">Indtast gyldig e-mailadresse</string>
+    <string name="error_msg_invalid_message">Indtast din meddelelse</string>
+    <string name="error_msg_invalid_name">Indtast dit fulde navn</string>
+    <string name="exposed_dropdown_menu_content_description">Vis rullemenuen</string>
+    <string name="help_search_no_results_label">Ingen resultater for</string>
+    <string name="help_see_all_articles_label">Se alle artikler</string>
+    <string name="help_see_all_n_articles_label">Se alle %d artikler</string>
+    <string name="icon_content_description">Ikon for dialogboks</string>
+    <string name="item_view_role_description">Fane</string>
+    <string name="material_clock_toggle_content_description">Vælg AM eller PM</string>
+    <string name="material_hour_selection">Vælg time</string>
+    <string name="material_hour_suffix">klokken %1$s</string>
+    <string name="material_minute_selection">Vælg minutter</string>
+    <string name="material_minute_suffix">%1$s minutter</string>
+    <string name="material_timepicker_am">f.m.</string>
+    <string name="material_timepicker_clock_mode_description">Skift til urtilstand for at angive klokkeslæt.</string>
+    <string name="material_timepicker_hour">Time</string>
+    <string name="material_timepicker_minute">Minut</string>
+    <string name="material_timepicker_pm">e.m.</string>
+    <string name="material_timepicker_select_time">Vælg tidspunkt</string>
+    <string name="material_timepicker_text_input_mode_description">Skift til teksttilstand for at angive klokkeslæt.</string>
+    <string name="mtrl_badge_numberless_content_description">Ny notifikation</string>
+    <string name="mtrl_chip_close_icon_content_description">Fjern %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Flere end %1$d nye notifikationer</string>
+    <string name="mtrl_picker_a11y_next_month">Skift til næste måned</string>
+    <string name="mtrl_picker_a11y_prev_month">Skift til forrige måned</string>
+    <string name="mtrl_picker_announce_current_selection">Aktuelt valg: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Vælg dato</string>
+    <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
+    <string name="mtrl_picker_day_of_week_column_header">Kolonne med dage: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Ugyldigt format.</string>
+    <string name="mtrl_picker_invalid_format_example">Eksempel: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Brug: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Ugyldigt interval.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Gå til år %1$s</string>
+    <string name="mtrl_picker_out_of_range">Uden for interval: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Startdato – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – slutdato</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Vælg interval</string>
+    <string name="mtrl_picker_range_header_unselected">Startdato – slutdato</string>
+    <string name="mtrl_picker_save">Gem</string>
+    <string name="mtrl_picker_text_input_date_hint">Dato</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Slutdato</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Startdato</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">å</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Skift til input-tilstand for kalender</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Tryk for at gå til valg af dag</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Skift til input-tilstand for tekst</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Tryk for at gå til valg af år</string>
+    <string name="network_activity_no_connectivity">Ingen forbindelse</string>
+    <string name="password_toggle_content_description">Vis adgangskode</string>
+    <string name="request_attachment_generic_unknown_app">Ukendt</string>
+    <string name="request_dialog_body_unsaved_changes">Beskeden bliver slettet, hvis du går tilbage. Er du sikker på, at du vil slette den?</string>
+    <string name="request_dialog_button_label_cancel">Annuller</string>
+    <string name="request_dialog_button_label_delete">Slet</string>
+    <string name="request_dialog_title_unsaved_changes">Meddelelse ikke sendt</string>
+    <string name="request_email_entry_hint">E-mailadresse</string>
+    <string name="request_error_create_request">Anmodningen kunne ikke oprettes</string>
+    <string name="request_error_load_comments">Kommentarerne kunne ikke indlæses</string>
+    <string name="request_file_attachment_download_in_progress">Download af fil er i gang</string>
+    <string name="request_list_activity_title">Mine tickets</string>
+    <string name="request_list_empty_start_conversation">START EN SAMTALE</string>
+    <string name="request_list_empty_text">Samtaler, som startes fra denne app, vil være synlige her.</string>
+    <string name="request_list_fragment_error_message">Kunne ikke hente tickets</string>
+    <string name="request_list_me">Mig</string>
+    <string name="request_list_re">Ang.: %s</string>
+    <string name="request_list_ticket_closed">Ticket er lukket</string>
+    <string name="request_menu_button_label_add_attachments">Tilføj vedhæftede filer</string>
+    <string name="request_menu_button_label_send">Send</string>
+    <string name="request_message_date_today">I DAG</string>
+    <string name="request_message_date_yesterday">I GÅR</string>
+    <string name="request_message_entry_hint">Meddelelse</string>
+    <string name="request_message_status_delivered">Leveret</string>
+    <string name="request_messages_status_error">Meddelelse mislykkedes. Tryk for at prøve igen</string>
+    <string name="request_name_entry_hint">Navn</string>
+    <string name="request_retry_dialog_delete_message">Slet meddelelse</string>
+    <string name="request_retry_dialog_retry">Prøv at sende igen</string>
+    <string name="request_system_message_closed_ticket">Denne samtale er blevet lukket.</string>
+    <string name="request_toolbar_last_reply">Sidste svar %s</string>
+    <string name="request_write_a_message">Skriv en besked</string>
+    <string name="retry_view_button_label">Prøv igen</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Søg"</string>
+    <string name="sections_list_fragment_error_message">Kunne ikke hente sektioner</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="support_activity_title">Support</string>
+    <string name="support_conversations_menu">Samtaler</string>
+    <string name="view_article_attachments_error">Kunne ikke hente vedhæftede filer</string>
+    <string name="view_article_vote_prompt">Var denne artikel nyttig?</string>
+    <string name="zg_general_contact_us_button_label_accessibility">Kontakt os</string>
+    <string name="zg_general_no_connection_message">Ingen forbindelse</string>
+    <string name="zs_engine_greeting_message">Indtast en besked, og jeg finder nogen, som kan hjælpe dig.</string>
+    <string name="zs_engine_message_retry_button">Prøv igen</string>
+    <string name="zs_engine_message_send_error_message">Der gik noget galt, og din meddelelse kunne ikke sendes. Prøv igen senere.</string>
+    <string name="zs_engine_request_created_conversations_enabled_message">Mange tak. Der er blevet sendt en meddelelse til teamet. Du kan se denne meddelelse og tilføje yderligere detaljer her:</string>
+    <string name="zs_engine_request_created_conversations_off_message">Mange tak. Der er blevet sendt en meddelelse til teamet. De vil kontakte dig via e-mail, hvis et svar er nødvendigt.</string>
+    <string name="zs_engine_request_created_request_list_button">Vis meddelelser</string>
+    <string name="zs_engine_request_creation_email_prompt_hint">Indtast din e-mailadresse ...</string>
+    <string name="zs_engine_request_creation_email_prompt_message">Du vil blive kontaktet via e-mail, hvis et svar er nødvendigt. Hvad er din e-mailadresse?</string>
+    <string name="zs_engine_request_creation_email_validation_failed_message">Den indtastede e-mailadresse er forkert. Indtast en gyldig e-mailadresse.</string>
+    <string name="zs_general_contact_us_button_label_accessibility">Kontakt os</string>
+    <string name="zs_general_referrer_logo_label_accessibility">Zendesk</string>
+    <string name="zs_help_center_content_loaded_accessibility">Help Center er indlæst</string>
+    <string name="zs_help_center_search_loaded_accessibility">Søgeresultater er indlæst</string>
+    <string name="zs_request_announce_comment_created_accessibility">Kommentar med teksten %s er sendt.</string>
+    <string name="zs_request_announce_comment_failed_accessibility">Kan ikke oprette kommentar med teksten %s.</string>
+    <string name="zs_request_announce_comments_loaded_accessibility">Kommentarer er indlæst.</string>
+    <string name="zs_request_attachment_carousel_attachment_accessibility">Vedhæftet fil med navnet %s.</string>
+    <string name="zs_request_attachment_carousel_remove_attachment_accessibility">Fjern vedhæftet fil med navnet %s.</string>
+    <string name="zs_request_attachment_indicator_accessibility">Vælg en vedhæftet fil.</string>
+    <string name="zs_request_attachment_indicator_n_attachments_selected_accessibility">Der er valgt %d vedhæftede filer.</string>
+    <string name="zs_request_attachment_indicator_no_attachments_selected_accessibility">Der er ikke valgt nogen vedhæftede filer.</string>
+    <string name="zs_request_attachment_indicator_one_attachments_selected_accessibility">Der er valgt én vedhæftet fil.</string>
+    <string name="zs_request_contact_option_leave_a_message">Efterlad en besked</string>
+    <string name="zs_request_list_content_load_failed_accessibility">Support-tickets blev ikke indlæst</string>
+    <string name="zs_request_list_content_loaded_accessibility">Support-tickets er indlæst</string>
+    <string name="zs_request_list_content_loaded_empty_accessibility">Ingen support-tickets</string>
+    <string name="zs_request_list_content_loading_accessibility">Indlæser support-tickets</string>
+    <string name="zs_request_message_agent_file_accessibility">Agent har vedhæftet fil med navnet %s.</string>
+    <string name="zs_request_message_agent_image_accessibility">Agent har vedhæftet billede med navnet %s.</string>
+    <string name="zs_request_message_agent_sent_accessibility">Sendt af %1$s kl. %2$s.</string>
+    <string name="zs_request_message_agent_text_accessibility">Agent sendte meddelelsen %s.</string>
+    <string name="zs_request_message_user_error_accessibility">Kunne ikke sende. Tryk for at få valgmuligheder.</string>
+    <string name="zs_request_message_user_file_accessibility">Fil med navnet %s.</string>
+    <string name="zs_request_message_user_image_accessibility">Billede med navnet %s.</string>
+    <string name="zs_request_message_user_sent_accessibility">Sendt af dig kl. %s</string>
+    <string name="zs_request_message_user_text_accessibility">Meddelelsen %s.</string>
+    <string name="zs_request_toolbar_accessibility">Sidste svar fra %1$s kl. %2$s.</string>
+    <string name="zs_view_article_error">Artiklen kunne ikke hentes</string>
+    <string name="zs_view_article_loaded_accessibility">%s artikel blev indlæst</string>
+    <string name="zs_view_article_vote_no_accessibility">Nej-stemme</string>
+    <string name="zs_view_article_vote_no_remove_accessibility">Fjern ja-stemme</string>
+    <string name="zs_view_article_vote_yes_accessibility">Ja-stemme</string>
+    <string name="zs_view_article_vote_yes_remove_accessibility">Fjern nej-stemme</string>
+    <string name="zs_view_article_voted_failed_accessibility_announce">Afstemning mislykkedes</string>
+    <string name="zs_view_article_voted_no_accessibility_announce">Stemte nej</string>
+    <string name="zs_view_article_voted_yes_accessibility_announce">Stemte ja</string>
+    <string name="zui_attachment_indicator_accessibility">Vælg en vedhæftet fil</string>
+    <string name="zui_attachment_indicator_n_attachments_selected_accessibility">Der er valgt %d vedhæftede filer</string>
+    <string name="zui_attachment_indicator_no_attachments_selected_accessibility">Der er ikke valgt nogen vedhæftede filer</string>
+    <string name="zui_attachment_indicator_one_attachments_selected_accessibility">Der er valgt én vedhæftet fil</string>
+    <string name="zui_bot_label">BOT</string>
+    <string name="zui_button_label_no">Nej</string>
+    <string name="zui_button_label_yes">Ja</string>
+    <string name="zui_cell_text_suggested_article_header">Her er en artikel, som måske kan hjælpe:</string>
+    <string name="zui_cell_text_suggested_articles_header">Her er nogle artikler, som måske kan hjælpe:</string>
+    <string name="zui_default_bot_name">Answer Bot</string>
+    <string name="zui_dialog_email_error">Ugyldig e-mailadresse</string>
+    <string name="zui_dialog_email_hint">E-mailadresse</string>
+    <string name="zui_failed_message_copy">Kopiér</string>
+    <string name="zui_failed_message_delete">Slet</string>
+    <string name="zui_failed_message_retry">Prøv igen</string>
+    <string name="zui_hint_type_message">Indtast en besked ...</string>
+    <string name="zui_label_connecting">Etablerer forbindelse …</string>
+    <string name="zui_label_dialog_delete_btn">Slet meddelelse</string>
+    <string name="zui_label_dialog_retry_btn">Prøv at sende igen</string>
+    <string name="zui_label_failed">Mislykkedes</string>
+    <string name="zui_label_reconnecting">Genopretter forbindelse ...</string>
+    <string name="zui_label_reconnecting_failed">Tilslutning mislykkedes.</string>
+    <string name="zui_label_send">Send</string>
+    <string name="zui_label_sent">Sendt</string>
+    <string name="zui_label_tap_retry">Tryk for at prøve igen</string>
+    <string name="zui_message_log_article_opened_formatter">%1$s åbnede artiklen \'%2$s\'</string>
+    <string name="zui_message_log_article_suggestion_message">Jeg fandt disse artikler:</string>
+    <string name="zui_message_log_attachment_sending_failed">Den vedhæftede fil kunne ikke sendes</string>
+    <string name="zui_message_log_default_visitor_name">Gæst</string>
+    <string name="zui_message_log_message_attachment_type_not_supported">Den vedhæftede filtype understøttes ikke</string>
+    <string name="zui_message_log_message_attachments_not_supported">De vedhæftede filer understøttes ikke</string>
+    <string name="zui_message_log_message_failed_to_send">[Kunne ikke sendes]</string>
+    <string name="zui_message_log_message_file_exceeds_max_size">Overstiger den maksimale filstørrelse (%1$s)</string>
+    <string name="zui_message_log_transfer_option_selection_formatter">%1$s valgte %2$s</string>
+    <string name="zui_retry_button_label">Prøv igen</string>
+    <string name="zui_toolbar_title">Kontakt os</string>
+    <string name="zui_unable_open_file">Filen kan ikke åbnes.</string>
+</resources>

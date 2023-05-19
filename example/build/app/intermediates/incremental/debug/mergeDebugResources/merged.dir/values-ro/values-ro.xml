@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d notificare nouă</item>
+    <item quantity="few">%d notificări noi</item>
+    <item quantity="other">%d de notificări noi</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Navigați la ecranul de pornire"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Navigați în sus"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Mai multe opțiuni"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Gata"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Afișați tot"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Alegeți o aplicație"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"DEZACTIVAT"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ACTIVAT"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"space"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Meniu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Căutați…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Ștergeți interogarea"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Termen de căutare"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Căutați"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Trimiteți interogarea"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Căutare vocală"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Trimiteți la"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Trimiteți folosind <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Restrângeți"</string>
+    <string name="articles_list_fragment_error_message">Obținerea articolelor a eșuat</string>
+    <string name="articles_list_fragment_no_articles_found">Nu s-au găsit articole</string>
+    <string name="ask_request_list_failed_request_message">Mesajul a eșuat</string>
+    <string name="belvedere_dialog_camera">Cameră</string>
+    <string name="belvedere_dialog_gallery">Galerie</string>
+    <string name="belvedere_fam_desc_collapse_fam">Restrângere meniu de acțiuni mobil</string>
+    <string name="belvedere_fam_desc_expand_fam">Extindere meniu de acțiuni mobil</string>
+    <string name="belvedere_fam_desc_open_gallery">Import fișier din galerie</string>
+    <string name="belvedere_fam_desc_open_google_photos">Import imagine din Google Photos</string>
+    <string name="belvedere_image_stream_file_too_large">Fișier prea mare</string>
+    <string name="belvedere_image_stream_title">Bibliotecă fotografii</string>
+    <string name="belvedere_image_stream_unknown_app">Necunoscut</string>
+    <string name="belvedere_navigate_to_settings">Setări</string>
+    <string name="belvedere_permissions_denied">Permisiuni refuzate</string>
+    <string name="belvedere_permissions_rationale">Pentru a trimite fișiere atașate, trebuie să acordați permisiuni în setări</string>
+    <string name="belvedere_stream_item_camera_tile_desc">Import imagine din cameră</string>
+    <string name="belvedere_stream_item_select_file_desc">Selectare fișier %s</string>
+    <string name="belvedere_stream_item_select_image_desc">Selectare imagine %s</string>
+    <string name="belvedere_stream_item_unselect_file_desc">Deselectare fișier %s</string>
+    <string name="belvedere_stream_item_unselect_image_desc">Deselectare imagine %s</string>
+    <string name="belvedere_toolbar_desc_collapse">Închidere selector imagini</string>
+    <string name="bottomsheet_action_expand_halfway">Extinde pe ecran complet</string>
+    <string name="categories_list_fragment_error_message">Obținerea categoriilor a eșuat</string>
+    <string name="character_counter_content_description">Caractere introduse: %1$d din %2$d</string>
+    <string name="character_counter_overflowed_content_description">Limita de caractere a depășit %1$d din %2$d</string>
+    <string name="clear_text_end_icon_content_description">Ștergeți textul</string>
+    <string name="contact_fragment_title">Contactați-ne</string>
+    <string name="error_icon_content_description">Eroare</string>
+    <string name="error_msg_invalid_email">Introduceți o adresă de e-mail validă</string>
+    <string name="error_msg_invalid_message">Tastați mesajul</string>
+    <string name="error_msg_invalid_name">Introduceți numele dumneavoastră complet</string>
+    <string name="exposed_dropdown_menu_content_description">Afișați meniul drop-down</string>
+    <string name="help_search_no_results_label">Fără rezultate pentru</string>
+    <string name="help_see_all_articles_label">Afișare toate articolele</string>
+    <string name="help_see_all_n_articles_label">Afișare toate cele %d articole</string>
+    <string name="icon_content_description">Pictogramă de dialog</string>
+    <string name="item_view_role_description">Filă</string>
+    <string name="material_clock_toggle_content_description">Selectați ora</string>
+    <string name="material_hour_selection">Selectați ora</string>
+    <string name="material_hour_suffix">Ora %1$s</string>
+    <string name="material_minute_selection">Selectați minutele</string>
+    <string name="material_minute_suffix">%1$s minute</string>
+    <string name="material_timepicker_am">a.m.</string>
+    <string name="material_timepicker_clock_mode_description">Pentru a introduce ora, comutați la modul ceas.</string>
+    <string name="material_timepicker_hour">Ora</string>
+    <string name="material_timepicker_minute">Minut</string>
+    <string name="material_timepicker_pm">p.m.</string>
+    <string name="material_timepicker_select_time">Selectați ora</string>
+    <string name="material_timepicker_text_input_mode_description">Pentru a introduce ora, comutați la modul de introducere a textului.</string>
+    <string name="mtrl_badge_numberless_content_description">Notificare nouă</string>
+    <string name="mtrl_chip_close_icon_content_description">Eliminați %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Peste %1$d notificări noi</string>
+    <string name="mtrl_picker_a11y_next_month">Treceți la luna următoare</string>
+    <string name="mtrl_picker_a11y_prev_month">Treceți la luna anterioară</string>
+    <string name="mtrl_picker_announce_current_selection">Selecția actuală: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Selectați data</string>
+    <string name="mtrl_picker_date_header_unselected">Data selectată</string>
+    <string name="mtrl_picker_day_of_week_column_header">Coloana cu zile: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Format nevalid.</string>
+    <string name="mtrl_picker_invalid_format_example">Exemplu: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Folosiți: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Interval nevalid.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Navigați la anul %1$s</string>
+    <string name="mtrl_picker_out_of_range">Fără acoperire: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Data de începere – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – data de încheiere</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Selectați intervalul</string>
+    <string name="mtrl_picker_range_header_unselected">Data de începere – data de încheiere</string>
+    <string name="mtrl_picker_save">Salvați</string>
+    <string name="mtrl_picker_text_input_date_hint">Dată</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Data de încheiere</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Data de începere</string>
+    <string name="mtrl_picker_text_input_day_abbr">z</string>
+    <string name="mtrl_picker_text_input_month_abbr">l</string>
+    <string name="mtrl_picker_text_input_year_abbr">a</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Comutați la modul introducere în calendar</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Atingeți pentru a comuta la selectarea unei zile</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Comutați la modul de introducere a textului</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Atingeți pentru a comuta la selectarea unui an</string>
+    <string name="network_activity_no_connectivity">Fără conexiune</string>
+    <string name="password_toggle_content_description">Afișați parola</string>
+    <string name="request_attachment_generic_unknown_app">Necunoscut</string>
+    <string name="request_dialog_body_unsaved_changes">Revenirea la pagina anterioară vă determina ștergerea mesajelor. Sigur doriți să ștergeți?</string>
+    <string name="request_dialog_button_label_cancel">Anulare</string>
+    <string name="request_dialog_button_label_delete">Ștergere</string>
+    <string name="request_dialog_title_unsaved_changes">Mesaj netrimis</string>
+    <string name="request_email_entry_hint">E-mail</string>
+    <string name="request_error_create_request">Crearea solicitării a eșuat</string>
+    <string name="request_error_load_comments">Încărcarea comentariilor a eșuat</string>
+    <string name="request_file_attachment_download_in_progress">Descărcare fișier în curs de desfășurare</string>
+    <string name="request_list_activity_title">Tichetele mele</string>
+    <string name="request_list_empty_start_conversation">ÎNCEPEȚI O CONVERSAȚIE</string>
+    <string name="request_list_empty_text">Conversațiile începute din această aplicație vor fi vizibile aici.</string>
+    <string name="request_list_fragment_error_message">Obținerea tichetelor a eșuat</string>
+    <string name="request_list_me">Eu</string>
+    <string name="request_list_re">Referitor la: %s</string>
+    <string name="request_list_ticket_closed">Tichet închis</string>
+    <string name="request_menu_button_label_add_attachments">Adăugare fișiere atașate</string>
+    <string name="request_menu_button_label_send">Trimitere</string>
+    <string name="request_message_date_today">ASTĂZI</string>
+    <string name="request_message_date_yesterday">IERI</string>
+    <string name="request_message_entry_hint">Mesaj</string>
+    <string name="request_message_status_delivered">Livrat</string>
+    <string name="request_messages_status_error">Mesajul a eșuat. Atingeți pentru a reîncerca</string>
+    <string name="request_name_entry_hint">Nume</string>
+    <string name="request_retry_dialog_delete_message">Ștergere mesaj</string>
+    <string name="request_retry_dialog_retry">Reîncercare retrimitere</string>
+    <string name="request_system_message_closed_ticket">Această conversație a fost închisă.</string>
+    <string name="request_toolbar_last_reply">Ultimul răspuns %s</string>
+    <string name="request_write_a_message">Scrieți un mesaj</string>
+    <string name="retry_view_button_label">Reîncercare</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Căutați"</string>
+    <string name="sections_list_fragment_error_message">Obținerea secțiunilor a eșuat</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="support_activity_title">Asistență</string>
+    <string name="support_conversations_menu">Conversații</string>
+    <string name="view_article_attachments_error">Preluarea fișierelor atașate a eșuat</string>
+    <string name="view_article_vote_prompt">Acest articol a fost util?</string>
+    <string name="zg_general_contact_us_button_label_accessibility">Contactați-ne</string>
+    <string name="zg_general_no_connection_message">Fără conexiune</string>
+    <string name="zs_engine_greeting_message">Tastați un mesaj și voi găsi pe cineva care să vă ajute.</string>
+    <string name="zs_engine_message_retry_button">Reîncercați</string>
+    <string name="zs_engine_message_send_error_message">A intervenit o problemă și nu am putut trimite mesajul. Vă rugăm să încercați mai târziu.</string>
+    <string name="zs_engine_request_created_conversations_enabled_message">Vă mulțumim. A fost trimis un mesaj către membrii echipei. Puteți vizualiza acest mesaj și adăuga detalii suplimentare aici:</string>
+    <string name="zs_engine_request_created_conversations_off_message">Vă mulțumim. A fost trimis un mesaj către membrii echipei. Dacă este necesar un răspuns, veți fi contactat prin e-mail.</string>
+    <string name="zs_engine_request_created_request_list_button">Vizualizare mesaje</string>
+    <string name="zs_engine_request_creation_email_prompt_hint">Introduceţi-vă e-mailul…</string>
+    <string name="zs_engine_request_creation_email_prompt_message">Dacă este necesar un răspuns, cineva vă va contacta prin e-mail. Care este adresa dumneavoastră de e-mail?</string>
+    <string name="zs_engine_request_creation_email_validation_failed_message">Adresa de e-mail pe care ați introdus-o este incorectă. Vă rugăm să introduceți o adresă de e-mail validă.</string>
+    <string name="zs_general_contact_us_button_label_accessibility">Contactați-ne</string>
+    <string name="zs_general_referrer_logo_label_accessibility">Zendesk</string>
+    <string name="zs_help_center_content_loaded_accessibility">Centru de asistență încărcat</string>
+    <string name="zs_help_center_search_loaded_accessibility">Rezultate căutare încărcate</string>
+    <string name="zs_request_announce_comment_created_accessibility">Comentariul cu textul %s a fost trimis.</string>
+    <string name="zs_request_announce_comment_failed_accessibility">Imposibil de creat comentariul cu textul %s.</string>
+    <string name="zs_request_announce_comments_loaded_accessibility">Comentarii încărcate.</string>
+    <string name="zs_request_attachment_carousel_attachment_accessibility">S-a atașat fișierul cu numele %s.</string>
+    <string name="zs_request_attachment_carousel_remove_attachment_accessibility">S-a eliminat fișierul atașat cu numele %s.</string>
+    <string name="zs_request_attachment_indicator_accessibility">Selectați un fișier atașat.</string>
+    <string name="zs_request_attachment_indicator_n_attachments_selected_accessibility">Sunt selectate %d fișiere atașate.</string>
+    <string name="zs_request_attachment_indicator_no_attachments_selected_accessibility">Nu sunt selectate fișiere atașate.</string>
+    <string name="zs_request_attachment_indicator_one_attachments_selected_accessibility">Este selectat un fișier atașat.</string>
+    <string name="zs_request_contact_option_leave_a_message">Lăsați un mesaj</string>
+    <string name="zs_request_list_content_load_failed_accessibility">Încărcarea tichetelor de asistență a eșuat</string>
+    <string name="zs_request_list_content_loaded_accessibility">Tichete de asistență încărcate</string>
+    <string name="zs_request_list_content_loaded_empty_accessibility">Niciun tichet de asistență</string>
+    <string name="zs_request_list_content_loading_accessibility">Se încarcă tichetele de asistență</string>
+    <string name="zs_request_message_agent_file_accessibility">Fișierul atașat de agent, cu numele %s.</string>
+    <string name="zs_request_message_agent_image_accessibility">Imaginea atașată de agent, cu numele %s.</string>
+    <string name="zs_request_message_agent_sent_accessibility">Trimis de %1$s la %2$s.</string>
+    <string name="zs_request_message_agent_text_accessibility">Mesajul agentului: %s.</string>
+    <string name="zs_request_message_user_error_accessibility">Trimiterea a eșuat. Atingeți pentru opțiuni.</string>
+    <string name="zs_request_message_user_file_accessibility">Fișierul cu numele %s.</string>
+    <string name="zs_request_message_user_image_accessibility">Imaginea cu numele %s.</string>
+    <string name="zs_request_message_user_sent_accessibility">Trimis de dumneavoastră la %s.</string>
+    <string name="zs_request_message_user_text_accessibility">Mesaj %s.</string>
+    <string name="zs_request_toolbar_accessibility">Ultimul răspuns de la %1$s la %2$s.</string>
+    <string name="zs_view_article_error">Preluarea articolului a eșuat</string>
+    <string name="zs_view_article_loaded_accessibility">Articolul %s este încărcat</string>
+    <string name="zs_view_article_vote_no_accessibility">Vot negativ</string>
+    <string name="zs_view_article_vote_no_remove_accessibility">Eliminare vot pozitiv</string>
+    <string name="zs_view_article_vote_yes_accessibility">Vot pozitiv</string>
+    <string name="zs_view_article_vote_yes_remove_accessibility">Eliminare vot negativ</string>
+    <string name="zs_view_article_voted_failed_accessibility_announce">Votarea a eșuat</string>
+    <string name="zs_view_article_voted_no_accessibility_announce">S-a votat negativ</string>
+    <string name="zs_view_article_voted_yes_accessibility_announce">S-a votat pozitiv</string>
+    <string name="zui_attachment_indicator_accessibility">Selectați un fișier atașat</string>
+    <string name="zui_attachment_indicator_n_attachments_selected_accessibility">Sunt selectate %d fișiere atașate</string>
+    <string name="zui_attachment_indicator_no_attachments_selected_accessibility">Nu sunt selectate fișiere atașate</string>
+    <string name="zui_attachment_indicator_one_attachments_selected_accessibility">Este selectat un fișier atașat</string>
+    <string name="zui_bot_label">BOT</string>
+    <string name="zui_button_label_no">Nu</string>
+    <string name="zui_button_label_yes">Da</string>
+    <string name="zui_cell_text_suggested_article_header">Iată un articol care vă poate ajuta:</string>
+    <string name="zui_cell_text_suggested_articles_header">Iată câteva articole care vă pot ajuta:</string>
+    <string name="zui_default_bot_name">Answer Bot</string>
+    <string name="zui_dialog_email_error">E-mail nevalid</string>
+    <string name="zui_dialog_email_hint">Adresa de e-mail</string>
+    <string name="zui_failed_message_copy">Copiere</string>
+    <string name="zui_failed_message_delete">Ștergere</string>
+    <string name="zui_failed_message_retry">Reîncercați</string>
+    <string name="zui_hint_type_message">Tastați un mesaj…</string>
+    <string name="zui_label_connecting">Se conectează…</string>
+    <string name="zui_label_dialog_delete_btn">Ștergere mesaj</string>
+    <string name="zui_label_dialog_retry_btn">Reîncercare retrimitere</string>
+    <string name="zui_label_failed">Eșuat</string>
+    <string name="zui_label_reconnecting">Se reconectează...</string>
+    <string name="zui_label_reconnecting_failed">Conexiunea a eșuat.</string>
+    <string name="zui_label_send">Trimitere</string>
+    <string name="zui_label_sent">Trimis</string>
+    <string name="zui_label_tap_retry">Atingeți pentru a reîncerca</string>
+    <string name="zui_message_log_article_opened_formatter">%1$s a deschis articolul \'%2$s\'</string>
+    <string name="zui_message_log_article_suggestion_message">Am găsit aceste articole:</string>
+    <string name="zui_message_log_attachment_sending_failed">Fișierul atașat nu a putut fi trimis</string>
+    <string name="zui_message_log_default_visitor_name">Vizitator</string>
+    <string name="zui_message_log_message_attachment_type_not_supported">Tipul de fișier atașat nu este acceptat</string>
+    <string name="zui_message_log_message_attachments_not_supported">Fișierele atașate nu sunt acceptate</string>
+    <string name="zui_message_log_message_failed_to_send">[Trimiterea a eșuat]</string>
+    <string name="zui_message_log_message_file_exceeds_max_size">Depășește dimensiunea maximă a fișierului (%1$s)</string>
+    <string name="zui_message_log_transfer_option_selection_formatter">%1$s a selectat %2$s</string>
+    <string name="zui_retry_button_label">Reîncercați</string>
+    <string name="zui_toolbar_title">Contactați-ne</string>
+    <string name="zui_unable_open_file">Nu se poate deschide fișierul.</string>
+</resources>

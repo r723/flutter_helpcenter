@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.zendesk_example.app-mergeDebugResources-39:/values-w640dp-v13/values-w640dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/rahul-variya-us/.gradle/caches/transforms-3/a222ae9c37c291cb1c2ba5d753f83678/transformed/jetified-belvedere-3.0.5/res/values-w640dp-v13/values-w640dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "67",
+                        "endOffsets": "118"
+                    }
+                }
+            ]
+        }
+    ]
+}

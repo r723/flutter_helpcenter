@@ -1,8 +1,8 @@
 // This is a generated file; do not edit or check into version control.
 FLUTTER_ROOT=/Users/rahul-variya-us/Documents/flutter/flutter_2.10.5
-FLUTTER_APPLICATION_PATH=/Users/rahul-variya-us/Desktop/flutter_zendesk copy/example
+FLUTTER_APPLICATION_PATH=/Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example
 COCOAPODS_PARALLEL_CODE_SIGN=true
-FLUTTER_TARGET=/Users/rahul-variya-us/Desktop/flutter_zendesk copy/example/lib/main.dart
+FLUTTER_TARGET=/Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/lib/main.dart
 FLUTTER_BUILD_DIR=build
 FLUTTER_BUILD_NAME=1.0.0
 FLUTTER_BUILD_NUMBER=1
@@ -12,4 +12,4 @@ DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==
 DART_OBFUSCATION=false
 TRACK_WIDGET_CREATION=true
 TREE_SHAKE_ICONS=false
-PACKAGE_CONFIG=/Users/rahul-variya-us/Desktop/flutter_zendesk copy/example/.dart_tool/package_config.json
+PACKAGE_CONFIG=/Users/rahul-variya-us/Desktop/zendesk_help/flutter_helpcenter/example/.dart_tool/package_config.json

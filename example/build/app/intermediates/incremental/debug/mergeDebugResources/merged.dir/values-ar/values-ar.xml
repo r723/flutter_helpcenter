@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="zero">%d إشعار جديد</item>
+    <item quantity="one">إشعار جديد واحد (%d)</item>
+    <item quantity="two">إشعاران جديدان (%d)</item>
+    <item quantity="few">%d إشعارات جديدة</item>
+    <item quantity="many">%d إشعارًا جديدًا</item>
+    <item quantity="other">%d إشعار جديد</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"التوجه إلى المنزل"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"التنقل إلى أعلى"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"خيارات أكثر"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"تم"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"عرض الكل"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"اختيار تطبيق"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"إيقاف"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"مفعّلة"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"حذف"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"فضاء"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"القائمة+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"بحث…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"محو طلب البحث"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"طلب بحث"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"البحث"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"إرسال طلب البحث"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"بحث صوتي"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"مشاركة مع"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"مشاركة مع <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"تصغير"</string>
+    <string name="articles_list_fragment_error_message">فشل في الحصول على المقالات</string>
+    <string name="articles_list_fragment_no_articles_found">لم يتم العثور على مقالات</string>
+    <string name="ask_request_list_failed_request_message">تعذر إرسال الرسالة</string>
+    <string name="belvedere_dialog_camera">الكاميرا</string>
+    <string name="belvedere_dialog_gallery">المعرض</string>
+    <string name="belvedere_fam_desc_collapse_fam">طيّ قائمة إجراءات عائمة</string>
+    <string name="belvedere_fam_desc_expand_fam">توسيع قائمة إجراءات عائمة</string>
+    <string name="belvedere_fam_desc_open_gallery">استيراد ملف من المعرض</string>
+    <string name="belvedere_fam_desc_open_google_photos">استيراد صورة من صور Google</string>
+    <string name="belvedere_image_stream_file_too_large">الملف أكبر مما ينبغي</string>
+    <string name="belvedere_image_stream_title">مكتبة الصور</string>
+    <string name="belvedere_image_stream_unknown_app">غير معروف</string>
+    <string name="belvedere_navigate_to_settings">إعدادات</string>
+    <string name="belvedere_permissions_denied">رُفِضت الأذونات</string>
+    <string name="belvedere_permissions_rationale">لإرسال المرفقات، سيكون عليك السماح بالأذونات في الإعدادات لديك</string>
+    <string name="belvedere_stream_item_camera_tile_desc">استيراد صورة من الكاميرا</string>
+    <string name="belvedere_stream_item_select_file_desc">تحديد الملف %s</string>
+    <string name="belvedere_stream_item_select_image_desc">تحديد الصورة %s</string>
+    <string name="belvedere_stream_item_unselect_file_desc">إلغاء تحديد الملف %s</string>
+    <string name="belvedere_stream_item_unselect_image_desc">إلغاء تحديد الصورة %s</string>
+    <string name="belvedere_toolbar_desc_collapse">إغلاق منتقي الصورة</string>
+    <string name="bottomsheet_action_expand_halfway">توسيع البطاقة السفلية</string>
+    <string name="categories_list_fragment_error_message">فشل في الحصول على الفئات</string>
+    <string name="character_counter_content_description">تمّ إدخال %1$d حرف من إجمالي %2$d.</string>
+    <string name="character_counter_overflowed_content_description">تجاوز عدد الأحرف المسموح به %1$d من %2$d.</string>
+    <string name="clear_text_end_icon_content_description">محو النص</string>
+    <string name="contact_fragment_title">اتصل بنا</string>
+    <string name="error_icon_content_description">خطأ</string>
+    <string name="error_msg_invalid_email">أدخل عنوان بريد إلكتروني صالح</string>
+    <string name="error_msg_invalid_message">إدخال رسالتك</string>
+    <string name="error_msg_invalid_name">أدخِل اسمك بالكامل</string>
+    <string name="exposed_dropdown_menu_content_description">عرض القائمة المنسدلة</string>
+    <string name="help_search_no_results_label">لا توجد نتائج حول</string>
+    <string name="help_see_all_articles_label">عرض كل المقالات</string>
+    <string name="help_see_all_n_articles_label">عرض كل الـ %d مقالات</string>
+    <string name="icon_content_description">رمز مربع الحوار</string>
+    <string name="item_view_role_description">علامة تبويب</string>
+    <string name="material_clock_toggle_content_description">يُرجى اختيار صباحًا أو مساءً.</string>
+    <string name="material_hour_selection">تحديد الساعة</string>
+    <string name="material_hour_suffix">الساعة %1$s</string>
+    <string name="material_minute_selection">تحديد الدقائق</string>
+    <string name="material_minute_suffix">%1$s دقيقة</string>
+    <string name="material_timepicker_am">صباحًا</string>
+    <string name="material_timepicker_clock_mode_description">يُرجى التبديل إلى وضع الساعة لإدخال الوقت.</string>
+    <string name="material_timepicker_hour">الساعة</string>
+    <string name="material_timepicker_minute">دقيقة</string>
+    <string name="material_timepicker_pm">مساءً</string>
+    <string name="material_timepicker_select_time">اختيار الوقت</string>
+    <string name="material_timepicker_text_input_mode_description">يُرجى التبديل إلى وضع إدخال النص لإدخال الوقت.</string>
+    <string name="mtrl_badge_numberless_content_description">إشعار جديد</string>
+    <string name="mtrl_chip_close_icon_content_description">إزالة %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">يبلغ عدد الإشعارات الجديدة أكثر من %1$d.</string>
+    <string name="mtrl_picker_a11y_next_month">التغيير إلى الشهر التالي</string>
+    <string name="mtrl_picker_a11y_prev_month">التغيير إلى الشهر السابق</string>
+    <string name="mtrl_picker_announce_current_selection">الاختيار الحالي: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">يُرجى اختيار تاريخ.</string>
+    <string name="mtrl_picker_date_header_unselected">التاريخ المحدَّد</string>
+    <string name="mtrl_picker_day_of_week_column_header">عمود الأيام: %1$s</string>
+    <string name="mtrl_picker_invalid_format">التنسيق غير صالح</string>
+    <string name="mtrl_picker_invalid_format_example">مثال: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">استخدام: %1$s</string>
+    <string name="mtrl_picker_invalid_range">النطاق غير صالح</string>
+    <string name="mtrl_picker_navigate_to_year_description">التنقل إلى العام %1$s</string>
+    <string name="mtrl_picker_out_of_range">خارج النطاق: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">تاريخ البدء – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – تاريخ الانتهاء</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">يُرجى اختيار نطاق زمني.</string>
+    <string name="mtrl_picker_range_header_unselected">تاريخ البدء - تاريخ الانتهاء</string>
+    <string name="mtrl_picker_save">حفظ</string>
+    <string name="mtrl_picker_text_input_date_hint">التاريخ</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">تاريخ الانتهاء</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">تاريخ البدء</string>
+    <string name="mtrl_picker_text_input_day_abbr">ي</string>
+    <string name="mtrl_picker_text_input_month_abbr">ش</string>
+    <string name="mtrl_picker_text_input_year_abbr">س</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">التبديل إلى وضع \"الإدخال في التقويم\"</string>
+    <string name="mtrl_picker_toggle_to_day_selection">انقر للتبديل إلى اختيار يوم</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">التبديل إلى وضع \"إدخال النص\"</string>
+    <string name="mtrl_picker_toggle_to_year_selection">انقر للتبديل إلى اختيار عام</string>
+    <string name="network_activity_no_connectivity">لا يوجد اتصال</string>
+    <string name="password_toggle_content_description">عرض كلمة المرور</string>
+    <string name="request_attachment_generic_unknown_app">غير معروف</string>
+    <string name="request_dialog_body_unsaved_changes">سيؤدي الرجوع إلى حذف رسالتك. هل تريد بالتأكيد حذفها؟</string>
+    <string name="request_dialog_button_label_cancel">إلغاء</string>
+    <string name="request_dialog_button_label_delete">حذف</string>
+    <string name="request_dialog_title_unsaved_changes">لم يتم إرسال الرسالة</string>
+    <string name="request_email_entry_hint">البريد الإلكتروني</string>
+    <string name="request_error_create_request">فشل إنشاء الطلب</string>
+    <string name="request_error_load_comments">فشل تحميل التعليقات</string>
+    <string name="request_file_attachment_download_in_progress">جارٍ تنزيل الملف</string>
+    <string name="request_list_activity_title">التذاكر الخاصة بي</string>
+    <string name="request_list_empty_start_conversation">بدء محادثة</string>
+    <string name="request_list_empty_text">تظهر هنا المحادثات التي تبدأ من هذا التطبيق</string>
+    <string name="request_list_fragment_error_message">فشل في الحصول على التذاكر</string>
+    <string name="request_list_me">أنا</string>
+    <string name="request_list_re">بخصوص: %s</string>
+    <string name="request_list_ticket_closed">التذكرة مغلقة</string>
+    <string name="request_menu_button_label_add_attachments">إضافة مرفقات</string>
+    <string name="request_menu_button_label_send">إرسال</string>
+    <string name="request_message_date_today">اليوم</string>
+    <string name="request_message_date_yesterday">الأمس</string>
+    <string name="request_message_entry_hint">رسالة</string>
+    <string name="request_message_status_delivered">تم الإرسال</string>
+    <string name="request_messages_status_error">تعذر إرسال الرسالة. اضغط لإعادة المحاولة</string>
+    <string name="request_name_entry_hint">الاسم</string>
+    <string name="request_retry_dialog_delete_message">حذف الرسالة</string>
+    <string name="request_retry_dialog_retry">إعادة محاولة الإرسال</string>
+    <string name="request_system_message_closed_ticket">تم إغلاق هذه المحادثة.</string>
+    <string name="request_toolbar_last_reply">آخر رد ‎%s</string>
+    <string name="request_write_a_message">اكتب رسالة</string>
+    <string name="retry_view_button_label">إعادة المحاولة</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"البحث"</string>
+    <string name="sections_list_fragment_error_message">فشل في الحصول على الأقسام</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="support_activity_title">الدعم</string>
+    <string name="support_conversations_menu">المحادثات</string>
+    <string name="view_article_attachments_error">تعذر إحضار المرفقات</string>
+    <string name="view_article_vote_prompt">هل كان هذا المقال مفيداً؟</string>
+    <string name="zg_general_contact_us_button_label_accessibility">اتصل بنا</string>
+    <string name="zg_general_no_connection_message">لا يوجد اتصال</string>
+    <string name="zs_engine_greeting_message">اكتب رسالة وسأجد شخصًا يمكنه مساعدتك.</string>
+    <string name="zs_engine_message_retry_button">إعادة المحاولة</string>
+    <string name="zs_engine_message_send_error_message">حدث خطأ ما ولم أتمكن من إرسال رسالتك. الرجاء إعادة المحاولة لاحقًا.</string>
+    <string name="zs_engine_request_created_conversations_enabled_message">شكراً لك. تم إرسال رسالة إلى الفريق. يمكنك عرض هذه الرسالة وإضافة المزيد من المعلومات من هنا:</string>
+    <string name="zs_engine_request_created_conversations_off_message">شكرًا لك. لقد أُرسِلت رسالة إلى الفريق. إذا كان الرد مطلوبًا، فسيتصل بك عضو من الفريق بالبريد الإلكتروني.</string>
+    <string name="zs_engine_request_created_request_list_button">عرض الرسائل</string>
+    <string name="zs_engine_request_creation_email_prompt_hint">أدخل عنوان بريدك الإلكتروني...</string>
+    <string name="zs_engine_request_creation_email_prompt_message">إذا كان الرد مطلوبًا، فسيتصل بك عضو من الفريق بالبريد الإلكتروني. ما هو عنوان بريدك الإلكتروني؟</string>
+    <string name="zs_engine_request_creation_email_validation_failed_message">عنوان البريد الإلكتروني الذي أدخلته غير صحيح. يُرجى إدخال عنوان بريد إلكتروني صالح.</string>
+    <string name="zs_general_contact_us_button_label_accessibility">اتصل بنا</string>
+    <string name="zs_general_referrer_logo_label_accessibility">Zendesk</string>
+    <string name="zs_help_center_content_loaded_accessibility">تم تحميل مركز المساعدة</string>
+    <string name="zs_help_center_search_loaded_accessibility">تم تحميل نتائج البحث</string>
+    <string name="zs_request_announce_comment_created_accessibility">تم إرسال تعليق يتضمن النص %s.</string>
+    <string name="zs_request_announce_comment_failed_accessibility">تعذر إنشاء تعليق يتضمن النص %s.</string>
+    <string name="zs_request_announce_comments_loaded_accessibility">تم تحميل التعليقات.</string>
+    <string name="zs_request_attachment_carousel_attachment_accessibility">تم إرفاق ملف باسم %s.</string>
+    <string name="zs_request_attachment_carousel_remove_attachment_accessibility">إزالة مرفق باسم %s.</string>
+    <string name="zs_request_attachment_indicator_accessibility">تحديد مرفق.</string>
+    <string name="zs_request_attachment_indicator_n_attachments_selected_accessibility">توجد ‎%d مرفقات محددة.</string>
+    <string name="zs_request_attachment_indicator_no_attachments_selected_accessibility">لا توجد مرفقات محددة.</string>
+    <string name="zs_request_attachment_indicator_one_attachments_selected_accessibility">يوجد مرفق واحد محدد.</string>
+    <string name="zs_request_contact_option_leave_a_message">اترك رسالة</string>
+    <string name="zs_request_list_content_load_failed_accessibility">تعذر تحميل تذاكر الدعم</string>
+    <string name="zs_request_list_content_loaded_accessibility">تم تحميل تذاكر الدعم</string>
+    <string name="zs_request_list_content_loaded_empty_accessibility">لا توجد تذاكر دعم</string>
+    <string name="zs_request_list_content_loading_accessibility">جارٍ تحميل تذاكر الدعم</string>
+    <string name="zs_request_message_agent_file_accessibility">ملف وكيل مرفق باسم %s.</string>
+    <string name="zs_request_message_agent_image_accessibility">صورة وكيل مرفقة باسم %s.</string>
+    <string name="zs_request_message_agent_sent_accessibility">أرسِلت بواسطة %1$s الساعة %2$s.</string>
+    <string name="zs_request_message_agent_text_accessibility">رسالة الوكيل تتضمن النص %s.</string>
+    <string name="zs_request_message_user_error_accessibility">فشل الإرسال. اضغط للحصول على خيارات.</string>
+    <string name="zs_request_message_user_file_accessibility">ملف باسم %s.</string>
+    <string name="zs_request_message_user_image_accessibility">صورة باسم %s.</string>
+    <string name="zs_request_message_user_sent_accessibility">أرسِلت بواسطتك الساعة %s</string>
+    <string name="zs_request_message_user_text_accessibility">رسالة تتضمن النص %s.</string>
+    <string name="zs_request_toolbar_accessibility">آخر رد بواسطة %1$s الساعة %2$s.</string>
+    <string name="zs_view_article_error">تعذر إحضار المقال</string>
+    <string name="zs_view_article_loaded_accessibility">تم تحميل المقال %s</string>
+    <string name="zs_view_article_vote_no_accessibility">عدم إعجاب</string>
+    <string name="zs_view_article_vote_no_remove_accessibility">إزالة إعجاب</string>
+    <string name="zs_view_article_vote_yes_accessibility">إعجاب</string>
+    <string name="zs_view_article_vote_yes_remove_accessibility">إزالة عدم إعجاب</string>
+    <string name="zs_view_article_voted_failed_accessibility_announce">فشل التصويت</string>
+    <string name="zs_view_article_voted_no_accessibility_announce">تم التصويت بـ \"لا\"</string>
+    <string name="zs_view_article_voted_yes_accessibility_announce">تم التصويت بـ \"نعم\"</string>
+    <string name="zui_attachment_indicator_accessibility">تحديد مرفق</string>
+    <string name="zui_attachment_indicator_n_attachments_selected_accessibility">المرفقات المحددة: ‎%d</string>
+    <string name="zui_attachment_indicator_no_attachments_selected_accessibility">لا توجد مرفقات محددة</string>
+    <string name="zui_attachment_indicator_one_attachments_selected_accessibility">يوجد مرفق واحد محدد</string>
+    <string name="zui_bot_label">روبوت</string>
+    <string name="zui_button_label_no">لا</string>
+    <string name="zui_button_label_yes">نعم</string>
+    <string name="zui_cell_text_suggested_article_header">قد يكون المقال التالي مفيداً:</string>
+    <string name="zui_cell_text_suggested_articles_header">فيما يلي بعض المقالات التي قد تفيد:</string>
+    <string name="zui_default_bot_name">Answer Bot</string>
+    <string name="zui_dialog_email_error">بريد إلكتروني غير صالح</string>
+    <string name="zui_dialog_email_hint">عنوان البريد الإلكتروني</string>
+    <string name="zui_failed_message_copy">نسخ</string>
+    <string name="zui_failed_message_delete">حذف</string>
+    <string name="zui_failed_message_retry">إعادة المحاولة</string>
+    <string name="zui_hint_type_message">اكتب رسالة...</string>
+    <string name="zui_label_connecting">جارٍ الاتصال...</string>
+    <string name="zui_label_dialog_delete_btn">حذف الرسالة</string>
+    <string name="zui_label_dialog_retry_btn">إعادة محاولة الإرسال</string>
+    <string name="zui_label_failed">فشل</string>
+    <string name="zui_label_reconnecting">جارٍ إعادة الاتصال...</string>
+    <string name="zui_label_reconnecting_failed">فشل الاتصال.</string>
+    <string name="zui_label_send">إرسال</string>
+    <string name="zui_label_sent">تم الإرسال</string>
+    <string name="zui_label_tap_retry">اضغط لإعادة المحاولة</string>
+    <string name="zui_message_log_article_opened_formatter">%1$s فتح المقال \'%2$s\'</string>
+    <string name="zui_message_log_article_suggestion_message">وجدت المقالات التالية:</string>
+    <string name="zui_message_log_attachment_sending_failed">يتعذر إرسال المرفق</string>
+    <string name="zui_message_log_default_visitor_name">الزائر</string>
+    <string name="zui_message_log_message_attachment_type_not_supported">نوع المرفق غير مدعوم</string>
+    <string name="zui_message_log_message_attachments_not_supported">المرفقات غير مدعومة</string>
+    <string name="zui_message_log_message_failed_to_send">[فشل الإرسال]</string>
+    <string name="zui_message_log_message_file_exceeds_max_size">يتجاوز أقصى حجم للملف (%1$s)</string>
+    <string name="zui_message_log_transfer_option_selection_formatter">%1$s حدَّد %2$s</string>
+    <string name="zui_retry_button_label">إعادة المحاولة</string>
+    <string name="zui_toolbar_title">اتصل بنا</string>
+    <string name="zui_unable_open_file">تعذر فتح الملف.</string>
+</resources>

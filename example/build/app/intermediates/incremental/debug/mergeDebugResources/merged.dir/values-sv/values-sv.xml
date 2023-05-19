@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d ny avisering</item>
+    <item quantity="other">%d nya aviseringar</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Navigera hem"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Navigera uppåt"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Fler alternativ"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Klar"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Visa alla"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Välj en app"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"AV"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"PÅ"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt + "</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl + "</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"retur"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Funktion + "</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta + "</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Skift + "</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"blanksteg"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Symbol + "</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Meny + "</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Sök …"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Ta bort frågan"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Sökfråga"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Sök"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Skicka fråga"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Röstsökning"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Dela med"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Dela med <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Komprimera"</string>
+    <string name="articles_list_fragment_error_message">Det gick inte att hämta artiklar</string>
+    <string name="articles_list_fragment_no_articles_found">Inga artiklar hittades</string>
+    <string name="ask_request_list_failed_request_message">Meddelandet misslyckades</string>
+    <string name="belvedere_dialog_camera">Kamera</string>
+    <string name="belvedere_dialog_gallery">Galleri</string>
+    <string name="belvedere_fam_desc_collapse_fam">Dölj flytande åtgärdsmeny</string>
+    <string name="belvedere_fam_desc_expand_fam">Visa flytande åtgärdsmeny</string>
+    <string name="belvedere_fam_desc_open_gallery">Importera fil från galleriet</string>
+    <string name="belvedere_fam_desc_open_google_photos">Importera fil från Google Photos</string>
+    <string name="belvedere_image_stream_file_too_large">Filen är för stor</string>
+    <string name="belvedere_image_stream_title">Bildbibliotek</string>
+    <string name="belvedere_image_stream_unknown_app">Okänd</string>
+    <string name="belvedere_navigate_to_settings">Inställningar</string>
+    <string name="belvedere_permissions_denied">Behörighet nekades</string>
+    <string name="belvedere_permissions_rationale">Om du vill skicka bilagor måste du tillåta behörigheter i dina inställningar</string>
+    <string name="belvedere_stream_item_camera_tile_desc">Importera bild från kameran</string>
+    <string name="belvedere_stream_item_select_file_desc">Markera filen %s</string>
+    <string name="belvedere_stream_item_select_image_desc">Markera bilden %s</string>
+    <string name="belvedere_stream_item_unselect_file_desc">Avmarkera filen %s</string>
+    <string name="belvedere_stream_item_unselect_image_desc">Avmarkera bilden %s</string>
+    <string name="belvedere_toolbar_desc_collapse">Stäng bildväljaren</string>
+    <string name="bottomsheet_action_expand_halfway">Utöka till hälften</string>
+    <string name="categories_list_fragment_error_message">Det gick inte att hämta kategorier</string>
+    <string name="character_counter_content_description">%1$d av %2$d tecken har angetts</string>
+    <string name="character_counter_overflowed_content_description">Teckengränsen har överskridits: %1$d av %2$d</string>
+    <string name="clear_text_end_icon_content_description">Rensa text</string>
+    <string name="contact_fragment_title">Kontakta oss</string>
+    <string name="error_icon_content_description">Fel</string>
+    <string name="error_msg_invalid_email">Ange en giltig e-postadress</string>
+    <string name="error_msg_invalid_message">Skriv ditt meddelande</string>
+    <string name="error_msg_invalid_name">Ange ditt fullständiga namn</string>
+    <string name="exposed_dropdown_menu_content_description">Visa rullgardinsmenyn</string>
+    <string name="help_search_no_results_label">Inga träffar för</string>
+    <string name="help_see_all_articles_label">Se alla artiklar</string>
+    <string name="help_see_all_n_articles_label">Se alla %d artiklar</string>
+    <string name="icon_content_description">Dialogikon</string>
+    <string name="item_view_role_description">Flik</string>
+    <string name="material_clock_toggle_content_description">Välj mellan FM och EM</string>
+    <string name="material_hour_selection">Ange timme</string>
+    <string name="material_hour_suffix">Klockan %1$s</string>
+    <string name="material_minute_selection">Välj minuter</string>
+    <string name="material_minute_suffix">%1$s minuter</string>
+    <string name="material_timepicker_am">FM</string>
+    <string name="material_timepicker_clock_mode_description">Byt till klockläget och ange tid.</string>
+    <string name="material_timepicker_hour">Timme</string>
+    <string name="material_timepicker_minute">Minut</string>
+    <string name="material_timepicker_pm">EM</string>
+    <string name="material_timepicker_select_time">Välj tid</string>
+    <string name="material_timepicker_text_input_mode_description">Byt till textinmatningsläget och ange tid.</string>
+    <string name="mtrl_badge_numberless_content_description">Ny avisering</string>
+    <string name="mtrl_chip_close_icon_content_description">Ta bort (%1$s)</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Fler än %1$d nya aviseringar</string>
+    <string name="mtrl_picker_a11y_next_month">Ändra till nästa månad</string>
+    <string name="mtrl_picker_a11y_prev_month">Ändra till föregående månad</string>
+    <string name="mtrl_picker_announce_current_selection">Aktuellt val: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Välj datum</string>
+    <string name="mtrl_picker_date_header_unselected">Valt datum</string>
+    <string name="mtrl_picker_day_of_week_column_header">Kolumn med dagar: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Ogiltigt format.</string>
+    <string name="mtrl_picker_invalid_format_example">Exempel: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Använd %1$s</string>
+    <string name="mtrl_picker_invalid_range">Ogiltigt intervall.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Navigera till år %1$s</string>
+    <string name="mtrl_picker_out_of_range">Utanför intervallet: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Startdatum–%1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s–slutdatum</string>
+    <string name="mtrl_picker_range_header_selected">%1$s–%2$s</string>
+    <string name="mtrl_picker_range_header_title">Välj intervall</string>
+    <string name="mtrl_picker_range_header_unselected">Startdatum–slutdatum</string>
+    <string name="mtrl_picker_save">Spara</string>
+    <string name="mtrl_picker_text_input_date_hint">Datum</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Slutdatum</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Startdatum</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">å</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Byt till kalender som inmatningsläge</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Byt till att välja en dag genom att trycka</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Byt till text som inmatningsläge</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Byt till att välja ett år genom att trycka</string>
+    <string name="network_activity_no_connectivity">Ingen anslutning</string>
+    <string name="password_toggle_content_description">Visa lösenord</string>
+    <string name="request_attachment_generic_unknown_app">Okänd</string>
+    <string name="request_dialog_body_unsaved_changes">Ditt meddelande tas bort om du går tillbaka. Vill du verkligen ta bort det?</string>
+    <string name="request_dialog_button_label_cancel">Avbryt</string>
+    <string name="request_dialog_button_label_delete">Ta bort</string>
+    <string name="request_dialog_title_unsaved_changes">Meddelandet skickades inte</string>
+    <string name="request_email_entry_hint">E-postadress</string>
+    <string name="request_error_create_request">Det gick inte att skapa förfrågan</string>
+    <string name="request_error_load_comments">Det gick inte att läsa in kommentarer</string>
+    <string name="request_file_attachment_download_in_progress">Filhämtning pågår</string>
+    <string name="request_list_activity_title">Mina ärenden</string>
+    <string name="request_list_empty_start_conversation">STARTA EN KONVERSATION</string>
+    <string name="request_list_empty_text">Konversationer som startas från denna app kommer att synas här.</string>
+    <string name="request_list_fragment_error_message">Det gick inte att hämta ärenden</string>
+    <string name="request_list_me">Jag</string>
+    <string name="request_list_re">Ang: %s</string>
+    <string name="request_list_ticket_closed">Ärendet är stängt</string>
+    <string name="request_menu_button_label_add_attachments">Lägg till bilagor</string>
+    <string name="request_menu_button_label_send">Skicka</string>
+    <string name="request_message_date_today">IDAG</string>
+    <string name="request_message_date_yesterday">I GÅR</string>
+    <string name="request_message_entry_hint">Meddelande</string>
+    <string name="request_message_status_delivered">Levererat</string>
+    <string name="request_messages_status_error">Meddelandet misslyckades. Tryck för att försöka igen</string>
+    <string name="request_name_entry_hint">Namn</string>
+    <string name="request_retry_dialog_delete_message">Ta bort meddelandet</string>
+    <string name="request_retry_dialog_retry">Försök skicka igen</string>
+    <string name="request_system_message_closed_ticket">Denna konversation har stängts.</string>
+    <string name="request_toolbar_last_reply">Senaste svar %s</string>
+    <string name="request_write_a_message">Skriv ett meddelande</string>
+    <string name="retry_view_button_label">Försök igen</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Sök"</string>
+    <string name="sections_list_fragment_error_message">Det gick inte att hämta avsnitt</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="support_activity_title">Support</string>
+    <string name="support_conversations_menu">Konversationer</string>
+    <string name="view_article_attachments_error">Det gick inte att hämta bilagor</string>
+    <string name="view_article_vote_prompt">Var denna artikel till hjälp?</string>
+    <string name="zg_general_contact_us_button_label_accessibility">Kontakta oss</string>
+    <string name="zg_general_no_connection_message">Ingen anslutning</string>
+    <string name="zs_engine_greeting_message">Skriv ett meddelande så hittar jag någon som kan hjälpa dig.</string>
+    <string name="zs_engine_message_retry_button">Försök igen</string>
+    <string name="zs_engine_message_send_error_message">Ett fel inträffade och det gick inte att skicka ditt meddelande. Försök igen senare.</string>
+    <string name="zs_engine_request_created_conversations_enabled_message">Tack. Ett meddelande har skickats till teamet. Du kan se detta meddelande och lägga till mer information här:</string>
+    <string name="zs_engine_request_created_conversations_off_message">Tack. Ett meddelande har skickats till teamet. Om du behöver ett svar blir du kontaktad via e-post.</string>
+    <string name="zs_engine_request_created_request_list_button">Visa meddelanden</string>
+    <string name="zs_engine_request_creation_email_prompt_hint">Ange din e-postadress…</string>
+    <string name="zs_engine_request_creation_email_prompt_message">Om det behöver besvaras blir du kontaktad via e-post. Vad är din e-postadress?</string>
+    <string name="zs_engine_request_creation_email_validation_failed_message">Den angivna e-postadressen är felaktig. Ange en giltig e-postadress.</string>
+    <string name="zs_general_contact_us_button_label_accessibility">Kontakta oss</string>
+    <string name="zs_general_referrer_logo_label_accessibility">Zendesk</string>
+    <string name="zs_help_center_content_loaded_accessibility">Helpcenter inläst</string>
+    <string name="zs_help_center_search_loaded_accessibility">Sökresultat inlästa</string>
+    <string name="zs_request_announce_comment_created_accessibility">En kommentar med texten %s har skickats.</string>
+    <string name="zs_request_announce_comment_failed_accessibility">Det går inte att skapa en kommentar med texten %s.</string>
+    <string name="zs_request_announce_comments_loaded_accessibility">Kommentarer inlästa.</string>
+    <string name="zs_request_attachment_carousel_attachment_accessibility">En fil med namnet %s har bifogats.</string>
+    <string name="zs_request_attachment_carousel_remove_attachment_accessibility">Ta bort bilagan med namnet %s.</string>
+    <string name="zs_request_attachment_indicator_accessibility">Välj en bilaga.</string>
+    <string name="zs_request_attachment_indicator_n_attachments_selected_accessibility">Det finns %d valda bilagor.</string>
+    <string name="zs_request_attachment_indicator_no_attachments_selected_accessibility">Det finns inga valda bilagor.</string>
+    <string name="zs_request_attachment_indicator_one_attachments_selected_accessibility">Det finns en vald bilaga.</string>
+    <string name="zs_request_contact_option_leave_a_message">Lämna ett meddelande</string>
+    <string name="zs_request_list_content_load_failed_accessibility">Det gick inte att läsa in supportärenden</string>
+    <string name="zs_request_list_content_loaded_accessibility">Supportärenden inlästa</string>
+    <string name="zs_request_list_content_loaded_empty_accessibility">Inga supportärenden</string>
+    <string name="zs_request_list_content_loading_accessibility">Läser in supportärenden</string>
+    <string name="zs_request_message_agent_file_accessibility">Agentfilbilaga med namnet %s.</string>
+    <string name="zs_request_message_agent_image_accessibility">Agentbildbilaga med namnet %s.</string>
+    <string name="zs_request_message_agent_sent_accessibility">Skickat av %1$s kl. %2$s.</string>
+    <string name="zs_request_message_agent_text_accessibility">Agentmeddelande %s.</string>
+    <string name="zs_request_message_user_error_accessibility">Det gick inte att skicka. Tryck för att se alternativ.</string>
+    <string name="zs_request_message_user_file_accessibility">Fil med namnet %s.</string>
+    <string name="zs_request_message_user_image_accessibility">Bild med namnet %s.</string>
+    <string name="zs_request_message_user_sent_accessibility">Skickat av dig kl. %s</string>
+    <string name="zs_request_message_user_text_accessibility">Meddelande %s.</string>
+    <string name="zs_request_toolbar_accessibility">Senaste svar av %1$s kl. %2$s.</string>
+    <string name="zs_view_article_error">Det gick inte att hämta artikeln</string>
+    <string name="zs_view_article_loaded_accessibility">Artikeln %s inläst</string>
+    <string name="zs_view_article_vote_no_accessibility">Nej-röst</string>
+    <string name="zs_view_article_vote_no_remove_accessibility">Ta bort ja-röst</string>
+    <string name="zs_view_article_vote_yes_accessibility">Ja-röst</string>
+    <string name="zs_view_article_vote_yes_remove_accessibility">Ta bort nej-röst</string>
+    <string name="zs_view_article_voted_failed_accessibility_announce">Det gick inte att rösta</string>
+    <string name="zs_view_article_voted_no_accessibility_announce">Röstade nej</string>
+    <string name="zs_view_article_voted_yes_accessibility_announce">Röstade ja</string>
+    <string name="zui_attachment_indicator_accessibility">Välj en bilaga</string>
+    <string name="zui_attachment_indicator_n_attachments_selected_accessibility">Det finns %d valda bilagor</string>
+    <string name="zui_attachment_indicator_no_attachments_selected_accessibility">Det finns inga valda bilagor</string>
+    <string name="zui_attachment_indicator_one_attachments_selected_accessibility">Det finns en vald bilaga</string>
+    <string name="zui_bot_label">BOT</string>
+    <string name="zui_button_label_no">Nej</string>
+    <string name="zui_button_label_yes">Ja</string>
+    <string name="zui_cell_text_suggested_article_header">Här är en artikel som kan vara till hjälp:</string>
+    <string name="zui_cell_text_suggested_articles_header">Här är några artiklar som kan vara till hjälp:</string>
+    <string name="zui_default_bot_name">Answer Bot</string>
+    <string name="zui_dialog_email_error">Ogiltig e-postadress</string>
+    <string name="zui_dialog_email_hint">E-postadress</string>
+    <string name="zui_failed_message_copy">Kopiera</string>
+    <string name="zui_failed_message_delete">Ta bort</string>
+    <string name="zui_failed_message_retry">Försök igen</string>
+    <string name="zui_hint_type_message">Skriv ett meddelande…</string>
+    <string name="zui_label_connecting">Ansluter…</string>
+    <string name="zui_label_dialog_delete_btn">Ta bort meddelandet</string>
+    <string name="zui_label_dialog_retry_btn">Försök skicka igen</string>
+    <string name="zui_label_failed">Misslyckades</string>
+    <string name="zui_label_reconnecting">Ansluter igen…</string>
+    <string name="zui_label_reconnecting_failed">Anslutning misslyckades.</string>
+    <string name="zui_label_send">Skicka</string>
+    <string name="zui_label_sent">Skickat</string>
+    <string name="zui_label_tap_retry">Tryck för att försöka igen</string>
+    <string name="zui_message_log_article_opened_formatter">%1$s öppnade artikeln \”%2$s\”</string>
+    <string name="zui_message_log_article_suggestion_message">Jag hittade dessa artiklar:</string>
+    <string name="zui_message_log_attachment_sending_failed">Det gick inte att skicka bilagan</string>
+    <string name="zui_message_log_default_visitor_name">Besökare</string>
+    <string name="zui_message_log_message_attachment_type_not_supported">Bilagans filtyp stöds inte</string>
+    <string name="zui_message_log_message_attachments_not_supported">Bilagor stöds inte</string>
+    <string name="zui_message_log_message_failed_to_send">[Det gick inte att skicka]</string>
+    <string name="zui_message_log_message_file_exceeds_max_size">Överskrider maximal filstorlek (%1$s)</string>
+    <string name="zui_message_log_transfer_option_selection_formatter">%1$s valde %2$s</string>
+    <string name="zui_retry_button_label">Försök igen</string>
+    <string name="zui_toolbar_title">Kontakta oss</string>
+    <string name="zui_unable_open_file">Det går inte att öppna filen.</string>
+</resources>

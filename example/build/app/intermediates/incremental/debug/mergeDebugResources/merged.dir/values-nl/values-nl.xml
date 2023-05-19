@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d nieuwe melding</item>
+    <item quantity="other">%d nieuwe meldingen</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Navigeren naar startpositie"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Omhoog navigeren"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Meer opties"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Klaar"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Alles tonen"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Een app selecteren"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"UIT"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"AAN"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Functie +"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift +"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"spatie"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu +"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Zoeken…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Zoekopdracht wissen"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Zoekopdracht"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Zoeken"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Zoekopdracht verzenden"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Gesproken zoekopdracht"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Delen met"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Delen met <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Samenvouwen"</string>
+    <string name="articles_list_fragment_error_message">Kan artikelen niet opvragen</string>
+    <string name="articles_list_fragment_no_articles_found">Geen artikelen gevonden</string>
+    <string name="ask_request_list_failed_request_message">Bericht mislukt</string>
+    <string name="belvedere_dialog_camera">Camera</string>
+    <string name="belvedere_dialog_gallery">Galerie</string>
+    <string name="belvedere_fam_desc_collapse_fam">Zwevend actiemenu samenvouwen</string>
+    <string name="belvedere_fam_desc_expand_fam">Zwevend actiemenu uitvouwen</string>
+    <string name="belvedere_fam_desc_open_gallery">Bestand importeren vanuit galerie</string>
+    <string name="belvedere_fam_desc_open_google_photos">Afbeelding importeren vanuit Google Foto\'s</string>
+    <string name="belvedere_image_stream_file_too_large">Bestand te groot</string>
+    <string name="belvedere_image_stream_title">Fotoverzameling</string>
+    <string name="belvedere_image_stream_unknown_app">Onbekend</string>
+    <string name="belvedere_navigate_to_settings">Instellingen</string>
+    <string name="belvedere_permissions_denied">Machtigingen geweigerd</string>
+    <string name="belvedere_permissions_rationale">Als u bijlagen wilt verzenden, moet u machtigingen toestaan in uw instellingen</string>
+    <string name="belvedere_stream_item_camera_tile_desc">Afbeelding importeren vanaf camera</string>
+    <string name="belvedere_stream_item_select_file_desc">Selecteer bestand %s</string>
+    <string name="belvedere_stream_item_select_image_desc">Selecteer afbeelding %s</string>
+    <string name="belvedere_stream_item_unselect_file_desc">Deselecteer bestand %s</string>
+    <string name="belvedere_stream_item_unselect_image_desc">Deselecteer afbeelding %s</string>
+    <string name="belvedere_toolbar_desc_collapse">Afbeeldingenkiezer sluiten</string>
+    <string name="bottomsheet_action_expand_halfway">Half uitvouwen</string>
+    <string name="categories_list_fragment_error_message">Kan categorieën niet opvragen</string>
+    <string name="character_counter_content_description">%1$d van %2$d tekens opgegeven</string>
+    <string name="character_counter_overflowed_content_description">Tekenlimiet heeft %1$d van %2$d overschreden</string>
+    <string name="clear_text_end_icon_content_description">Tekst wissen</string>
+    <string name="contact_fragment_title">Contact</string>
+    <string name="error_icon_content_description">Fout</string>
+    <string name="error_msg_invalid_email">Geef geldig e-mailadres op</string>
+    <string name="error_msg_invalid_message">Geef uw bericht op</string>
+    <string name="error_msg_invalid_name">Geef uw volledige naam op</string>
+    <string name="exposed_dropdown_menu_content_description">Dropdownmenu weergeven</string>
+    <string name="help_search_no_results_label">Geen resultaten voor</string>
+    <string name="help_see_all_articles_label">Zie alle artikelen</string>
+    <string name="help_see_all_n_articles_label">Zie alle %d artikelen</string>
+    <string name="icon_content_description">Icoon voor dialoogvenster</string>
+    <string name="item_view_role_description">Tabblad</string>
+    <string name="material_clock_toggle_content_description">Selecteer a.m. of p.m.</string>
+    <string name="material_hour_selection">Selecteer uur</string>
+    <string name="material_hour_suffix">%1$s uur</string>
+    <string name="material_minute_selection">Minuten selecteren</string>
+    <string name="material_minute_suffix">%1$s minuten</string>
+    <string name="material_timepicker_am">a.m.</string>
+    <string name="material_timepicker_clock_mode_description">Schakel naar de klokmodus om de tijd in te voeren.</string>
+    <string name="material_timepicker_hour">Uur</string>
+    <string name="material_timepicker_minute">Minuut</string>
+    <string name="material_timepicker_pm">p.m.</string>
+    <string name="material_timepicker_select_time">Tijd selecteren</string>
+    <string name="material_timepicker_text_input_mode_description">Schakel naar de tekstinvoermodus om de tijd in te voeren.</string>
+    <string name="mtrl_badge_numberless_content_description">Nieuwe melding</string>
+    <string name="mtrl_chip_close_icon_content_description">%1$s verwijderen</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Meer dan %1$d nieuwe meldingen</string>
+    <string name="mtrl_picker_a11y_next_month">Naar volgende maand gaan</string>
+    <string name="mtrl_picker_a11y_prev_month">Naar vorige maand gaan</string>
+    <string name="mtrl_picker_announce_current_selection">Huidige selectie: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Selecteer een datum</string>
+    <string name="mtrl_picker_date_header_unselected">Geselecteerde datum</string>
+    <string name="mtrl_picker_day_of_week_column_header">Kolom met dagen: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Ongeldige indeling.</string>
+    <string name="mtrl_picker_invalid_format_example">Voorbeeld: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Gebruik: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Ongeldig bereik.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Naar jaar %1$s navigeren</string>
+    <string name="mtrl_picker_out_of_range">Valt buiten bereik: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Startdatum - %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – einddatum</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Selecteer een periode</string>
+    <string name="mtrl_picker_range_header_unselected">Startdatum - einddatum</string>
+    <string name="mtrl_picker_save">Opslaan</string>
+    <string name="mtrl_picker_text_input_date_hint">Datum</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Einddatum</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Startdatum</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">j</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Overschakelen naar agenda-invoermodus</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Tik om naar dagselectie te schakelen</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Overschakelen naar tekstinvoermodus</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Tik om naar jaarselectie te schakelen</string>
+    <string name="network_activity_no_connectivity">Geen verbinding</string>
+    <string name="password_toggle_content_description">Wachtwoord tonen</string>
+    <string name="request_attachment_generic_unknown_app">Onbekend</string>
+    <string name="request_dialog_body_unsaved_changes">Als u teruggaat, wordt uw bericht verwijderd. Weet u zeker dat u dit wilt verwijderen?</string>
+    <string name="request_dialog_button_label_cancel">Annuleren</string>
+    <string name="request_dialog_button_label_delete">Verwijderen</string>
+    <string name="request_dialog_title_unsaved_changes">Bericht niet verzonden</string>
+    <string name="request_email_entry_hint">E-mail</string>
+    <string name="request_error_create_request">Kan aanvraag niet maken</string>
+    <string name="request_error_load_comments">Kan opmerkingen niet laden</string>
+    <string name="request_file_attachment_download_in_progress">Bestand wordt gedownload</string>
+    <string name="request_list_activity_title">Mijn tickets</string>
+    <string name="request_list_empty_start_conversation">BEGIN EEN GESPREK</string>
+    <string name="request_list_empty_text">Gesprekken die met deze app worden begonnen, worden hier weergegeven.</string>
+    <string name="request_list_fragment_error_message">Kan tickets niet opvragen</string>
+    <string name="request_list_me">Ik</string>
+    <string name="request_list_re">Re: %s</string>
+    <string name="request_list_ticket_closed">Ticket gesloten</string>
+    <string name="request_menu_button_label_add_attachments">Bijlagen toevoegen</string>
+    <string name="request_menu_button_label_send">Verzenden</string>
+    <string name="request_message_date_today">VANDAAG</string>
+    <string name="request_message_date_yesterday">GISTEREN</string>
+    <string name="request_message_entry_hint">Bericht</string>
+    <string name="request_message_status_delivered">Bezorgd</string>
+    <string name="request_messages_status_error">Bericht mislukt. Tik om het opnieuw te proberen</string>
+    <string name="request_name_entry_hint">Naam</string>
+    <string name="request_retry_dialog_delete_message">Bericht verwijderen</string>
+    <string name="request_retry_dialog_retry">Opnieuw proberen te verzenden</string>
+    <string name="request_system_message_closed_ticket">Dit gesprek is gesloten.</string>
+    <string name="request_toolbar_last_reply">Vorige reactie %s</string>
+    <string name="request_write_a_message">Schrijf een bericht</string>
+    <string name="retry_view_button_label">Opnieuw</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Zoeken"</string>
+    <string name="sections_list_fragment_error_message">Kan secties niet opvragen</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="support_activity_title">Support</string>
+    <string name="support_conversations_menu">Gesprekken</string>
+    <string name="view_article_attachments_error">Kan bijlagen niet ophalen</string>
+    <string name="view_article_vote_prompt">Was dit artikel nuttig?</string>
+    <string name="zg_general_contact_us_button_label_accessibility">ContactGeen verbinding</string>
+    <string name="zg_general_no_connection_message">Geen verbinding</string>
+    <string name="zs_engine_greeting_message">Typ een bericht. Hierna zoek ik iemand die u kan helpen.</string>
+    <string name="zs_engine_message_retry_button">Opnieuw</string>
+    <string name="zs_engine_message_send_error_message">Er is iets fout gegaan. Uw bericht is niet verzonden. Probeer het later opnieuw.</string>
+    <string name="zs_engine_request_created_conversations_enabled_message">Hartelijk dank. Er is een bericht naar het team verzonden. U kunt dit bericht hier bekijken en aanvullende gegevens toevoegen:</string>
+    <string name="zs_engine_request_created_conversations_off_message">Hartelijk dank. Er is een bericht naar het team verzonden. Als er een reactie nodig is, nemen de teamleden via e-mail contact met u op.</string>
+    <string name="zs_engine_request_created_request_list_button">Berichten weergeven</string>
+    <string name="zs_engine_request_creation_email_prompt_hint">Geef uw e-mailadres op…</string>
+    <string name="zs_engine_request_creation_email_prompt_message">Als er een reactie nodig is, neemt iemand per e-mail contact met u op. Wat is uw e-mailadres?</string>
+    <string name="zs_engine_request_creation_email_validation_failed_message">Het opgegeven e-mailadres is onjuist. Geef een geldig e-mailadres op.</string>
+    <string name="zs_general_contact_us_button_label_accessibility">Contact</string>
+    <string name="zs_general_referrer_logo_label_accessibility">Zendesk</string>
+    <string name="zs_help_center_content_loaded_accessibility">Helpcenter geladen</string>
+    <string name="zs_help_center_search_loaded_accessibility">Zoekresultaten geladen</string>
+    <string name="zs_request_announce_comment_created_accessibility">Opmerking met tekst %s verzonden.</string>
+    <string name="zs_request_announce_comment_failed_accessibility">Kan opmerking met tekst %s niet maken.</string>
+    <string name="zs_request_announce_comments_loaded_accessibility">Opmerkingen geladen.</string>
+    <string name="zs_request_attachment_carousel_attachment_accessibility">Bestand met naam %s bijgevoegd.</string>
+    <string name="zs_request_attachment_carousel_remove_attachment_accessibility">Bijlage met naam %s verwijderen.</string>
+    <string name="zs_request_attachment_indicator_accessibility">Selecteer een bijlage.</string>
+    <string name="zs_request_attachment_indicator_n_attachments_selected_accessibility">Er zijn %d bijlagen geselecteerd.</string>
+    <string name="zs_request_attachment_indicator_no_attachments_selected_accessibility">Er zijn geen bijlagen geselecteerd.</string>
+    <string name="zs_request_attachment_indicator_one_attachments_selected_accessibility">Er is 1 bijlage geselecteerd.</string>
+    <string name="zs_request_contact_option_leave_a_message">Laat een bericht achter</string>
+    <string name="zs_request_list_content_load_failed_accessibility">Laden van supporttickets mislukt</string>
+    <string name="zs_request_list_content_loaded_accessibility">Supporttickets geladen</string>
+    <string name="zs_request_list_content_loaded_empty_accessibility">Geen supporttickets</string>
+    <string name="zs_request_list_content_loading_accessibility">Supporttickets worden geladen</string>
+    <string name="zs_request_message_agent_file_accessibility">Bestandsbijlage van agent, met naam %s.</string>
+    <string name="zs_request_message_agent_image_accessibility">Afbeeldingsbijlage van agent, met naam %s.</string>
+    <string name="zs_request_message_agent_sent_accessibility">Verzonden door %1$s om %2$s.</string>
+    <string name="zs_request_message_agent_text_accessibility">Bericht van agent %s.</string>
+    <string name="zs_request_message_user_error_accessibility">Verzenden mislukt. Tik voor opties.</string>
+    <string name="zs_request_message_user_file_accessibility">Bestand met naam %s.</string>
+    <string name="zs_request_message_user_image_accessibility">Afbeelding met naam %s.</string>
+    <string name="zs_request_message_user_sent_accessibility">Door u verzonden om %s</string>
+    <string name="zs_request_message_user_text_accessibility">Bericht %s.</string>
+    <string name="zs_request_toolbar_accessibility">Vorige reactie, van %1$s om %2$s.</string>
+    <string name="zs_view_article_error">Ophalen van artikel mislukt</string>
+    <string name="zs_view_article_loaded_accessibility">%s artikel geladen</string>
+    <string name="zs_view_article_vote_no_accessibility">Geen stem</string>
+    <string name="zs_view_article_vote_no_remove_accessibility">Ja-stem verwijderen</string>
+    <string name="zs_view_article_vote_yes_accessibility">Ja-stem</string>
+    <string name="zs_view_article_vote_yes_remove_accessibility">Nee-stem verwijderen</string>
+    <string name="zs_view_article_voted_failed_accessibility_announce">Stemmen mislukt</string>
+    <string name="zs_view_article_voted_no_accessibility_announce">Nee gestemd</string>
+    <string name="zs_view_article_voted_yes_accessibility_announce">Ja gestemd</string>
+    <string name="zui_attachment_indicator_accessibility">Selecteer een bijlage</string>
+    <string name="zui_attachment_indicator_n_attachments_selected_accessibility">Er zijn %d bijlagen geselecteerd</string>
+    <string name="zui_attachment_indicator_no_attachments_selected_accessibility">Er zijn geen bijlagen geselecteerd</string>
+    <string name="zui_attachment_indicator_one_attachments_selected_accessibility">Er is 1 bijlage geselecteerd</string>
+    <string name="zui_bot_label">BOT</string>
+    <string name="zui_button_label_no">Nee</string>
+    <string name="zui_button_label_yes">Ja</string>
+    <string name="zui_cell_text_suggested_article_header">Hier is een artikel dat mogelijk nuttig is:</string>
+    <string name="zui_cell_text_suggested_articles_header">Hier zijn enkele artikelen die mogelijk nuttig zijn:</string>
+    <string name="zui_default_bot_name">Answer Bot</string>
+    <string name="zui_dialog_email_error">Ongeldig e-mailadres</string>
+    <string name="zui_dialog_email_hint">E-mailadres</string>
+    <string name="zui_failed_message_copy">Kopiëren</string>
+    <string name="zui_failed_message_delete">Verwijderen</string>
+    <string name="zui_failed_message_retry">Opnieuw</string>
+    <string name="zui_hint_type_message">Typ een bericht…</string>
+    <string name="zui_label_connecting">Verbinding maken…</string>
+    <string name="zui_label_dialog_delete_btn">Bericht verwijderen</string>
+    <string name="zui_label_dialog_retry_btn">Opnieuw proberen te verzenden</string>
+    <string name="zui_label_failed">Mislukt</string>
+    <string name="zui_label_reconnecting">Opnieuw verbinding maken…</string>
+    <string name="zui_label_reconnecting_failed">Verbinding mislukt</string>
+    <string name="zui_label_send">Verzenden</string>
+    <string name="zui_label_sent">Verzonden</string>
+    <string name="zui_label_tap_retry">Tik om het opnieuw te proberen</string>
+    <string name="zui_message_log_article_opened_formatter">%1$s heeft het artikel \'%2$s\' geopend</string>
+    <string name="zui_message_log_article_suggestion_message">Ik heb deze artikelen gevonden:</string>
+    <string name="zui_message_log_attachment_sending_failed">Bijlage kan niet worden verzonden</string>
+    <string name="zui_message_log_default_visitor_name">Bezoeker</string>
+    <string name="zui_message_log_message_attachment_type_not_supported">Type bijlage wordt niet ondersteund</string>
+    <string name="zui_message_log_message_attachments_not_supported">Bijlagen worden niet ondersteund</string>
+    <string name="zui_message_log_message_failed_to_send">[Verzenden mislukt]</string>
+    <string name="zui_message_log_message_file_exceeds_max_size">Overschrijdt maximale bestandsgrootte (%1$s)</string>
+    <string name="zui_message_log_transfer_option_selection_formatter">%1$s heeft %2$s geselecteerd</string>
+    <string name="zui_retry_button_label">Opnieuw</string>
+    <string name="zui_toolbar_title">Contact</string>
+    <string name="zui_unable_open_file">Kan het bestand niet openen.</string>
+</resources>

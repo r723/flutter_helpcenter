@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d 則新通知</item>
+    <item quantity="other">%d 則新通知</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"瀏覽首頁"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"向上瀏覽"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"更多選項"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"完成"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"查看全部"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"選擇應用程式"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"關閉"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"開啟"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Delete 鍵"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Enter 鍵"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Fn +"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift +"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"空格鍵"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu +"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"搜尋…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"清除查詢"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"搜尋查詢"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"搜尋"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"提交查詢"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"語音搜尋"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"分享對象"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"與「<ns1:g id="APPLICATION_NAME">%s</ns1:g>」分享"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"收合"</string>
+    <string name="articles_list_fragment_error_message">取得文章失敗</string>
+    <string name="articles_list_fragment_no_articles_found">找不到文章</string>
+    <string name="ask_request_list_failed_request_message">發送訊息失敗</string>
+    <string name="belvedere_dialog_camera">相機</string>
+    <string name="belvedere_dialog_gallery">圖庫</string>
+    <string name="belvedere_fam_desc_collapse_fam">摺疊浮動執行功能表</string>
+    <string name="belvedere_fam_desc_expand_fam">展開浮動執行功能表</string>
+    <string name="belvedere_fam_desc_open_gallery">從圖庫匯入檔案</string>
+    <string name="belvedere_fam_desc_open_google_photos">從 Google Photos 匯入影像</string>
+    <string name="belvedere_image_stream_file_too_large">檔案過大</string>
+    <string name="belvedere_image_stream_title">相片媒體櫃</string>
+    <string name="belvedere_image_stream_unknown_app">未知</string>
+    <string name="belvedere_navigate_to_settings">設定值</string>
+    <string name="belvedere_permissions_denied">權限被拒</string>
+    <string name="belvedere_permissions_rationale">若要傳送附件，您需要在設定值中允許權限</string>
+    <string name="belvedere_stream_item_camera_tile_desc">從相機匯入影像</string>
+    <string name="belvedere_stream_item_select_file_desc">選取檔案 %s</string>
+    <string name="belvedere_stream_item_select_image_desc">選取影像 %s</string>
+    <string name="belvedere_stream_item_unselect_file_desc">取消選取檔案 %s</string>
+    <string name="belvedere_stream_item_unselect_image_desc">取消選取影像 %s</string>
+    <string name="belvedere_toolbar_desc_collapse">關閉影像選擇器</string>
+    <string name="bottomsheet_action_expand_halfway">展開一半</string>
+    <string name="categories_list_fragment_error_message">取得類別失敗</string>
+    <string name="character_counter_content_description">已輸入 %1$d 個字元 (上限為 %2$d 個字元)</string>
+    <string name="character_counter_overflowed_content_description">超過字元限制 (共 %1$d 字元，上限 %2$d 字元)</string>
+    <string name="clear_text_end_icon_content_description">清除文字</string>
+    <string name="contact_fragment_title">聯絡我們</string>
+    <string name="error_icon_content_description">錯誤</string>
+    <string name="error_msg_invalid_email">輸入有效的電子郵件地址</string>
+    <string name="error_msg_invalid_message">輸入訊息</string>
+    <string name="error_msg_invalid_name">輸入您的全名</string>
+    <string name="exposed_dropdown_menu_content_description">顯示下拉式選單</string>
+    <string name="help_search_no_results_label">無結果：</string>
+    <string name="help_see_all_articles_label">檢視所有文章</string>
+    <string name="help_see_all_n_articles_label">檢視所有 %d 篇文章</string>
+    <string name="icon_content_description">對話方塊圖示</string>
+    <string name="item_view_role_description">分頁標籤</string>
+    <string name="material_clock_toggle_content_description">選取上午或下午</string>
+    <string name="material_hour_selection">請選取時段</string>
+    <string name="material_hour_suffix">%1$s 點</string>
+    <string name="material_minute_selection">選取分鐘數</string>
+    <string name="material_minute_suffix">%1$s 分</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">切換至時鐘模式來輸入時間。</string>
+    <string name="material_timepicker_hour">小時</string>
+    <string name="material_timepicker_minute">分鐘</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">選取時間</string>
+    <string name="material_timepicker_text_input_mode_description">切換至文字輸入模式來輸入時間。</string>
+    <string name="mtrl_badge_numberless_content_description">新通知</string>
+    <string name="mtrl_chip_close_icon_content_description">移除 %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">超過 %1$d 則新通知</string>
+    <string name="mtrl_picker_a11y_next_month">變更至下個月</string>
+    <string name="mtrl_picker_a11y_prev_month">變更至上個月</string>
+    <string name="mtrl_picker_announce_current_selection">目前選取：%1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">選取日期</string>
+    <string name="mtrl_picker_date_header_unselected">所選日期</string>
+    <string name="mtrl_picker_day_of_week_column_header">星期幾資料欄：%1$s</string>
+    <string name="mtrl_picker_invalid_format">格式無效。</string>
+    <string name="mtrl_picker_invalid_format_example">範例：%1$s</string>
+    <string name="mtrl_picker_invalid_format_use">使用：%1$s</string>
+    <string name="mtrl_picker_invalid_range">日期範圍無效。</string>
+    <string name="mtrl_picker_navigate_to_year_description">前往 %1$s 年</string>
+    <string name="mtrl_picker_out_of_range">超出日期範圍：%1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">開始日期 – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – 結束日期</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">選取範圍</string>
+    <string name="mtrl_picker_range_header_unselected">開始日期 - 結束日期</string>
+    <string name="mtrl_picker_save">儲存</string>
+    <string name="mtrl_picker_text_input_date_hint">日期</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">結束日期</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">開始日期</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">切換至日曆輸入模式</string>
+    <string name="mtrl_picker_toggle_to_day_selection">輕觸即可切換為選取星期幾</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">切換至文字輸入模式</string>
+    <string name="mtrl_picker_toggle_to_year_selection">輕觸即可切換為選取年份</string>
+    <string name="network_activity_no_connectivity">無連線</string>
+    <string name="password_toggle_content_description">顯示密碼</string>
+    <string name="request_attachment_generic_unknown_app">未知</string>
+    <string name="request_dialog_body_unsaved_changes">回到上一頁將會刪除您的訊息。是否確定要刪除？</string>
+    <string name="request_dialog_button_label_cancel">取消</string>
+    <string name="request_dialog_button_label_delete">刪除</string>
+    <string name="request_dialog_title_unsaved_changes">未傳送訊息</string>
+    <string name="request_email_entry_hint">電子郵件</string>
+    <string name="request_error_create_request">建立請求失敗</string>
+    <string name="request_error_load_comments">載入評論失敗</string>
+    <string name="request_file_attachment_download_in_progress">檔案下載進行中</string>
+    <string name="request_list_activity_title">我的工單</string>
+    <string name="request_list_empty_start_conversation">開始對話</string>
+    <string name="request_list_empty_text">從此 app 開始的對話將在此可見。</string>
+    <string name="request_list_fragment_error_message">取得工單失敗</string>
+    <string name="request_list_me">我</string>
+    <string name="request_list_re">RE：%s</string>
+    <string name="request_list_ticket_closed">工單已關閉</string>
+    <string name="request_menu_button_label_add_attachments">新增附件</string>
+    <string name="request_menu_button_label_send">傳送</string>
+    <string name="request_message_date_today">今天</string>
+    <string name="request_message_date_yesterday">昨天</string>
+    <string name="request_message_entry_hint">訊息</string>
+    <string name="request_message_status_delivered">已傳遞</string>
+    <string name="request_messages_status_error">訊息失敗。點選以重試</string>
+    <string name="request_name_entry_hint">姓名</string>
+    <string name="request_retry_dialog_delete_message">刪除訊息</string>
+    <string name="request_retry_dialog_retry">重試傳送</string>
+    <string name="request_system_message_closed_ticket">此對話已關閉。</string>
+    <string name="request_toolbar_last_reply">最後回覆 %s</string>
+    <string name="request_write_a_message">留下訊息</string>
+    <string name="retry_view_button_label">重試</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"搜尋"</string>
+    <string name="sections_list_fragment_error_message">取得段落失敗</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="support_activity_title">支援</string>
+    <string name="support_conversations_menu">對話</string>
+    <string name="view_article_attachments_error">擷取附件失敗</string>
+    <string name="view_article_vote_prompt">這篇文章是否有幫助？</string>
+    <string name="zg_general_contact_us_button_label_accessibility">聯絡我們</string>
+    <string name="zg_general_no_connection_message">無連線</string>
+    <string name="zs_engine_greeting_message">輸入一條訊息，我會找到能幫助您的人。</string>
+    <string name="zs_engine_message_retry_button">重試</string>
+    <string name="zs_engine_message_send_error_message">出錯了！我不能傳送您的訊息。請稍後重試。</string>
+    <string name="zs_engine_request_created_conversations_enabled_message">謝謝。已傳送一條訊息給團隊。您可在此處檢視此訊息，並新增其他詳情：</string>
+    <string name="zs_engine_request_created_conversations_off_message">謝謝。已傳送一條訊息給團隊。若需回覆，他們將會傳送電子郵件聯絡您。</string>
+    <string name="zs_engine_request_created_request_list_button">檢視訊息</string>
+    <string name="zs_engine_request_creation_email_prompt_hint">輸入電子郵件地址……</string>
+    <string name="zs_engine_request_creation_email_prompt_message">若需回覆，有人將會傳送電子郵件聯絡您。您的電子郵件地址是？</string>
+    <string name="zs_engine_request_creation_email_validation_failed_message">您輸入的電子郵件地址不正確。請輸入有效的電子郵件地址。</string>
+    <string name="zs_general_contact_us_button_label_accessibility">聯絡我們</string>
+    <string name="zs_general_referrer_logo_label_accessibility">Zendesk</string>
+    <string name="zs_help_center_content_loaded_accessibility">已載入客服中心</string>
+    <string name="zs_help_center_search_loaded_accessibility">已載入搜尋結果</string>
+    <string name="zs_request_announce_comment_created_accessibility">已傳送包含 %s 文字的評論。</string>
+    <string name="zs_request_announce_comment_failed_accessibility">不能建立包含 %s 文字的評論。</string>
+    <string name="zs_request_announce_comments_loaded_accessibility">已載入評論。</string>
+    <string name="zs_request_attachment_carousel_attachment_accessibility">已附加名稱為 %s 的檔案。</string>
+    <string name="zs_request_attachment_carousel_remove_attachment_accessibility">移除名稱為 %s 的附件。</string>
+    <string name="zs_request_attachment_indicator_accessibility">選取一個附件。</string>
+    <string name="zs_request_attachment_indicator_n_attachments_selected_accessibility">已選取 %d 個附件。</string>
+    <string name="zs_request_attachment_indicator_no_attachments_selected_accessibility">未選取附件。</string>
+    <string name="zs_request_attachment_indicator_one_attachments_selected_accessibility">已選取一個附件。</string>
+    <string name="zs_request_contact_option_leave_a_message">留下訊息</string>
+    <string name="zs_request_list_content_load_failed_accessibility">載入支援工單失敗</string>
+    <string name="zs_request_list_content_loaded_accessibility">已載入支援工單</string>
+    <string name="zs_request_list_content_loaded_empty_accessibility">無支援工單</string>
+    <string name="zs_request_list_content_loading_accessibility">支援工單載入中</string>
+    <string name="zs_request_message_agent_file_accessibility">名稱為 %s 的代理檔案附件。</string>
+    <string name="zs_request_message_agent_image_accessibility">名稱為 %s 的代理影像附件。</string>
+    <string name="zs_request_message_agent_sent_accessibility">已由 %1$s 傳送於 %2$s。</string>
+    <string name="zs_request_message_agent_text_accessibility">代理訊息 %s。</string>
+    <string name="zs_request_message_user_error_accessibility">傳送失敗。點選以選取選項。</string>
+    <string name="zs_request_message_user_file_accessibility">名稱為 %s 的檔案。</string>
+    <string name="zs_request_message_user_image_accessibility">名稱為 %s 的影像。</string>
+    <string name="zs_request_message_user_sent_accessibility">已由您傳送於 %s</string>
+    <string name="zs_request_message_user_text_accessibility">訊息 %s。</string>
+    <string name="zs_request_toolbar_accessibility">由 %2$s 最後回覆於 %1$s。</string>
+    <string name="zs_view_article_error">擷取文章失敗</string>
+    <string name="zs_view_article_loaded_accessibility">已載入 %s 文章</string>
+    <string name="zs_view_article_vote_no_accessibility">反對票</string>
+    <string name="zs_view_article_vote_no_remove_accessibility">移除贊成票</string>
+    <string name="zs_view_article_vote_yes_accessibility">贊成票</string>
+    <string name="zs_view_article_vote_yes_remove_accessibility">移除反對票</string>
+    <string name="zs_view_article_voted_failed_accessibility_announce">投票失敗</string>
+    <string name="zs_view_article_voted_no_accessibility_announce">已投反對票</string>
+    <string name="zs_view_article_voted_yes_accessibility_announce">已投贊成票</string>
+    <string name="zui_attachment_indicator_accessibility">選取一個附件</string>
+    <string name="zui_attachment_indicator_n_attachments_selected_accessibility">已選取 %d 個附件</string>
+    <string name="zui_attachment_indicator_no_attachments_selected_accessibility">未選取附件</string>
+    <string name="zui_attachment_indicator_one_attachments_selected_accessibility">已選取一個附件</string>
+    <string name="zui_bot_label">BOT</string>
+    <string name="zui_button_label_no">否</string>
+    <string name="zui_button_label_yes">是</string>
+    <string name="zui_cell_text_suggested_article_header">此處有一篇有用的文章：</string>
+    <string name="zui_cell_text_suggested_articles_header">此處有一些有用的文章：</string>
+    <string name="zui_default_bot_name">Answer Bot</string>
+    <string name="zui_dialog_email_error">無效電子郵件</string>
+    <string name="zui_dialog_email_hint">電子郵件地址</string>
+    <string name="zui_failed_message_copy">複製</string>
+    <string name="zui_failed_message_delete">刪除</string>
+    <string name="zui_failed_message_retry">重試</string>
+    <string name="zui_hint_type_message">輸入訊息……</string>
+    <string name="zui_label_connecting">連線中……</string>
+    <string name="zui_label_dialog_delete_btn">刪除訊息</string>
+    <string name="zui_label_dialog_retry_btn">重試傳送</string>
+    <string name="zui_label_failed">失敗</string>
+    <string name="zui_label_reconnecting">重新連線中……</string>
+    <string name="zui_label_reconnecting_failed">連線失敗。</string>
+    <string name="zui_label_send">傳送</string>
+    <string name="zui_label_sent">已傳送</string>
+    <string name="zui_label_tap_retry">點選以重試</string>
+    <string name="zui_message_log_article_opened_formatter">%1$s 已開啟文章\「%2$s\」</string>
+    <string name="zui_message_log_article_suggestion_message">我已找到這些文章：</string>
+    <string name="zui_message_log_attachment_sending_failed">不能傳送附件</string>
+    <string name="zui_message_log_default_visitor_name">訪客</string>
+    <string name="zui_message_log_message_attachment_type_not_supported">附件類型不受支援</string>
+    <string name="zui_message_log_message_attachments_not_supported">附件不受支援</string>
+    <string name="zui_message_log_message_failed_to_send">[傳送失敗]</string>
+    <string name="zui_message_log_message_file_exceeds_max_size">已超過檔案大小上限（%1$s）</string>
+    <string name="zui_message_log_transfer_option_selection_formatter">%1$s 已選取%2$s</string>
+    <string name="zui_retry_button_label">重試</string>
+    <string name="zui_toolbar_title">聯絡我們</string>
+    <string name="zui_unable_open_file">不能開啟檔案。</string>
+</resources>

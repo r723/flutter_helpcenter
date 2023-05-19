@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d notificación nueva</item>
+    <item quantity="other">%d notificaciones nuevas</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Ir a inicio"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Desplazarse hacia arriba"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Más opciones"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Hecho"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Ver todo"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Seleccionar una aplicación"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"DESACTIVADO"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ACTIVADO"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Suprimir"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Intro"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Función +"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Mayús +"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"Espacio"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menú +"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Buscar…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Borrar consulta"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Consulta de búsqueda"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Buscar"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Búsqueda por voz"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Compartir con"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Compartir con <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Ocultar"</string>
+    <string name="articles_list_fragment_error_message">Error al intentar obtener artículos</string>
+    <string name="articles_list_fragment_no_articles_found">No se encontraron artículos</string>
+    <string name="ask_request_list_failed_request_message">El mensaje no se envió</string>
+    <string name="belvedere_dialog_camera">Cámara</string>
+    <string name="belvedere_dialog_gallery">Galería</string>
+    <string name="belvedere_fam_desc_collapse_fam">Contraer el menú de acciones flotante</string>
+    <string name="belvedere_fam_desc_expand_fam">Ampliar el menú de acciones flotante</string>
+    <string name="belvedere_fam_desc_open_gallery">Importar archivo de la galería</string>
+    <string name="belvedere_fam_desc_open_google_photos">Importar imagen de Google Fotos</string>
+    <string name="belvedere_image_stream_file_too_large">El archivo es muy grande</string>
+    <string name="belvedere_image_stream_title">Biblioteca de fotos</string>
+    <string name="belvedere_image_stream_unknown_app">Desconocido</string>
+    <string name="belvedere_navigate_to_settings">Configuración</string>
+    <string name="belvedere_permissions_denied">Permisos denegados</string>
+    <string name="belvedere_permissions_rationale">Para enviar archivos adjuntos es necesario permitir permisos en la configuración</string>
+    <string name="belvedere_stream_item_camera_tile_desc">Importar imagen de la cámara</string>
+    <string name="belvedere_stream_item_select_file_desc">Seleccionar el archivo %s</string>
+    <string name="belvedere_stream_item_select_image_desc">Seleccionar la imagen %s</string>
+    <string name="belvedere_stream_item_unselect_file_desc">Deseleccionar el archivo %s</string>
+    <string name="belvedere_stream_item_unselect_image_desc">Deseleccionar la imagen %s</string>
+    <string name="belvedere_toolbar_desc_collapse">Cerrar el selector de imagen</string>
+    <string name="bottomsheet_action_expand_halfway">Desplegar hasta la mitad</string>
+    <string name="categories_list_fragment_error_message">Error al intentar obtener categorías</string>
+    <string name="character_counter_content_description">Caracteres introducidos: %1$d de %2$d</string>
+    <string name="character_counter_overflowed_content_description">Límite de caracteres superado (%1$d de %2$d)</string>
+    <string name="clear_text_end_icon_content_description">Borrar texto</string>
+    <string name="contact_fragment_title">Contáctenos</string>
+    <string name="error_icon_content_description">Error</string>
+    <string name="error_msg_invalid_email">Ingrese dirección de correo electrónico válida</string>
+    <string name="error_msg_invalid_message">Escriba un mensaje</string>
+    <string name="error_msg_invalid_name">Ingrese su nombre completo</string>
+    <string name="exposed_dropdown_menu_content_description">Mostrar menú desplegable</string>
+    <string name="help_search_no_results_label">No hay resultados para</string>
+    <string name="help_see_all_articles_label">Ver todos los artículos</string>
+    <string name="help_see_all_n_articles_label">Ver los %d artículos</string>
+    <string name="icon_content_description">Icono del cuadro de diálogo</string>
+    <string name="item_view_role_description">Pestaña</string>
+    <string name="material_clock_toggle_content_description">Selecciona AM o PM</string>
+    <string name="material_hour_selection">Seleccionar hora</string>
+    <string name="material_hour_suffix">%1$s en punto</string>
+    <string name="material_minute_selection">Seleccionar minutos</string>
+    <string name="material_minute_suffix">%1$s minutos</string>
+    <string name="material_timepicker_am">A.M.</string>
+    <string name="material_timepicker_clock_mode_description">Cambia al modo de reloj para escribir la hora.</string>
+    <string name="material_timepicker_hour">Hora</string>
+    <string name="material_timepicker_minute">Minuto</string>
+    <string name="material_timepicker_pm">P.M.</string>
+    <string name="material_timepicker_select_time">Seleccionar la hora</string>
+    <string name="material_timepicker_text_input_mode_description">Cambia al modo de introducción de texto para escribir la hora.</string>
+    <string name="mtrl_badge_numberless_content_description">Notificación nueva</string>
+    <string name="mtrl_chip_close_icon_content_description">Retirar %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Más de %1$d notificaciones nuevas</string>
+    <string name="mtrl_picker_a11y_next_month">Cambiar al mes siguiente</string>
+    <string name="mtrl_picker_a11y_prev_month">Cambiar al mes anterior</string>
+    <string name="mtrl_picker_announce_current_selection">Selección actual: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Selecciona una fecha</string>
+    <string name="mtrl_picker_date_header_unselected">Fecha seleccionada</string>
+    <string name="mtrl_picker_day_of_week_column_header">Columna de días: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Formato no válido.</string>
+    <string name="mtrl_picker_invalid_format_example">Ejemplo: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Usar: %1$s</string>
+    <string name="mtrl_picker_invalid_range">El periodo no es válido.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Ir al año %1$s</string>
+    <string name="mtrl_picker_out_of_range">Fuera del periodo válido: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Fecha de inicio–%1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s–Fecha de finalización</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Selecciona un periodo</string>
+    <string name="mtrl_picker_range_header_unselected">Fecha de inicio–Fecha de finalización</string>
+    <string name="mtrl_picker_save">Guardar</string>
+    <string name="mtrl_picker_text_input_date_hint">Fecha</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Fecha de finalización</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Fecha de inicio</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">a</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Cambiar al modo de introducción Calendario</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Toca para seleccionar un día</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Cambiar al modo de introducción Texto</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Toca para seleccionar un año</string>
+    <string name="network_activity_no_connectivity">No hay conexión</string>
+    <string name="password_toggle_content_description">Mostrar contraseña</string>
+    <string name="request_attachment_generic_unknown_app">Desconocido</string>
+    <string name="request_dialog_body_unsaved_changes">Si retrocede se borrará el mensaje. ¿Está seguro de que desea borrarlo?</string>
+    <string name="request_dialog_button_label_cancel">Cancelar</string>
+    <string name="request_dialog_button_label_delete">Borrar</string>
+    <string name="request_dialog_title_unsaved_changes">Mensaje no enviado</string>
+    <string name="request_email_entry_hint">Correo electrónico</string>
+    <string name="request_error_create_request">No se pudo crear la solicitud</string>
+    <string name="request_error_load_comments">No se pudieron cargar los comentarios</string>
+    <string name="request_file_attachment_download_in_progress">El archivo se está descargando</string>
+    <string name="request_list_activity_title">Mis tickets</string>
+    <string name="request_list_empty_start_conversation">INICIAR UNA CONVERSACIÓN</string>
+    <string name="request_list_empty_text">Las conversaciones iniciadas desde esta aplicación serán visibles aquí.</string>
+    <string name="request_list_fragment_error_message">Error al intentar obtener tickets</string>
+    <string name="request_list_me">Yo</string>
+    <string name="request_list_re">Ref: %s</string>
+    <string name="request_list_ticket_closed">Ticket cerrado</string>
+    <string name="request_menu_button_label_add_attachments">Agregar archivos adjuntos</string>
+    <string name="request_menu_button_label_send">Enviar</string>
+    <string name="request_message_date_today">HOY</string>
+    <string name="request_message_date_yesterday">AYER</string>
+    <string name="request_message_entry_hint">Mensaje</string>
+    <string name="request_message_status_delivered">Entregado</string>
+    <string name="request_messages_status_error">El mensaje no se envió. Toque para volver a intentar.</string>
+    <string name="request_name_entry_hint">Nombre</string>
+    <string name="request_retry_dialog_delete_message">Borrar mensaje</string>
+    <string name="request_retry_dialog_retry">Volver a intentar</string>
+    <string name="request_system_message_closed_ticket">Esta conversación fue cerrada.</string>
+    <string name="request_toolbar_last_reply">Última respuesta %s</string>
+    <string name="request_write_a_message">Escriba un mensaje</string>
+    <string name="retry_view_button_label">Volver a intentar</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Buscar"</string>
+    <string name="sections_list_fragment_error_message">Error al intentar obtener secciones</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="support_activity_title">Soporte</string>
+    <string name="support_conversations_menu">Conversaciones</string>
+    <string name="view_article_attachments_error">Error al intentar obtener archivos adjuntos</string>
+    <string name="view_article_vote_prompt">¿Fue útil este artículo?</string>
+    <string name="zg_general_contact_us_button_label_accessibility">Contáctenos</string>
+    <string name="zg_general_no_connection_message">No hay conexión</string>
+    <string name="zs_engine_greeting_message">Escriba un mensaje y buscaré a alguien que le ayude.</string>
+    <string name="zs_engine_message_retry_button">Volver a intentarlo</string>
+    <string name="zs_engine_message_send_error_message">Algo salió mal y no se pudo enviar su mensaje. Vuelva a intentarlo más tarde.</string>
+    <string name="zs_engine_request_created_conversations_enabled_message">Gracias, se envió un mensaje al equipo. Puede ver el mensaje y agregar detalles aquí:</string>
+    <string name="zs_engine_request_created_conversations_off_message">Gracias. Se envió un mensaje al equipo. Si se necesita una respuesta, le enviarán un mensaje por correo electrónico.</string>
+    <string name="zs_engine_request_created_request_list_button">Ver mensajes</string>
+    <string name="zs_engine_request_creation_email_prompt_hint">Ingrese su correo electrónico…</string>
+    <string name="zs_engine_request_creation_email_prompt_message">Si se necesita una respuesta de usted, le contactarán por correo electrónico. ¿Cuál es su dirección de correo electrónico?</string>
+    <string name="zs_engine_request_creation_email_validation_failed_message">La dirección de correo electrónico que ingresó no es correcta. Ingrese una dirección de correo electrónico válida.</string>
+    <string name="zs_general_contact_us_button_label_accessibility">Contáctenos</string>
+    <string name="zs_general_referrer_logo_label_accessibility">Zendesk</string>
+    <string name="zs_help_center_content_loaded_accessibility">El Centro de ayuda se ha cargado</string>
+    <string name="zs_help_center_search_loaded_accessibility">Los resultados de la búsqueda se han cargado</string>
+    <string name="zs_request_announce_comment_created_accessibility">Se envió un comentario con el texto %s.</string>
+    <string name="zs_request_announce_comment_failed_accessibility">No se pudo crear un comentario con el texto %s.</string>
+    <string name="zs_request_announce_comments_loaded_accessibility">Los comentarios se han cargado.</string>
+    <string name="zs_request_attachment_carousel_attachment_accessibility">Se adjuntó el archivo con el nombre %s.</string>
+    <string name="zs_request_attachment_carousel_remove_attachment_accessibility">Se eliminó el archivo adjunto con el nombre %s.</string>
+    <string name="zs_request_attachment_indicator_accessibility">Seleccione un archivo adjunto.</string>
+    <string name="zs_request_attachment_indicator_n_attachments_selected_accessibility">Hay %d archivos adjuntos seleccionados.</string>
+    <string name="zs_request_attachment_indicator_no_attachments_selected_accessibility">No hay ningún archivo adjunto seleccionado.</string>
+    <string name="zs_request_attachment_indicator_one_attachments_selected_accessibility">Hay un archivo adjunto seleccionado.</string>
+    <string name="zs_request_contact_option_leave_a_message">Dejar un mensaje</string>
+    <string name="zs_request_list_content_load_failed_accessibility">Los tickets de soporte no se han cargado</string>
+    <string name="zs_request_list_content_loaded_accessibility">Los tickets de soporte se han cargado</string>
+    <string name="zs_request_list_content_loaded_empty_accessibility">No hay tickets de soporte</string>
+    <string name="zs_request_list_content_loading_accessibility">Cargando tickets de soporte</string>
+    <string name="zs_request_message_agent_file_accessibility">Adjunto de archivo con nombre %s enviado por el agente.</string>
+    <string name="zs_request_message_agent_image_accessibility">Adjunto de imagen con nombre %s enviado por el agente.</string>
+    <string name="zs_request_message_agent_sent_accessibility">Enviado por %1$s a las %2$s.</string>
+    <string name="zs_request_message_agent_text_accessibility">Mensaje %s enviado por el agente.</string>
+    <string name="zs_request_message_user_error_accessibility">No se pudo enviar. Toque para ver más opciones.</string>
+    <string name="zs_request_message_user_file_accessibility">Archivo con nombre %s.</string>
+    <string name="zs_request_message_user_image_accessibility">Imagen con nombre %s.</string>
+    <string name="zs_request_message_user_sent_accessibility">Enviado por usted a las %s</string>
+    <string name="zs_request_message_user_text_accessibility">Mensaje %s.</string>
+    <string name="zs_request_toolbar_accessibility">Última respuesta de %1$s a las %2$s.</string>
+    <string name="zs_view_article_error">No se pudo obtener el artículo</string>
+    <string name="zs_view_article_loaded_accessibility">Se cargó el artículo %s</string>
+    <string name="zs_view_article_vote_no_accessibility">Voto negativo</string>
+    <string name="zs_view_article_vote_no_remove_accessibility">Eliminar voto positivo</string>
+    <string name="zs_view_article_vote_yes_accessibility">Voto positivo</string>
+    <string name="zs_view_article_vote_yes_remove_accessibility">Eliminar voto negativo</string>
+    <string name="zs_view_article_voted_failed_accessibility_announce">Falló el voto</string>
+    <string name="zs_view_article_voted_no_accessibility_announce">Votó no</string>
+    <string name="zs_view_article_voted_yes_accessibility_announce">Votó sí</string>
+    <string name="zui_attachment_indicator_accessibility">Seleccione un archivo adjunto</string>
+    <string name="zui_attachment_indicator_n_attachments_selected_accessibility">Hay %d archivos adjuntos seleccionados</string>
+    <string name="zui_attachment_indicator_no_attachments_selected_accessibility">No hay ningún archivo adjunto seleccionado</string>
+    <string name="zui_attachment_indicator_one_attachments_selected_accessibility">Hay un archivo adjunto seleccionado</string>
+    <string name="zui_bot_label">BOT</string>
+    <string name="zui_button_label_no">No</string>
+    <string name="zui_button_label_yes">Sí</string>
+    <string name="zui_cell_text_suggested_article_header">Este artículo podría ser útil:</string>
+    <string name="zui_cell_text_suggested_articles_header">Estos son algunos artículos que podrían ser útiles:</string>
+    <string name="zui_default_bot_name">Answer Bot</string>
+    <string name="zui_dialog_email_error">Correo electrónico no válido</string>
+    <string name="zui_dialog_email_hint">Dirección de correo electrónico</string>
+    <string name="zui_failed_message_copy">Copiar</string>
+    <string name="zui_failed_message_delete">Borrar</string>
+    <string name="zui_failed_message_retry">Volver a intentar</string>
+    <string name="zui_hint_type_message">Escriba un mensaje…</string>
+    <string name="zui_label_connecting">Conectando…</string>
+    <string name="zui_label_dialog_delete_btn">Borrar mensaje</string>
+    <string name="zui_label_dialog_retry_btn">Volver a intentar</string>
+    <string name="zui_label_failed">Falló</string>
+    <string name="zui_label_reconnecting">Volviendo a conectarse…</string>
+    <string name="zui_label_reconnecting_failed">Falló la conexión.</string>
+    <string name="zui_label_send">Enviar</string>
+    <string name="zui_label_sent">Enviado</string>
+    <string name="zui_label_tap_retry">Tocar para volver a intentar</string>
+    <string name="zui_message_log_article_opened_formatter">%1$s abrió el artículo \“%2$s\”</string>
+    <string name="zui_message_log_article_suggestion_message">Encontré estos artículos:</string>
+    <string name="zui_message_log_attachment_sending_failed">No se pudo enviar el archivo adjunto</string>
+    <string name="zui_message_log_default_visitor_name">Visitante</string>
+    <string name="zui_message_log_message_attachment_type_not_supported">No se admite este tipo de archivo adjunto</string>
+    <string name="zui_message_log_message_attachments_not_supported">No se admiten archivos adjuntos</string>
+    <string name="zui_message_log_message_failed_to_send">[No se pudo enviar]</string>
+    <string name="zui_message_log_message_file_exceeds_max_size">Excede el tamaño máximo del archivo (%1$s)</string>
+    <string name="zui_message_log_transfer_option_selection_formatter">%1$s seleccionó %2$s</string>
+    <string name="zui_retry_button_label">Volver a intentar</string>
+    <string name="zui_toolbar_title">Contáctenos</string>
+    <string name="zui_unable_open_file">No se puede abrir el archivo.</string>
+</resources>

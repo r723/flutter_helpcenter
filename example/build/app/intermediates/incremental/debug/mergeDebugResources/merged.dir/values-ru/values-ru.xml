@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d новое уведомление</item>
+    <item quantity="few">%d новых уведомления</item>
+    <item quantity="many">%d новых уведомлений</item>
+    <item quantity="other">%d нового уведомления</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Перейти на главный экран"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Перейти вверх"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Ещё"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Готово"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Показать все"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Выберите приложение"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"ВЫКЛ"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ВКЛ"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Ввод"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Fn +"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift +"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"Пробел"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Меню +"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Введите запрос"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Удалить запрос"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Поисковый запрос"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Поиск"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Отправить запрос"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Голосовой поиск"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Поделиться с помощью"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Поделиться с помощью <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Свернуть"</string>
+    <string name="articles_list_fragment_error_message">Не удалось получить статьи</string>
+    <string name="articles_list_fragment_no_articles_found">Статьи не найдены</string>
+    <string name="ask_request_list_failed_request_message">Не удалось отправить сообщение</string>
+    <string name="belvedere_dialog_camera">Камера</string>
+    <string name="belvedere_dialog_gallery">Галерея</string>
+    <string name="belvedere_fam_desc_collapse_fam">Свернуть плавающее меню действий</string>
+    <string name="belvedere_fam_desc_expand_fam">Развернуть плавающее меню действий</string>
+    <string name="belvedere_fam_desc_open_gallery">Импортировать файл из галереи</string>
+    <string name="belvedere_fam_desc_open_google_photos">Импортировать изображение из Google Photos</string>
+    <string name="belvedere_image_stream_file_too_large">Слишком большой файл</string>
+    <string name="belvedere_image_stream_title">Библиотека фото</string>
+    <string name="belvedere_image_stream_unknown_app">Неизвестно</string>
+    <string name="belvedere_navigate_to_settings">Настройки</string>
+    <string name="belvedere_permissions_denied">В доступе отказано</string>
+    <string name="belvedere_permissions_rationale">Для отправки прикрепленных файлов необходимо предоставить разрешения в настройках</string>
+    <string name="belvedere_stream_item_camera_tile_desc">Импортировать изображение из камеры</string>
+    <string name="belvedere_stream_item_select_file_desc">Выбрать файл %s</string>
+    <string name="belvedere_stream_item_select_image_desc">Выбрать изображение %s</string>
+    <string name="belvedere_stream_item_unselect_file_desc">Отменить выбор файла %s</string>
+    <string name="belvedere_stream_item_unselect_image_desc">Отменить выбор изображения %s</string>
+    <string name="belvedere_toolbar_desc_collapse">Закрыть окно выбора изображения</string>
+    <string name="bottomsheet_action_expand_halfway">Развернуть наполовину</string>
+    <string name="categories_list_fragment_error_message">Не удалось получить категории</string>
+    <string name="character_counter_content_description">Введено символов: %1$d из %2$d</string>
+    <string name="character_counter_overflowed_content_description">Превышено ограничение на количество символов (%1$d из %2$d)</string>
+    <string name="clear_text_end_icon_content_description">Очистить текстовое поле</string>
+    <string name="contact_fragment_title">Свяжитесь с нами</string>
+    <string name="error_icon_content_description">Ошибка</string>
+    <string name="error_msg_invalid_email">Введите действительный адрес электронной почты</string>
+    <string name="error_msg_invalid_message">Введите сообщение</string>
+    <string name="error_msg_invalid_name">Введите свое полное имя</string>
+    <string name="exposed_dropdown_menu_content_description">Показать раскрывающееся меню</string>
+    <string name="help_search_no_results_label">Нет результатов для</string>
+    <string name="help_see_all_articles_label">Показать все статьи</string>
+    <string name="help_see_all_n_articles_label">Показать все статьи (%d)</string>
+    <string name="icon_content_description">Значок диалогового окна</string>
+    <string name="item_view_role_description">Вкладка</string>
+    <string name="material_clock_toggle_content_description">Выберите AM (до полудня) или PM (после полудня)</string>
+    <string name="material_hour_selection">Выберите час</string>
+    <string name="material_hour_suffix">%1$s ч.</string>
+    <string name="material_minute_selection">Выберите минуты</string>
+    <string name="material_minute_suffix">%1$s мин.</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Чтобы ввести время, перейдите в режим часов.</string>
+    <string name="material_timepicker_hour">Час</string>
+    <string name="material_timepicker_minute">Минуты</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Выбор времени</string>
+    <string name="material_timepicker_text_input_mode_description">Чтобы ввести время, перейдите в режим ввода текста.</string>
+    <string name="mtrl_badge_numberless_content_description">Новое уведомление</string>
+    <string name="mtrl_chip_close_icon_content_description">Удалить \"%1$s\"</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Новых уведомлений больше %1$d</string>
+    <string name="mtrl_picker_a11y_next_month">Перейти к следующему месяцу</string>
+    <string name="mtrl_picker_a11y_prev_month">Перейти к предыдущему месяцу</string>
+    <string name="mtrl_picker_announce_current_selection">Выбранный элемент: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Выберите дату</string>
+    <string name="mtrl_picker_date_header_unselected">Выбранная дата</string>
+    <string name="mtrl_picker_day_of_week_column_header">Столбец со днями недели: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Недействительный формат.</string>
+    <string name="mtrl_picker_invalid_format_example">Пример: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Используйте: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Недопустимый диапазон.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Перейти к %1$s году</string>
+    <string name="mtrl_picker_out_of_range">Вне диапазона: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Дата начала – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – дата окончания</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Выберите диапазон дат</string>
+    <string name="mtrl_picker_range_header_unselected">Дата начала – дата окончания</string>
+    <string name="mtrl_picker_save">Сохранить</string>
+    <string name="mtrl_picker_text_input_date_hint">Дата</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Дата окончания</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Дата начала</string>
+    <string name="mtrl_picker_text_input_day_abbr">д</string>
+    <string name="mtrl_picker_text_input_month_abbr">м</string>
+    <string name="mtrl_picker_text_input_year_abbr">г</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Перейти в режим выбора дней</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Нажмите, чтобы перейти к выбору дня</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Перейти в режим ввода текста</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Нажмите, чтобы перейти к выбору года</string>
+    <string name="network_activity_no_connectivity">Нет подключения</string>
+    <string name="password_toggle_content_description">Показать пароль</string>
+    <string name="request_attachment_generic_unknown_app">Неизвестно</string>
+    <string name="request_dialog_body_unsaved_changes">При возврате ваше сообщение будет удалено. Действительно удалить его?</string>
+    <string name="request_dialog_button_label_cancel">Отмена</string>
+    <string name="request_dialog_button_label_delete">Удалить</string>
+    <string name="request_dialog_title_unsaved_changes">Сообщение не отправлено</string>
+    <string name="request_email_entry_hint">Почта</string>
+    <string name="request_error_create_request">Не удалось создать запрос</string>
+    <string name="request_error_load_comments">Не удалось загрузить комментарии</string>
+    <string name="request_file_attachment_download_in_progress">Идет загрузка файла</string>
+    <string name="request_list_activity_title">Мои тикеты</string>
+    <string name="request_list_empty_start_conversation">НАЧАТЬ РАЗГОВОР</string>
+    <string name="request_list_empty_text">Разговоры, начатые из этого приложения, будут отображаться здесь.</string>
+    <string name="request_list_fragment_error_message">Не удалось получить тикеты</string>
+    <string name="request_list_me">Я</string>
+    <string name="request_list_re">На: %s</string>
+    <string name="request_list_ticket_closed">Тикет закрыт</string>
+    <string name="request_menu_button_label_add_attachments">Прикрепить файлы</string>
+    <string name="request_menu_button_label_send">Отправить</string>
+    <string name="request_message_date_today">СЕГОДНЯ</string>
+    <string name="request_message_date_yesterday">ВЧЕРА</string>
+    <string name="request_message_entry_hint">Сообщение</string>
+    <string name="request_message_status_delivered">Доставлено</string>
+    <string name="request_messages_status_error">Не удалось отправить сообщение. Нажмите, чтобы повторить попытку.</string>
+    <string name="request_name_entry_hint">Имя</string>
+    <string name="request_retry_dialog_delete_message">Удалить сообщение</string>
+    <string name="request_retry_dialog_retry">Повторить отправку</string>
+    <string name="request_system_message_closed_ticket">Этот разговор закрыт.</string>
+    <string name="request_toolbar_last_reply">Последний ответ %s</string>
+    <string name="request_write_a_message">Напишите сообщение</string>
+    <string name="retry_view_button_label">Повторить</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Поиск"</string>
+    <string name="sections_list_fragment_error_message">Не удалось получить разделы</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">">999"</string>
+    <string name="support_activity_title">Поддержка</string>
+    <string name="support_conversations_menu">Разговоры</string>
+    <string name="view_article_attachments_error">Не удалось получить прикрепленные файлы</string>
+    <string name="view_article_vote_prompt">Была ли эта статья полезной?</string>
+    <string name="zg_general_contact_us_button_label_accessibility">Свяжитесь с нами</string>
+    <string name="zg_general_no_connection_message">Нет подключения</string>
+    <string name="zs_engine_greeting_message">Введите сообщение, и я найду кого-нибудь, кто сможет вам помочь.</string>
+    <string name="zs_engine_message_retry_button">Повторить</string>
+    <string name="zs_engine_message_send_error_message">Из-за неполадки ваше сообщение отправить не удалось. Повторите попытку позже.</string>
+    <string name="zs_engine_request_created_conversations_enabled_message">Спасибо. Сообщение отправлено в группу поддержки. Просмотрите это сообщение и добавьте нужные сведения здесь:</string>
+    <string name="zs_engine_request_created_conversations_off_message">Спасибо. Сообщение отправлено в группу поддержки. Если требуется ответ, с вами свяжутся по электронной почте.</string>
+    <string name="zs_engine_request_created_request_list_button">Посмотреть сообщения.</string>
+    <string name="zs_engine_request_creation_email_prompt_hint">Укажите адрес эл. почты...</string>
+    <string name="zs_engine_request_creation_email_prompt_message">Если требуется ответ, с вами свяжутся по электронной почте. Какой у вас адрес электронной почты?</string>
+    <string name="zs_engine_request_creation_email_validation_failed_message">Введен неправильный адрес электронной почты. Укажите действительный адрес электронной почты.</string>
+    <string name="zs_general_contact_us_button_label_accessibility">Свяжитесь с нами</string>
+    <string name="zs_general_referrer_logo_label_accessibility">Zendesk</string>
+    <string name="zs_help_center_content_loaded_accessibility">Справочный центр загружен</string>
+    <string name="zs_help_center_search_loaded_accessibility">Результаты поиска загружены</string>
+    <string name="zs_request_announce_comment_created_accessibility">Отправлен комментарий с текстом «%s».</string>
+    <string name="zs_request_announce_comment_failed_accessibility">Не удалось создать комментарий с текстом «%s».</string>
+    <string name="zs_request_announce_comments_loaded_accessibility">Комментарии загружены.</string>
+    <string name="zs_request_attachment_carousel_attachment_accessibility">Прикреплен файл %s.</string>
+    <string name="zs_request_attachment_carousel_remove_attachment_accessibility">Удалить прикрепленный файл %s.</string>
+    <string name="zs_request_attachment_indicator_accessibility">Выбор прикрепленного файла.</string>
+    <string name="zs_request_attachment_indicator_n_attachments_selected_accessibility">Выбраны прикрепленные файлы: %d.</string>
+    <string name="zs_request_attachment_indicator_no_attachments_selected_accessibility">Не выбран ни один прикрепленный файл.</string>
+    <string name="zs_request_attachment_indicator_one_attachments_selected_accessibility">Выбран один прикрепленный файл.</string>
+    <string name="zs_request_contact_option_leave_a_message">Оставить сообщение</string>
+    <string name="zs_request_list_content_load_failed_accessibility">Не удалось загрузить тикеты</string>
+    <string name="zs_request_list_content_loaded_accessibility">Тикеты загружены</string>
+    <string name="zs_request_list_content_loaded_empty_accessibility">Нет тикетов</string>
+    <string name="zs_request_list_content_loading_accessibility">Загрузка тикетов</string>
+    <string name="zs_request_message_agent_file_accessibility">Прикрепленный агентом файл %s.</string>
+    <string name="zs_request_message_agent_image_accessibility">Прикрепленное агентом изображение %s.</string>
+    <string name="zs_request_message_agent_sent_accessibility">Отправлено агентом %1$s %2$s.</string>
+    <string name="zs_request_message_agent_text_accessibility">Сообщение агента %s.</string>
+    <string name="zs_request_message_user_error_accessibility">Не удалось отправить. Нажмите для выбора.</string>
+    <string name="zs_request_message_user_file_accessibility">Файл %s.</string>
+    <string name="zs_request_message_user_image_accessibility">Изображение %s.</string>
+    <string name="zs_request_message_user_sent_accessibility">Отправлено вами %s</string>
+    <string name="zs_request_message_user_text_accessibility">Сообщение %s.</string>
+    <string name="zs_request_toolbar_accessibility">Последний ответ: агент %1$s %2$s.</string>
+    <string name="zs_view_article_error">Не удалось получить статью</string>
+    <string name="zs_view_article_loaded_accessibility">Загружена статья %s</string>
+    <string name="zs_view_article_vote_no_accessibility">Голос «против»</string>
+    <string name="zs_view_article_vote_no_remove_accessibility">Удалить голос «за»</string>
+    <string name="zs_view_article_vote_yes_accessibility">Голос «за»</string>
+    <string name="zs_view_article_vote_yes_remove_accessibility">Удалить голос «против»</string>
+    <string name="zs_view_article_voted_failed_accessibility_announce">Голос не засчитан</string>
+    <string name="zs_view_article_voted_no_accessibility_announce">Голос против</string>
+    <string name="zs_view_article_voted_yes_accessibility_announce">Голос за</string>
+    <string name="zui_attachment_indicator_accessibility">Выбор прикрепленного файла</string>
+    <string name="zui_attachment_indicator_n_attachments_selected_accessibility">Выбрано прикрепленных файлов: %d</string>
+    <string name="zui_attachment_indicator_no_attachments_selected_accessibility">Не выбрано ни одного прикрепленного файла</string>
+    <string name="zui_attachment_indicator_one_attachments_selected_accessibility">Выбран один прикрепленный файл</string>
+    <string name="zui_bot_label">БОТ</string>
+    <string name="zui_button_label_no">Нет</string>
+    <string name="zui_button_label_yes">Да</string>
+    <string name="zui_cell_text_suggested_article_header">Вот статья, которая может вам помочь:</string>
+    <string name="zui_cell_text_suggested_articles_header">Вот несколько статей, которые могут вам помочь:</string>
+    <string name="zui_default_bot_name">Answer Bot</string>
+    <string name="zui_dialog_email_error">Недопустимый адрес эл. почты</string>
+    <string name="zui_dialog_email_hint">Адрес электронной почты</string>
+    <string name="zui_failed_message_copy">Копировать</string>
+    <string name="zui_failed_message_delete">Удалить</string>
+    <string name="zui_failed_message_retry">Повторить</string>
+    <string name="zui_hint_type_message">Введите сообщение…</string>
+    <string name="zui_label_connecting">Соединяется...</string>
+    <string name="zui_label_dialog_delete_btn">Удалить сообщение</string>
+    <string name="zui_label_dialog_retry_btn">Повторить отправку</string>
+    <string name="zui_label_failed">Ошибка</string>
+    <string name="zui_label_reconnecting">Восстановление подключения...</string>
+    <string name="zui_label_reconnecting_failed">Сбой подключения.</string>
+    <string name="zui_label_send">Отправить</string>
+    <string name="zui_label_sent">Отправлено</string>
+    <string name="zui_label_tap_retry">Нажмите, чтобы попробовать снова</string>
+    <string name="zui_message_log_article_opened_formatter">Пользователь %1$s открыл статью \«%2$s\»</string>
+    <string name="zui_message_log_article_suggestion_message">Найдены такие статьи:</string>
+    <string name="zui_message_log_attachment_sending_failed">Не удалось отправить прикрепленный файл</string>
+    <string name="zui_message_log_default_visitor_name">Посетитель</string>
+    <string name="zui_message_log_message_attachment_type_not_supported">Тип файла не поддерживается</string>
+    <string name="zui_message_log_message_attachments_not_supported">Прикрепление файлов не поддерживается</string>
+    <string name="zui_message_log_message_failed_to_send">[Не удалось отправить]</string>
+    <string name="zui_message_log_message_file_exceeds_max_size">Превышен максимальный размер файла (%1$s)</string>
+    <string name="zui_message_log_transfer_option_selection_formatter">%1$s выбрал(а) %2$s</string>
+    <string name="zui_retry_button_label">Повторить</string>
+    <string name="zui_toolbar_title">Свяжитесь с нами</string>
+    <string name="zui_unable_open_file">Не удалось открыть файл.</string>
+</resources>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">새 알림 %d개</item>
+    <item quantity="other">새 알림 %d개</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"홈으로 이동"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"위로 이동"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"추가 옵션"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"완료"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"전체 보기"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"앱 선택"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"사용 중지"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"사용"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"스페이스바"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"검색..."</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"검색어 삭제"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"검색어"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"검색"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"검색어 보내기"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"음성 검색"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"공유 대상:"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g>과(와) 공유"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"접기"</string>
+    <string name="articles_list_fragment_error_message">문서를 가져오지 못했습니다.</string>
+    <string name="articles_list_fragment_no_articles_found">문서를 찾지 못했습니다.</string>
+    <string name="ask_request_list_failed_request_message">메시지를 전송하지 못했습니다.</string>
+    <string name="belvedere_dialog_camera">카메라</string>
+    <string name="belvedere_dialog_gallery">갤러리</string>
+    <string name="belvedere_fam_desc_collapse_fam">부동 작업 메뉴 축소</string>
+    <string name="belvedere_fam_desc_expand_fam">부동 작업 메뉴 확대</string>
+    <string name="belvedere_fam_desc_open_gallery">갤러리에서 파일 가져오기</string>
+    <string name="belvedere_fam_desc_open_google_photos">Google 포토에서 이미지 가져오기</string>
+    <string name="belvedere_image_stream_file_too_large">파일이 너무 큽니다.</string>
+    <string name="belvedere_image_stream_title">사진 라이브러리</string>
+    <string name="belvedere_image_stream_unknown_app">알 수 없음</string>
+    <string name="belvedere_navigate_to_settings">설정</string>
+    <string name="belvedere_permissions_denied">권한이 거부되었습니다.</string>
+    <string name="belvedere_permissions_rationale">첨부 파일을 보내려면 설정에서 권한을 허용해야 합니다.</string>
+    <string name="belvedere_stream_item_camera_tile_desc">카메라에서 이미지 가져오기</string>
+    <string name="belvedere_stream_item_select_file_desc">%s 파일 선택</string>
+    <string name="belvedere_stream_item_select_image_desc">%s 이미지 선택</string>
+    <string name="belvedere_stream_item_unselect_file_desc">%s 파일 선택 취소</string>
+    <string name="belvedere_stream_item_unselect_image_desc">%s 이미지 선택 취소</string>
+    <string name="belvedere_toolbar_desc_collapse">이미지 선택기 닫기</string>
+    <string name="bottomsheet_action_expand_halfway">반만 펼치기</string>
+    <string name="categories_list_fragment_error_message">카테고리를 가져오지 못했습니다.</string>
+    <string name="character_counter_content_description">입력된 글자 %1$d/%2$d</string>
+    <string name="character_counter_overflowed_content_description">글자 수 제한이 초과되었습니다(%1$d/%2$d).</string>
+    <string name="clear_text_end_icon_content_description">텍스트 삭제</string>
+    <string name="contact_fragment_title">문의하기</string>
+    <string name="error_icon_content_description">오류</string>
+    <string name="error_msg_invalid_email">올바른 이메일 주소를 입력하세요.</string>
+    <string name="error_msg_invalid_message">메시지를 입력하세요.</string>
+    <string name="error_msg_invalid_name">성과 이름을 입력하세요.</string>
+    <string name="exposed_dropdown_menu_content_description">드롭다운 메뉴 표시</string>
+    <string name="help_search_no_results_label">다음에 대한 검색 결과 없음:</string>
+    <string name="help_see_all_articles_label">모든 문서 보기</string>
+    <string name="help_see_all_n_articles_label">문서 %d개 모두 보기</string>
+    <string name="icon_content_description">대화상자 아이콘</string>
+    <string name="item_view_role_description">탭</string>
+    <string name="material_clock_toggle_content_description">오전 또는 오후를 선택하세요.</string>
+    <string name="material_hour_selection">시간 선택</string>
+    <string name="material_hour_suffix">%1$s시 정각</string>
+    <string name="material_minute_selection">분 선택</string>
+    <string name="material_minute_suffix">%1$s분</string>
+    <string name="material_timepicker_am">오전</string>
+    <string name="material_timepicker_clock_mode_description">시간 입력을 위해 시계 모드로 전환합니다.</string>
+    <string name="material_timepicker_hour">시간</string>
+    <string name="material_timepicker_minute">분</string>
+    <string name="material_timepicker_pm">오후</string>
+    <string name="material_timepicker_select_time">시간 선택</string>
+    <string name="material_timepicker_text_input_mode_description">시간 입력을 위해 텍스트 입력 모드로 전환합니다.</string>
+    <string name="mtrl_badge_numberless_content_description">새 알림</string>
+    <string name="mtrl_chip_close_icon_content_description">%1$s 삭제</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">새 알림 %1$d개 초과</string>
+    <string name="mtrl_picker_a11y_next_month">다음 달로 변경</string>
+    <string name="mtrl_picker_a11y_prev_month">이전 달로 변경</string>
+    <string name="mtrl_picker_announce_current_selection">현재 %1$s 선택됨</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">날짜 선택</string>
+    <string name="mtrl_picker_date_header_unselected">선택한 날짜</string>
+    <string name="mtrl_picker_day_of_week_column_header">요일 열: %1$s</string>
+    <string name="mtrl_picker_invalid_format">형식이 잘못되었습니다.</string>
+    <string name="mtrl_picker_invalid_format_example">예: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">%1$s 사용</string>
+    <string name="mtrl_picker_invalid_range">날짜 범위가 잘못되었습니다.</string>
+    <string name="mtrl_picker_navigate_to_year_description">%1$s년으로 이동</string>
+    <string name="mtrl_picker_out_of_range">%1$s은(는) 범위를 벗어난 날짜입니다.</string>
+    <string name="mtrl_picker_range_header_only_end_selected">시작일~%1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s~종료일</string>
+    <string name="mtrl_picker_range_header_selected">%1$s~%2$s</string>
+    <string name="mtrl_picker_range_header_title">기간 선택</string>
+    <string name="mtrl_picker_range_header_unselected">시작일~종료일</string>
+    <string name="mtrl_picker_save">저장</string>
+    <string name="mtrl_picker_text_input_date_hint">날짜</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">종료일</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">시작일</string>
+    <string name="mtrl_picker_text_input_day_abbr">일</string>
+    <string name="mtrl_picker_text_input_month_abbr">월</string>
+    <string name="mtrl_picker_text_input_year_abbr">년</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">캘린더 입력 모드로 전환</string>
+    <string name="mtrl_picker_toggle_to_day_selection">탭하여 요일 선택으로 전환</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">텍스트 입력 모드로 전환</string>
+    <string name="mtrl_picker_toggle_to_year_selection">탭하여 연도 선택으로 전환</string>
+    <string name="network_activity_no_connectivity">연결되지 않았습니다.</string>
+    <string name="password_toggle_content_description">비밀번호 표시</string>
+    <string name="request_attachment_generic_unknown_app">알 수 없음</string>
+    <string name="request_dialog_body_unsaved_changes">뒤로 돌아가면 메시지가 삭제됩니다. 메시지를 삭제하시겠습니까?</string>
+    <string name="request_dialog_button_label_cancel">취소</string>
+    <string name="request_dialog_button_label_delete">삭제</string>
+    <string name="request_dialog_title_unsaved_changes">메시지를 보내지 못했습니다.</string>
+    <string name="request_email_entry_hint">이메일</string>
+    <string name="request_error_create_request">요청을 작성하지 못했습니다.</string>
+    <string name="request_error_load_comments">댓글을 로드하지 못했습니다.</string>
+    <string name="request_file_attachment_download_in_progress">파일 다운로드 진행 중</string>
+    <string name="request_list_activity_title">내 티켓</string>
+    <string name="request_list_empty_start_conversation">대화 시작</string>
+    <string name="request_list_empty_text">이 앱에서 시작된 대화가 여기에 표시됩니다.</string>
+    <string name="request_list_fragment_error_message">티켓을 가져오지 못했습니다.</string>
+    <string name="request_list_me">나</string>
+    <string name="request_list_re">답장: %s</string>
+    <string name="request_list_ticket_closed">티켓 종료됨</string>
+    <string name="request_menu_button_label_add_attachments">첨부 파일 추가</string>
+    <string name="request_menu_button_label_send">보내기</string>
+    <string name="request_message_date_today">오늘</string>
+    <string name="request_message_date_yesterday">어제</string>
+    <string name="request_message_entry_hint">메시지</string>
+    <string name="request_message_status_delivered">전송됨</string>
+    <string name="request_messages_status_error">메시지를 전송하지 못했습니다. 다시 시도하려면 탭하세요.</string>
+    <string name="request_name_entry_hint">이름</string>
+    <string name="request_retry_dialog_delete_message">메시지 삭제</string>
+    <string name="request_retry_dialog_retry">보내기 다시 시도</string>
+    <string name="request_system_message_closed_ticket">이 대화가 종료되었습니다.</string>
+    <string name="request_toolbar_last_reply">마지막 답장: %s</string>
+    <string name="request_write_a_message">메시지 쓰기</string>
+    <string name="retry_view_button_label">다시 시도</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"검색"</string>
+    <string name="sections_list_fragment_error_message">섹션을 가져오지 못했습니다.</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="support_activity_title">지원</string>
+    <string name="support_conversations_menu">대화</string>
+    <string name="view_article_attachments_error">첨부 파일을 가져오지 못했습니다.</string>
+    <string name="view_article_vote_prompt">도움이 되었습니까?</string>
+    <string name="zg_general_contact_us_button_label_accessibility">문의하기</string>
+    <string name="zg_general_no_connection_message">연결되지 않았습니다.</string>
+    <string name="zs_engine_greeting_message">메시지를 입력하시면 도움을 줄 수 있는 사람을 찾아 드리겠습니다.</string>
+    <string name="zs_engine_message_retry_button">다시 시도</string>
+    <string name="zs_engine_message_send_error_message">문제가 발생하여 메시지를 보내지 못했습니다. 나중에 다시 시도하세요.</string>
+    <string name="zs_engine_request_created_conversations_enabled_message">감사합니다. 팀에 메시지를 보냈습니다. 여기에서 이 메시지를 보고 세부 정보를 더 추가할 수 있습니다.</string>
+    <string name="zs_engine_request_created_conversations_off_message">감사합니다. 팀에 메시지를 보냈습니다. 답장이 필요하면 팀에서 이메일로 연락을 드릴 것입니다.</string>
+    <string name="zs_engine_request_created_request_list_button">메시지 보기</string>
+    <string name="zs_engine_request_creation_email_prompt_hint">이메일을 입력하세요.</string>
+    <string name="zs_engine_request_creation_email_prompt_message">답장이 필요하면 담당자가 이메일로 연락을 드릴 것입니다. 이메일 주소가 어떻게 되나요?</string>
+    <string name="zs_engine_request_creation_email_validation_failed_message">입력하신 이메일 주소가 올바르지 않습니다. 올바른 이메일 주소를 입력하세요.</string>
+    <string name="zs_general_contact_us_button_label_accessibility">문의하기</string>
+    <string name="zs_general_referrer_logo_label_accessibility">Zendesk</string>
+    <string name="zs_help_center_content_loaded_accessibility">헬프 센터를 로드했습니다.</string>
+    <string name="zs_help_center_search_loaded_accessibility">검색 결과를 로드했습니다.</string>
+    <string name="zs_request_announce_comment_created_accessibility">%s 내용의 댓글을 보냈습니다.</string>
+    <string name="zs_request_announce_comment_failed_accessibility">%s 내용의 댓글을 보내지 못했습니다.</string>
+    <string name="zs_request_announce_comments_loaded_accessibility">댓글을 로드했습니다.</string>
+    <string name="zs_request_attachment_carousel_attachment_accessibility">이름이 %s인 파일을 첨부했습니다.</string>
+    <string name="zs_request_attachment_carousel_remove_attachment_accessibility">이름이 %s인 첨부 파일을 제거하세요.</string>
+    <string name="zs_request_attachment_indicator_accessibility">첨부 파일을 선택하세요.</string>
+    <string name="zs_request_attachment_indicator_n_attachments_selected_accessibility">%d개의 첨부 파일을 선택했습니다.</string>
+    <string name="zs_request_attachment_indicator_no_attachments_selected_accessibility">선택한 첨부 파일이 없습니다.</string>
+    <string name="zs_request_attachment_indicator_one_attachments_selected_accessibility">1개의 첨부 파일을 선택했습니다.</string>
+    <string name="zs_request_contact_option_leave_a_message">메시지 남기기</string>
+    <string name="zs_request_list_content_load_failed_accessibility">지원 티켓을 로드하지 못했습니다.</string>
+    <string name="zs_request_list_content_loaded_accessibility">지원 티켓을 로드했습니다.</string>
+    <string name="zs_request_list_content_loaded_empty_accessibility">지원 티켓이 없습니다.</string>
+    <string name="zs_request_list_content_loading_accessibility">지원 티켓을 로드 중입니다.</string>
+    <string name="zs_request_message_agent_file_accessibility">상담사가 첨부한 파일 이름이 %s입니다.</string>
+    <string name="zs_request_message_agent_image_accessibility">상담사가 첨부한 이미지 이름이 %s입니다.</string>
+    <string name="zs_request_message_agent_sent_accessibility">%1$s님이 %2$s에 보냈습니다.</string>
+    <string name="zs_request_message_agent_text_accessibility">상담사가 쓴 메시지 %s입니다.</string>
+    <string name="zs_request_message_user_error_accessibility">보내지 못했습니다. 옵션을 보려면 탭하세요.</string>
+    <string name="zs_request_message_user_file_accessibility">파일 이름이 %s입니다.</string>
+    <string name="zs_request_message_user_image_accessibility">이미지 이름이 %s입니다.</string>
+    <string name="zs_request_message_user_sent_accessibility">고객님이 %s에 보내셨습니다.</string>
+    <string name="zs_request_message_user_text_accessibility">메시지 %s입니다.</string>
+    <string name="zs_request_toolbar_accessibility">%1$s님이 %2$s에 마지막 답장을 하셨습니다.</string>
+    <string name="zs_view_article_error">문서를 가져오지 못했습니다.</string>
+    <string name="zs_view_article_loaded_accessibility">%s개 문서를 로드했습니다.</string>
+    <string name="zs_view_article_vote_no_accessibility">반대 표</string>
+    <string name="zs_view_article_vote_no_remove_accessibility">찬성 표 취소</string>
+    <string name="zs_view_article_vote_yes_accessibility">찬성 표</string>
+    <string name="zs_view_article_vote_yes_remove_accessibility">반대 표 취소</string>
+    <string name="zs_view_article_voted_failed_accessibility_announce">투표하지 못했습니다.</string>
+    <string name="zs_view_article_voted_no_accessibility_announce">반대 투표했습니다.</string>
+    <string name="zs_view_article_voted_yes_accessibility_announce">찬성 투표했습니다.</string>
+    <string name="zui_attachment_indicator_accessibility">첨부 파일 선택</string>
+    <string name="zui_attachment_indicator_n_attachments_selected_accessibility">%d개의 첨부 파일을 선택했습니다.</string>
+    <string name="zui_attachment_indicator_no_attachments_selected_accessibility">선택한 첨부 파일이 없습니다.</string>
+    <string name="zui_attachment_indicator_one_attachments_selected_accessibility">1개의 첨부 파일을 선택했습니다.</string>
+    <string name="zui_bot_label">봇</string>
+    <string name="zui_button_label_no">아니요</string>
+    <string name="zui_button_label_yes">예</string>
+    <string name="zui_cell_text_suggested_article_header">다음은 도움이 될 만한 문서입니다.</string>
+    <string name="zui_cell_text_suggested_articles_header">다음은 도움이 될 만한 몇 가지 문서입니다.</string>
+    <string name="zui_default_bot_name">Answer Bot</string>
+    <string name="zui_dialog_email_error">올바르지 않은 이메일</string>
+    <string name="zui_dialog_email_hint">이메일 주소</string>
+    <string name="zui_failed_message_copy">복사</string>
+    <string name="zui_failed_message_delete">삭제</string>
+    <string name="zui_failed_message_retry">다시 시도</string>
+    <string name="zui_hint_type_message">메시지 입력…</string>
+    <string name="zui_label_connecting">연결 중...</string>
+    <string name="zui_label_dialog_delete_btn">메시지 삭제</string>
+    <string name="zui_label_dialog_retry_btn">보내기 다시 시도</string>
+    <string name="zui_label_failed">실패</string>
+    <string name="zui_label_reconnecting">다시 연결 중…</string>
+    <string name="zui_label_reconnecting_failed">연결에 실패했습니다.</string>
+    <string name="zui_label_send">보내기</string>
+    <string name="zui_label_sent">보냄</string>
+    <string name="zui_label_tap_retry">다시 시도하려면 탭하세요.</string>
+    <string name="zui_message_log_article_opened_formatter">%1$s님이 \'%2$s\' 문서를 열었습니다.</string>
+    <string name="zui_message_log_article_suggestion_message">다음 문서를 찾았습니다.</string>
+    <string name="zui_message_log_attachment_sending_failed">첨부 파일을 보낼 수 없습니다.</string>
+    <string name="zui_message_log_default_visitor_name">방문자</string>
+    <string name="zui_message_log_message_attachment_type_not_supported">지원되지 않는 첨부 파일 유형입니다.</string>
+    <string name="zui_message_log_message_attachments_not_supported">첨부 파일이 지원되지 않습니다.</string>
+    <string name="zui_message_log_message_failed_to_send">[보내지 못함]</string>
+    <string name="zui_message_log_message_file_exceeds_max_size">최대 파일 크기를 초과합니다(%1$s).</string>
+    <string name="zui_message_log_transfer_option_selection_formatter">%1$s님이 %2$s을(를) 선택함</string>
+    <string name="zui_retry_button_label">다시 시도</string>
+    <string name="zui_toolbar_title">문의하기</string>
+    <string name="zui_unable_open_file">파일을 열 수 없습니다.</string>
+</resources>
