@@ -1,7 +1,6 @@
 name: zendesk_helpcenter
 description: "zendesk_helpcenter"
 version: 1.0.0
-homepage: ""
 
 environment:
   sdk: ">=2.17.1 <4.0.0"
