@@ -39,9 +39,8 @@ class FlutterZendeskCommonMethod (private val plugin: FlutterZendeskPlugin, priv
 
 
     fun showRequestList(call: MethodCall) {
-        val osPlatForm = CustomField(4419801704337, "Android")
-        val x =  RequestActivity.builder().withCustomFields(Arrays.asList(osPlatForm)).config()
-        RequestListActivity.builder().show(plugin.activity!!,x)
+//        val x =  RequestActivity.builder().withCustomFields(Arrays.asList(osPlatForm)).config()
+        RequestListActivity.builder().show(plugin.activity!!)
     }
 
 

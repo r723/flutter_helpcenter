@@ -24,10 +24,8 @@ public class ZendeskHelpCenterPluginClass: NSObject, FlutterPlugin {
                 break;
             case "showRequestList":
                   
-                  let osPlatForm = CustomField(fieldId: 4419801704337, value: "iOS")
                  
                   let config = RequestUiConfiguration()
-                  config.customFields = [osPlatForm]
                   let helpCenter = RequestUi.buildRequestList(with: [config])                  
                              let rootViewController:UIViewController! = UIApplication.shared.keyWindow?.rootViewController
                                    if (rootViewController is UINavigationController) {

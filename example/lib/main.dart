@@ -44,7 +44,9 @@ class _MyAppState extends State<MyApp> {
                     clientId: "Your zendesk client id from zendesk developer console",
                     nameIdentifier:
                         "Unique id for user , you can put jwt token or access token",
-                    urlString: "App url from of zendesk app");
+                    urlString: "App url from of zendesk app"
+                    
+                    );
               },
               child: const Text('Initialize'),
             ),
