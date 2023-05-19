@@ -57,7 +57,6 @@ class FlutterZendeskPlugin: FlutterPlugin, MethodCallHandler, ActivityAware {
       try {
         result.success(0)
       }catch ( e: Exception){
-        println("error e==")
         e.printStackTrace();
       }
     }

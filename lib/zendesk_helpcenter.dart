@@ -70,7 +70,6 @@ class ZendeskHelpcenter {
         'clientId': clientId,
         'nameIdentifier': nameIdentifier,
       });
-      print("Calll");
     } catch (e) {
       debugPrint('ZendeskMessaging - initialize - Error: $e}');
     }

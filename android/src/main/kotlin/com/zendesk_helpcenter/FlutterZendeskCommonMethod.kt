@@ -25,7 +25,6 @@ class FlutterZendeskCommonMethod (private val plugin: FlutterZendeskPlugin, priv
         clientId: String,
         nameIdentifier: String,
     ) {
-        println("$tag - clientId== - $clientId")
 
         Zendesk.INSTANCE.init( plugin.activity!!, urlString, appId, clientId)
         Zendesk.INSTANCE.setIdentity(JwtIdentity(nameIdentifier))
