@@ -1,6 +1,6 @@
 name: zendesk_helpcenter
 description: "zendesk_helpcenter"
-version: 0.0.1
+version: 1.0.0
 homepage: ""
 
 environment:
