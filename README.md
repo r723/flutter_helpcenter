@@ -2,6 +2,8 @@
 
 <p>The Zendesk HelpCenter Flutter Plugin is a plugin for integrating Zendesk ticket creation functionality into your Flutter application. This plugin allows users to create support tickets within the app using Zendesk's HelpCenter for android and iOS.</p>
 
+  
+
 <h2>Features</h2>
 
 <ul>
